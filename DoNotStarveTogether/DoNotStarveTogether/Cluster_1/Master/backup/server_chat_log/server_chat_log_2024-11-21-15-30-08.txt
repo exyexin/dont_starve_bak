@@ -1,0 +1,220 @@
+[00:01:27]: [Join Announcement] akuma
+[00:01:45]: [Leave Announcement] akuma
+[00:03:03]: [Join Announcement] akuma
+[00:03:26]: [Join Announcement] d8e_labmem
+[00:03:51]: [Say] (KU_rM9kGGoQ) akuma: akuma
+[00:04:17]: [Say] (KU_rM9kGGoQ) akuma: how to start
+[00:04:45]: [Say] (KU_rM9kGGoQ) akuma: chinese is not avaible in game?
+[00:06:03]: [Leave Announcement] akuma
+[00:06:29]: [Join Announcement] akuma
+[00:06:41]: [Leave Announcement] akuma
+[00:14:02]: [Join Announcement] dercaft
+[00:17:10]: [Say] (KU__CRUc3BC) d8e_labmem: west has been explored
+[00:17:14]: [Join Announcement] akuma
+[00:18:37]: [Leave Announcement] akuma
+[00:19:28]: [Join Announcement] akuma
+[00:20:05]: [Leave Announcement] akuma
+[00:25:22]: [Join Announcement] akuma
+[00:30:04]: [Leave Announcement] akuma
+[00:32:51]: [Join Announcement] akuma
+[00:37:20]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[00:38:24]: [Say] (KU__CRUc3BC) d8e_labmem: take it
+[00:39:11]: [Say] (KU__CRUc3BC) d8e_labmem: need to fire
+[00:40:01]: [Say] (KU__CRUc3BC) d8e_labmem: i explore eastnorth
+[00:41:41]: [Say] (KU__CRUc3BC) d8e_labmem: spider found
+[00:42:02]: [Say] (KU_V_2d0tcA) dercaft: where
+[00:42:07]: [Say] (KU__CRUc3BC) d8e_labmem: east
+[00:47:36]: [Say] (KU__CRUc3BC) d8e_labmem: cow in east
+[00:47:44]: [Say] (KU__CRUc3BC) d8e_labmem: a lot
+[00:48:15]: [Say] (KU__CRUc3BC) d8e_labmem: dogs on the way
+[00:48:41]: [Say] (KU_rM9kGGoQ) akuma: need food
+[00:48:49]: [Say] (KU__CRUc3BC) d8e_labmem: rabbit
+[00:50:51]: [Leave Announcement] akuma
+[00:55:28]: [Join Announcement] akuma
+[00:56:06]: [Say] (KU_rM9kGGoQ) akuma: go
+[01:00:27]: [Say] (KU__CRUc3BC) d8e_labmem: where's the first level science?
+[01:00:43]: [Say] (KU__CRUc3BC) d8e_labmem: @dercaft
+[01:01:04]: [Say] (KU_V_2d0tcA) dercaft: level2 is same
+[01:01:13]: [Say] (KU__CRUc3BC) d8e_labmem: !
+[01:01:31]: [Say] (KU_V_2d0tcA) dercaft: I bring food
+[01:01:48]: [Say] (KU__CRUc3BC) d8e_labmem: i find a position to get gears
+[01:01:53]: [Say] (KU__CRUc3BC) d8e_labmem: fight
+[01:02:23]: [Say] (KU__CRUc3BC) d8e_labmem: can build a frige
+[01:02:38]: [Say] (KU__CRUc3BC) d8e_labmem: do we need box?
+[01:03:32]: [Say] (KU_rM9kGGoQ) akuma: we need armer i think
+[01:04:23]: [Say] (KU__CRUc3BC) d8e_labmem: need branchs
+[01:04:51]: [Say] (KU__CRUc3BC) d8e_labmem: next action?
+[01:05:19]: [Say] (KU_rM9kGGoQ) akuma: food wood and www
+[01:05:31]: [Say] (KU_rM9kGGoQ) akuma: then armer and weapon
+[01:05:45]: [Say] (KU__CRUc3BC) d8e_labmem: they can build now
+[01:06:08]: [Say] (KU_V_2d0tcA) dercaft: gold
+[01:06:11]: [Say] (KU_V_2d0tcA) dercaft: need gold
+[01:06:28]: [Say] (KU__CRUc3BC) d8e_labmem: i will take gold
+[01:06:35]: [Say] (KU__CRUc3BC) d8e_labmem: how manyu
+[01:07:09]: [Say] (KU__CRUc3BC) d8e_labmem: wow where u got pig horse
+[01:07:14]: [Say] (KU__CRUc3BC) d8e_labmem: house
+[01:07:50]: [Say] (KU__CRUc3BC) d8e_labmem: 7 gold
+[01:07:57]: [Say] (KU__CRUc3BC) d8e_labmem: need more?
+[01:08:05]: [Say] (KU_V_2d0tcA) dercaft: enough
+[01:08:12]: [Say] (KU_V_2d0tcA) dercaft: for brid cage and frige
+[01:08:22]: [Say] (KU_V_2d0tcA) dercaft: where frige
+[01:08:26]: [Say] (KU_V_2d0tcA) dercaft: I kill
+[01:08:33]: [Say] (KU__CRUc3BC) d8e_labmem: gear?
+[01:08:37]: [Say] (KU_V_2d0tcA) dercaft: yeah
+[01:08:40]: [Say] (KU__CRUc3BC) d8e_labmem: follow me
+[01:09:07]: [Say] (KU_V_2d0tcA) dercaft: wait
+[01:10:01]: [Say] (KU__CRUc3BC) d8e_labmem: no branches now
+[01:11:18]: [Say] (KU__CRUc3BC) d8e_labmem: too much fire is dangers
+[01:11:35]: [Say] (KU__CRUc3BC) d8e_labmem: it may promote
+[01:11:40]: [Say] (KU_V_2d0tcA) dercaft: preparing for battle
+[01:11:49]: [Say] (KU__CRUc3BC) d8e_labmem: boxes near fire
+[01:12:06]: [Say] (KU_V_2d0tcA) dercaft: ready to kill get gear
+[01:12:07]: [Say] (KU__CRUc3BC) d8e_labmem: go
+[01:13:17]: [Say] (KU_V_2d0tcA) dercaft: ok
+[01:14:33]: [Say] (KU_V_2d0tcA) dercaft: no fight
+[01:16:28]: [Say] (KU_V_2d0tcA) dercaft: go
+[01:16:44]: [Say] (KU__CRUc3BC) d8e_labmem: need heal
+[01:16:54]: [Say] (KU_V_2d0tcA) dercaft: back, build camp
+[01:17:01]: [Say] (KU__CRUc3BC) d8e_labmem: ur bag
+[01:17:50]: [Say] (KU_V_2d0tcA) dercaft: collect marble
+[01:17:55]: [Say] (KU__CRUc3BC) d8e_labmem: yea
+[01:18:12]: [Say] (KU__CRUc3BC) d8e_labmem: no hammer
+[01:19:01]: [Say] (KU__CRUc3BC) d8e_labmem: wait
+[01:20:01]: [Say] (KU_V_2d0tcA) dercaft: build
+[01:20:06]: [Say] (KU_V_2d0tcA) dercaft: share map[
+[01:20:20]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[01:21:22]: [Say] (KU_V_2d0tcA) dercaft: need wood
+[01:21:35]: [Say] (KU_V_2d0tcA) dercaft: give me marble
+[01:26:07]: [Leave Announcement] dercaft
+[01:30:30]: [Join Announcement] dercaft
+[01:33:36]: [Say] (KU__CRUc3BC) d8e_labmem: no monster meat
+[01:33:43]: [Say] (KU__CRUc3BC) d8e_labmem: no hang on it
+[01:33:45]: [Say] (KU_V_2d0tcA) dercaft: here
+[01:33:58]: [Say] (KU__CRUc3BC) d8e_labmem: sd
+[01:34:10]: [Say] (KU_rM9kGGoQ) akuma: look out pig?
+[01:34:17]: [Say] (KU__CRUc3BC) d8e_labmem: yea
+[01:34:40]: [Say] (KU__CRUc3BC) d8e_labmem: no hang on it
+[01:34:46]: [Say] (KU__CRUc3BC) d8e_labmem: monster meat
+[01:34:51]: [Say] (KU_V_2d0tcA) dercaft: okk
+[01:34:51]: [Say] (KU_rM9kGGoQ) akuma: fine
+[01:35:12]: [Say] (KU__CRUc3BC) d8e_labmem: we can hunter elephant
+[01:35:20]: [Say] (KU__CRUc3BC) d8e_labmem: cues here
+[01:40:47]: [Say] (KU_V_2d0tcA) dercaft: 1. build hive
+[01:40:54]: [Say] (KU_V_2d0tcA) dercaft: 2. find moon land
+[01:41:16]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[01:41:30]: [Say] (KU_V_2d0tcA) dercaft: do we hunt elephant?
+[01:41:40]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[01:41:54]: [Say] (KU__CRUc3BC) d8e_labmem: i sleep now
+[01:42:00]: [Say] (KU__CRUc3BC) d8e_labmem: for heal
+[01:43:42]: [Death Announcement] dercaft was killed by Killer Bee. He became a spooky ghost!
+[01:45:14]: [Say] (KU__CRUc3BC) d8e_labmem: where
+[01:45:22]: [Say] (KU__CRUc3BC) d8e_labmem: dead
+[01:45:27]: [Say] (KU_V_2d0tcA) dercaft: pig king
+[01:45:37]: [Say] (KU__CRUc3BC) d8e_labmem: east?
+[01:45:40]: [Say] (KU_V_2d0tcA) dercaft: yeah
+[01:45:45]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[01:50:28]: [Say] (KU__CRUc3BC) d8e_labmem: need kill bee?
+[01:50:39]: [Say] (KU__CRUc3BC) d8e_labmem: i near them
+[01:51:03]: [Say] (KU_V_2d0tcA) dercaft: need bee&butterfly catcher
+[01:51:10]: [Say] (KU_V_2d0tcA) dercaft: Bug Net
+[01:53:19]: [Say] (KU__CRUc3BC) d8e_labmem: catcher get
+[01:56:47]: [Death Announcement] dercaft was killed by Killer Bee. He became a spooky ghost!
+[01:57:00]: [Say] (KU__CRUc3BC) d8e_labmem: where
+[01:58:39]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[01:59:03]: [Say] (KU__CRUc3BC) d8e_labmem: bee box blueprint got
+[02:00:11]: [Say] (KU__CRUc3BC) d8e_labmem: how many bee we need
+[02:00:15]: [Say] (KU_V_2d0tcA) dercaft: 4
+[02:00:19]: [Say] (KU_V_2d0tcA) dercaft: 4 for 1 hive
+[02:00:28]: [Say] (KU_V_2d0tcA) dercaft: we need 3 hive
+[02:01:29]: [Say] (KU__CRUc3BC) d8e_labmem: go
+[02:01:37]: [Say] (KU_rM9kGGoQ) akuma: where
+[02:01:45]: [Say] (KU__CRUc3BC) d8e_labmem: east
+[02:01:51]: [Say] (KU__CRUc3BC) d8e_labmem: i got 5
+[02:01:58]: [Say] (KU__CRUc3BC) d8e_labmem: need more?
+[02:01:58]: [Say] (KU_rM9kGGoQ) akuma: 5 what
+[02:02:03]: [Say] (KU__CRUc3BC) d8e_labmem: bee
+[02:03:54]: [Say] (KU__CRUc3BC) d8e_labmem: im back
+[02:04:42]: [Say] (KU__CRUc3BC) d8e_labmem: need food
+[02:04:45]: [Say] (KU__CRUc3BC) d8e_labmem: hurry
+[02:04:51]: [Say] (KU_rM9kGGoQ) akuma: comming
+[02:04:52]: [Say] (KU_V_2d0tcA) dercaft: on back
+[02:06:25]: [Say] (KU_rM9kGGoQ) akuma: we rest?
+[02:06:39]: [Say] (KU__CRUc3BC) d8e_labmem: hungry cant sleep
+[02:06:45]: [Say] (KU__CRUc3BC) d8e_labmem: u do it ok
+[02:07:03]: [Say] (KU_rM9kGGoQ) akuma: i mean log out
+[02:07:53]: [Say] (KU_rM9kGGoQ) akuma: i wanna fire 400 mom
+[02:08:02]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:08:02]: [Say] (KU_rM9kGGoQ) akuma: follow
+[02:08:13]: [Say] (KU__CRUc3BC) d8e_labmem: what mom
+[02:08:21]: [Say] (KU__CRUc3BC) d8e_labmem: make some trps
+[02:08:31]: [Say] (KU__CRUc3BC) d8e_labmem: hunt rabbits
+[02:09:00]: [Say] (KU__CRUc3BC) d8e_labmem: bee in box
+[02:09:13]: [Say] (KU__CRUc3BC) d8e_labmem: here
+[02:09:17]: [Say] (KU_V_2d0tcA) dercaft: okk
+[02:11:23]: [Say] (KU__CRUc3BC) d8e_labmem: make a frige?
+[02:11:28]: [Say] (KU_V_2d0tcA) dercaft: we have
+[02:11:33]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:11:39]: [Say] (KU_rM9kGGoQ) akuma: yes we need
+[02:15:05]: [Say] (KU__CRUc3BC) d8e_labmem: i sleep
+[02:17:10]: [Say] (KU_V_2d0tcA) dercaft: bufflo
+[02:17:16]: [Say] (KU_V_2d0tcA) dercaft: cow
+[02:17:19]: [Say] (KU_V_2d0tcA) dercaft: fur
+[02:17:25]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:17:50]: [Say] (KU__CRUc3BC) d8e_labmem: warm stone
+[02:17:56]: [Say] (KU__CRUc3BC) d8e_labmem: x3
+[02:18:48]: [Say] (KU__CRUc3BC) d8e_labmem: akuma kill some spider
+[02:18:56]: [Say] (KU__CRUc3BC) d8e_labmem: need net
+[02:19:10]: [Leave Announcement] akuma
+[02:23:44]: [Say] (KU__CRUc3BC) d8e_labmem: sad cows
+[02:23:47]: [Say] (KU__CRUc3BC) d8e_labmem: XD
+[02:28:02]: [Say] (KU__CRUc3BC) d8e_labmem: sleeping
+[02:28:06]: [Say] (KU__CRUc3BC) d8e_labmem: fur in box
+[02:40:05]: [Say] (KU__CRUc3BC) d8e_labmem: how to share the map
+[02:45:35]: [Say] (KU__CRUc3BC) d8e_labmem: bad
+[02:45:44]: [Say] (KU__CRUc3BC) d8e_labmem: strange plant
+[02:45:52]: [Say] (KU__CRUc3BC) d8e_labmem: oh
+[02:45:55]: [Say] (KU__CRUc3BC) d8e_labmem: marble
+[02:45:57]: [Say] (KU__CRUc3BC) d8e_labmem: nothing
+[02:47:17]: [Say] (KU__CRUc3BC) d8e_labmem: what is that
+[02:47:24]: [Say] (KU_V_2d0tcA) dercaft: boat tech
+[02:47:32]: [Say] (KU_V_2d0tcA) dercaft: sailing for Moon Island
+[02:47:48]: [Say] (KU__CRUc3BC) d8e_labmem: no gold?
+[02:48:01]: [Say] (KU_V_2d0tcA) dercaft: 2 gold\
+[02:48:23]: [Say] (KU__CRUc3BC) d8e_labmem: give me
+[02:49:27]: [Say] (KU__CRUc3BC) d8e_labmem: how to share map
+[02:49:36]: [Say] (KU__CRUc3BC) d8e_labmem: winter has come
+[02:50:11]: [Say] (KU_V_2d0tcA) dercaft: wuya feather
+[02:50:14]: [Say] (KU_V_2d0tcA) dercaft: paper
+[02:51:32]: [Say] (KU__CRUc3BC) d8e_labmem: more pig house?
+[02:51:57]: [Say] (KU_V_2d0tcA) dercaft: ok
+[02:52:05]: [Say] (KU_V_2d0tcA) dercaft: I now go sailing for Moon island
+[02:52:15]: [Say] (KU_V_2d0tcA) dercaft: shit
+[02:52:17]: [Say] (KU_V_2d0tcA) dercaft: dog com
+[02:52:31]: [Say] (KU_V_2d0tcA) dercaft: where pig skin
+[02:53:57]: [Say] (KU_V_2d0tcA) dercaft: do we found sea elephant
+[02:54:02]: [Say] (KU__CRUc3BC) d8e_labmem: nope
+[02:54:08]: [Say] (KU_V_2d0tcA) dercaft: bad bad
+[02:54:10]: [Say] (KU__CRUc3BC) d8e_labmem: my map is poor
+[02:54:21]: [Say] (KU_V_2d0tcA) dercaft: where is trap
+[02:54:27]: [Say] (KU__CRUc3BC) d8e_labmem: southeast
+[02:54:34]: [Say] (KU_V_2d0tcA) dercaft: need trap to catch dark bird
+[02:54:41]: [Say] (KU_V_2d0tcA) dercaft: kill to get dark feather
+[02:54:48]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:54:50]: [Say] (KU_V_2d0tcA) dercaft: feather + paper = map to share
+[02:55:00]: [Say] (KU_V_2d0tcA) dercaft: I go for moon island
+[03:00:16]: [Death Announcement] d8e_labmem was killed by Royal Rabbit Enforcer. He became a spooky ghost!
+[03:00:24]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[03:00:30]: [Say] (KU__CRUc3BC) d8e_labmem: shit
+[03:14:47]: [Say] (KU__CRUc3BC) d8e_labmem: 谷学长叫我们要不要去东门吃烧烤
+[03:21:10]: [Say] (KU__CRUc3BC) d8e_labmem: i see the elephant
+[03:35:00]: [Say] (KU__CRUc3BC) d8e_labmem: WHERE R U
+[03:35:31]: [Whisper] (KU_V_2d0tcA) dercaft: farfar away
+[03:37:50]: [Say] (KU_V_2d0tcA) dercaft: 饥荒要变饱荒了
+[03:38:03]: [Say] (KU__CRUc3BC) d8e_labmem: xd
+[03:38:21]: [Say] (KU__CRUc3BC) d8e_labmem: 你在哪里
+[03:38:40]: [Say] (KU_V_2d0tcA) dercaft: 世界的边缘
+[03:50:17]: [Death Announcement] dercaft was killed by Sea Weed. He became a spooky ghost!
+[03:50:52]: [Leave Announcement] dercaft
+[03:52:37]: [Leave Announcement] d8e_labmem
+[03:53:46]: [Join Announcement] akuma
+[03:54:03]: [Leave Announcement] akuma
