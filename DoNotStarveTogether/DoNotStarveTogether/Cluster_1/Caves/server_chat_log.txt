@@ -1,16 +1,16 @@
-[00:00:21]: [Join Announcement] akuma
-[00:00:33]: [Join Announcement] akuma
-[00:04:17]: [Leave Announcement] akuma
-[00:05:11]: [Join Announcement] akuma
-[00:05:38]: [Leave Announcement] akuma
-[00:07:15]: [Join Announcement] d8e_labmem
-[00:08:01]: [Join Announcement] akuma
-[00:09:01]: [Join Announcement] dercaft
-[00:09:14]: [Leave Announcement] dercaft
-[00:10:07]: [Join Announcement] dercaft
-[00:10:36]: [Vote Announcement] rollback passed
-[00:11:11]: [Vote Announcement] rollback passed
-[00:11:49]: [Vote Announcement] rollback passed
-[00:12:16]: [Leave Announcement] akuma
-[00:12:26]: [Leave Announcement] d8e_labmem
-[00:12:27]: [Leave Announcement] dercaft
+[00:00:20]: [Join Announcement] akuma
+[00:00:28]: [Join Announcement] dercaft
+[00:00:31]: [Join Announcement] d8e_labmem
+[00:00:32]: [Join Announcement] akuma
+[00:01:16]: [Leave Announcement] akuma
+[00:02:00]: [Join Announcement] akuma
+[00:05:25]: [Leave Announcement] akuma
+[00:20:50]: [Say] (KU__CRUc3BC) d8e_labmem: 我们如果今晚直接睡觉呢
+[00:54:59]: [Join Announcement] Wanderer
+[00:55:08]: [Say] (KU__CRUc3BC) d8e_labmem: who
+[00:55:13]: [Say] (KU__CRUc3BC) d8e_labmem: no welcome
+[00:56:04]: [Kick Announcement] Wanderer
+[00:57:51]: [Leave Announcement] dercaft
+[01:00:34]: [Join Announcement] Wanderer
+[01:00:41]: [Kick Announcement] Wanderer
+[01:01:34]: [Leave Announcement] d8e_labmem

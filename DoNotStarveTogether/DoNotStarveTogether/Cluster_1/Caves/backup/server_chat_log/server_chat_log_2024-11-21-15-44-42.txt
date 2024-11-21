@@ -1,0 +1,16 @@
+[00:00:21]: [Join Announcement] akuma
+[00:00:33]: [Join Announcement] akuma
+[00:04:17]: [Leave Announcement] akuma
+[00:05:11]: [Join Announcement] akuma
+[00:05:38]: [Leave Announcement] akuma
+[00:07:15]: [Join Announcement] d8e_labmem
+[00:08:01]: [Join Announcement] akuma
+[00:09:01]: [Join Announcement] dercaft
+[00:09:14]: [Leave Announcement] dercaft
+[00:10:07]: [Join Announcement] dercaft
+[00:10:36]: [Vote Announcement] rollback passed
+[00:11:11]: [Vote Announcement] rollback passed
+[00:11:49]: [Vote Announcement] rollback passed
+[00:12:16]: [Leave Announcement] akuma
+[00:12:26]: [Leave Announcement] d8e_labmem
+[00:12:27]: [Leave Announcement] dercaft
