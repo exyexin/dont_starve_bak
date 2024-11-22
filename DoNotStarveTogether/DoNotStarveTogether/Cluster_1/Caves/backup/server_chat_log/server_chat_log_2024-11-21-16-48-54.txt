@@ -1,0 +1,16 @@
+[00:00:20]: [Join Announcement] akuma
+[00:00:28]: [Join Announcement] dercaft
+[00:00:31]: [Join Announcement] d8e_labmem
+[00:00:32]: [Join Announcement] akuma
+[00:01:16]: [Leave Announcement] akuma
+[00:02:00]: [Join Announcement] akuma
+[00:05:25]: [Leave Announcement] akuma
+[00:20:50]: [Say] (KU__CRUc3BC) d8e_labmem: 我们如果今晚直接睡觉呢
+[00:54:59]: [Join Announcement] Wanderer
+[00:55:08]: [Say] (KU__CRUc3BC) d8e_labmem: who
+[00:55:13]: [Say] (KU__CRUc3BC) d8e_labmem: no welcome
+[00:56:04]: [Kick Announcement] Wanderer
+[00:57:51]: [Leave Announcement] dercaft
+[01:00:34]: [Join Announcement] Wanderer
+[01:00:41]: [Kick Announcement] Wanderer
+[01:01:34]: [Leave Announcement] d8e_labmem

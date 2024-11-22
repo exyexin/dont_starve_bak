@@ -8,7 +8,7 @@ KLEI     1 return {
     max_players=64,
     name="xmu",
     online_mode=true,
-    password="",
+    password="XMUMac2024",
     playstyle="endless",
     privacy_type=0,
     pvp=true,
