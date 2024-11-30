@@ -2126,3 +2126,8 @@
 [07:16:21]: Truncating to snapshot #112...
 [07:16:21]:  - session/C5D9CBF66F6A2502/0000000106
 [07:16:21]:    1 file(s) removed
+[07:24:21]: Available disk space for save files: 384258 MB
+[07:24:21]: Serializing world: session/C5D9CBF66F6A2502/0000000113
+[07:24:21]: Truncating to snapshot #113...
+[07:24:21]:  - session/C5D9CBF66F6A2502/0000000107
+[07:24:21]:    1 file(s) removed
