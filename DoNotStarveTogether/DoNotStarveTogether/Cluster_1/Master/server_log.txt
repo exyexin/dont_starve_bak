@@ -2922,3 +2922,234 @@
 [06:44:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000108
 [06:44:20]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000108
 [06:44:20]: Serializing world: session/24D16F5B6F8040A6/0000000108
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:57]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:58]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:51:59]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:00]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:01]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:02]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:03]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:04]: Stale Component Reference: GUID 100242, scripts/entityscript.lua:1262
+[06:52:20]: Available disk space for save files: 384261 MB
+[06:52:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000109
+[06:52:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000109
+[06:52:20]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000109
+[06:52:20]: Serializing world: session/24D16F5B6F8040A6/0000000109
+[07:00:05]: [200] Account Communication Success (6)
+[07:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:20]: Available disk space for save files: 384260 MB
+[07:00:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000110
+[07:00:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000110
+[07:00:20]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000110
+[07:00:20]: Serializing world: session/24D16F5B6F8040A6/0000000110
+[07:08:20]: Available disk space for save files: 384259 MB
+[07:08:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000111
+[07:08:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000111
+[07:08:20]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000111
+[07:08:21]: Serializing world: session/24D16F5B6F8040A6/0000000111
+[07:16:21]: Available disk space for save files: 384259 MB
+[07:16:21]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000112
+[07:16:21]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000112
+[07:16:21]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000112
+[07:16:21]: Serializing world: session/24D16F5B6F8040A6/0000000112
