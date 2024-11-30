@@ -92,3 +92,11 @@
 [04:57:26]: [Death Announcement] d8e_labmem was killed by Wrathful Rabbit King. He became a spooky ghost!
 [04:57:46]: [Vote Announcement] rollback passed
 [04:58:13]: [Vote Announcement] rollback passed
+[05:23:36]: [Death Announcement] d8e_labmem was killed by Hound. He became a spooky ghost!
+[05:23:54]: [Vote Announcement] rollback passed
+[05:26:39]: [Death Announcement] dercaft was killed by Hound. He became a spooky ghost!
+[05:27:08]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[05:40:16]: [Death Announcement] dercaft was killed by Royal Rabbit Enforcer. He became a spooky ghost!
+[05:40:26]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[05:47:04]: [Death Announcement] dercaft was killed by Spider. He became a spooky ghost!
+[05:48:21]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.

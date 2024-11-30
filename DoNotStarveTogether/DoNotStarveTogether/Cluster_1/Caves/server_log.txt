@@ -1827,3 +1827,280 @@
 [04:58:37]: [Shard] Migration request: (KU_V_2d0tcA) to [SHDMASTER](1)
 [04:58:37]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
 [04:58:37]: [Steam] SendUserDisconnect for '76561198280591878'
+[05:00:05]: [200] Account Communication Success (6)
+[05:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[05:06:24]: Available disk space for save files: 384269 MB
+[05:06:24]: Serializing world: session/C5D9CBF66F6A2502/0000000096
+[05:08:37]: [P2P] Session timed out for '76561198280591878'
+[05:08:37]: [P2P] Remove session: 129.31.233.154|1 '76561198280591878'
+[05:13:30]: [Shard] #13 -> session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000097
+[05:13:30]: [Shard] Received migration #13 data for (KU_V_2d0tcA)
+[05:13:36]: [P2P] Create session: 129.31.233.155|1 '76561198280591878'
+[05:13:36]: [P2P] Received from 129.31.233.155|1 '76561198280591878'
+[05:13:36]: [P2P] Sent to 129.31.233.155|1 '76561198280591878'
+[05:13:37]: New incoming connection 129.31.233.155|1 <1932692850379937156>
+[05:13:37]: Client connected from 129.31.233.155|1 <1932692850379937156>
+[05:13:37]: ValidateGameSessionToken GUID<1932692850379937156>
+[05:13:39]: Client authenticated: (KU_V_2d0tcA) dercaft
+[05:13:39]: [Steam] SendUserConnectAndAuthenticate for '76561198280591878'
+[05:13:40]: [Steam] Authenticated client '76561198280591878'
+[05:13:40]: [Shard] Completed incoming migration #13 for (KU_V_2d0tcA)
+[05:13:49]: Resuming user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000097
+[05:13:49]: Player will spawn close to portal #6	
+[05:13:49]: Spawning player at: [Load] (490.18, 0.00, 691.53)	
+[05:14:24]: Available disk space for save files: 384268 MB
+[05:14:24]: Serializing user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000097
+[05:14:24]: Serializing world: session/C5D9CBF66F6A2502/0000000097
+[05:14:46]: Activating portal[6] to 1	
+[05:14:47]: Serializing user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000098
+[05:14:47]: [Shard] Migration request: (KU_V_2d0tcA) to [SHDMASTER](1)
+[05:14:47]: [Shard] #14 <- session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000098
+[05:14:47]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[05:14:47]: [Steam] SendUserDisconnect for '76561198280591878'
+[05:22:24]: Available disk space for save files: 384267 MB
+[05:22:25]: Serializing world: session/C5D9CBF66F6A2502/0000000098
+[05:22:25]: Truncating to snapshot #98...
+[05:22:25]:  - session/C5D9CBF66F6A2502/0000000091
+[05:22:25]:  - session/C5D9CBF66F6A2502/0000000092
+[05:22:25]:    2 file(s) removed
+[05:23:59]: World 1 is now disconnected	
+[05:23:59]: Validating portal[4] <-> 1[4] (inactive)	
+[05:23:59]: Validating portal[3] <-> 1[3] (inactive)	
+[05:23:59]: Validating portal[5] <-> 1[5] (inactive)	
+[05:23:59]: Validating portal[6] <-> 1[6] (inactive)	
+[05:23:59]: Validating portal[2] <-> 1[2] (inactive)	
+[05:23:59]: Validating portal[7] <-> 1[7] (inactive)	
+[05:23:59]: Validating portal[9] <-> 1[9] (inactive)	
+[05:23:59]: Validating portal[8] <-> 1[8] (inactive)	
+[05:23:59]: Validating portal[10] <-> 1[10] (inactive)	
+[05:23:59]: Validating portal[1] <-> 1[1] (inactive)	
+[05:23:59]: Sim paused
+[05:24:04]: Synchronizing backward to master snapshot 98	
+[05:24:04]: World 1 is now connected	
+[05:24:04]: Validating portal[4] <-> 1[4] (active)	
+[05:24:04]: Validating portal[3] <-> 1[3] (active)	
+[05:24:04]: Validating portal[5] <-> 1[5] (active)	
+[05:24:04]: Validating portal[6] <-> 1[6] (active)	
+[05:24:04]: Validating portal[2] <-> 1[2] (active)	
+[05:24:04]: Validating portal[7] <-> 1[7] (active)	
+[05:24:04]: Validating portal[9] <-> 1[9] (active)	
+[05:24:04]: Validating portal[8] <-> 1[8] (active)	
+[05:24:04]: Validating portal[10] <-> 1[10] (active)	
+[05:24:04]: Validating portal[1] <-> 1[1] (active)	
+[05:24:04]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[05:24:04]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[05:24:04]: component hauntable already exists on entity 103585 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[05:24:04]: [SyncWorldSettings] applying krampus = default from master shard.	
+[05:24:04]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[05:24:04]: [SyncWorldSettings] applying resettime = none from master shard.	
+[05:24:04]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[05:24:04]: Sim unpaused
+[05:24:04]: Collecting garbage...
+[05:24:04]: lua_gc took 0.13 seconds
+[05:24:04]: ~ShardLuaProxy()
+[05:24:04]: ~cEventLeaderboardProxy()
+[05:24:04]: ~ItemServerLuaProxy()
+[05:24:04]: ~InventoryLuaProxy()
+[05:24:04]: ~NetworkLuaProxy()
+[05:24:04]: ~SimLuaProxy()
+[05:24:04]: lua_close took 0.16 seconds
+[05:24:04]: ReleaseAll
+[05:24:04]: ReleaseAll Finished
+[05:24:04]: cGame::StartPlaying
+[05:24:04]: AppVersion::GetArchitecture() x32
+[05:24:04]: LOADING LUA
+[05:24:04]: DoLuaFile scripts/main.lua
+[05:24:04]: DoLuaFile loading buffer scripts/main.lua
+[05:24:04]:   taskgrouplist:	default	Together	
+[05:24:04]:   taskgrouplist:	classic	Classic	
+[05:24:04]:   taskgrouplist:	cave_default	Underground	
+[05:24:04]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[05:24:04]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[05:24:04]: Running main.lua
+	
+[05:24:05]: loaded modindex	
+[05:24:05]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[05:24:05]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[05:24:05]: LOADING LUA SUCCESS
+[05:24:05]: PlayerDeaths could not load morgue	
+[05:24:05]: PlayerHistory could not load player_history	
+[05:24:05]: ServerPreferences could not load server_preferences	
+[05:24:05]: ConsoleScreenSettings could not load consolescreen	
+[05:24:05]: bloom_enabled	true	
+[05:24:05]: OnFilesLoaded()	
+[05:24:05]: OnUpdatePurchaseStateComplete	
+[05:24:05]: Loading world: session/C5D9CBF66F6A2502/0000000098	
+[05:24:05]: Save file is at version 5.151	
+[05:24:05]: Klump load on boot started.	
+[05:24:05]: Klump files loaded: 	0	
+[05:24:05]: 	Unload characters	
+[05:24:05]: 	BE assets already loaded	
+[05:24:05]: Begin Session: C5D9CBF66F6A2502
+[05:24:05]: Stomping previously assigned session identifier, two loads issued.
+[05:24:05]: saving to server_temp/server_save	
+[05:24:05]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[05:24:05]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[05:24:05]: Loading 19 new character(s)	
+[05:24:05]: Total 19 character(s) loaded	
+[05:24:07]: Loading Nav Grid	
+[05:24:07]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[05:24:07]: setting 	summerlength	15	
+[05:24:07]: setting 	cavemoonphase	threequarter	
+[05:24:07]: setting 	iscavefullmoon	false	
+[05:24:07]: setting 	isnightmaredawn	false	
+[05:24:07]: setting 	elapseddaysinseason	1	
+[05:24:07]: setting 	isfullmoon	false	
+[05:24:07]: setting 	moisture	4795.462890625	
+[05:24:07]: setting 	springlength	20	
+[05:24:07]: setting 	islunarhailing	false	
+[05:24:07]: setting 	isnightmarewild	false	
+[05:24:07]: setting 	nightmaretimeinphase	0.47463205034002	
+[05:24:07]: setting 	precipitationrate	0	
+[05:24:07]: setting 	iswet	false	
+[05:24:07]: setting 	isnewmoon	false	
+[05:24:07]: setting 	israining	false	
+[05:24:07]: setting 	iswinter	true	
+[05:24:07]: setting 	isnightmarewarn	false	
+[05:24:07]: setting 	precipitation	none	
+[05:24:07]: setting 	iscavewaxingmoon	false	
+[05:24:07]: setting 	isacidraining	false	
+[05:24:07]: setting 	moonphase	new	
+[05:24:07]: setting 	remainingdaysinseason	14	
+[05:24:07]: setting 	temperature	-1.4126044391011	
+[05:24:07]: setting 	wetness	0	
+[05:24:07]: setting 	cycles	91	
+[05:24:07]: setting 	moistureceil	4836.0502929688	
+[05:24:07]: setting 	isday	false	
+[05:24:07]: setting 	winterlength	15	
+[05:24:07]: setting 	season	winter	
+[05:24:07]: setting 	iswaxingmoon	true	
+[05:24:07]: setting 	isalterawake	false	
+[05:24:07]: setting 	isnightmarecalm	true	
+[05:24:07]: setting 	isnight	true	
+[05:24:07]: setting 	isdusk	false	
+[05:24:07]: setting 	isspring	false	
+[05:24:07]: setting 	isautumn	false	
+[05:24:07]: setting 	iscaveday	true	
+[05:24:07]: setting 	lunarhaillevel	0	
+[05:24:07]: setting 	pop	0.98673991302849	
+[05:24:07]: setting 	snowlevel	0	
+[05:24:07]: setting 	issnowcovered	false	
+[05:24:07]: setting 	autumnlength	20	
+[05:24:07]: setting 	phase	night	
+[05:24:07]: setting 	nightmaretime	170.86753812241	
+[05:24:07]: setting 	issnowing	false	
+[05:24:07]: setting 	iscavedusk	false	
+[05:24:07]: setting 	nightmarephase	calm	
+[05:24:07]: setting 	timeinphase	0.0059250725640191	
+[05:24:07]: setting 	seasonprogress	0.066666666666667	
+[05:24:07]: setting 	iscavenight	false	
+[05:24:07]: setting 	iscavenewmoon	false	
+[05:24:07]: setting 	issummer	false	
+[05:24:07]: setting 	cavephase	day	
+[05:24:07]: setting 	time	0.0022219022115072	
+[05:24:07]: OVERRIDE: setting	resettime	to	none	
+[05:24:07]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[05:24:07]: OVERRIDE: setting	portalresurection	to	always	
+[05:24:07]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[05:24:08]: Reconstructing topology	
+[05:24:08]: 	...Sorting points	
+[05:24:08]: 	...Sorting edges	
+[05:24:08]: 	...Connecting nodes	
+[05:24:08]: 	...Validating connections	
+[05:24:09]: 	...Housekeeping	
+[05:24:09]: 	...Done!	
+[05:24:09]: 1 uploads added to server. From server_temp
+[05:24:09]: World 1 is now connected	
+[05:24:09]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[05:24:09]: Check for write access: TRUE
+[05:24:09]: Check for read access: TRUE
+[05:24:09]: Available disk space for save files: 384268 MB
+[05:24:09]: ModIndex: Load sequence finished successfully.	
+[05:24:09]: Reset() returning
+[05:24:09]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[05:24:09]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[05:24:09]: component hauntable already exists on entity 103561 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[05:24:09]: [SyncWorldSettings] applying krampus = default from master shard.	
+[05:24:09]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[05:24:09]: [SyncWorldSettings] applying resettime = none from master shard.	
+[05:24:09]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[05:24:09]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[05:24:09]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[05:24:09]: component hauntable already exists on entity 103561 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[05:24:09]: [SyncWorldSettings] applying krampus = default from master shard.	
+[05:24:09]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[05:24:09]: [SyncWorldSettings] applying resettime = none from master shard.	
+[05:24:09]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[05:24:09]: Validating portal[4] <-> 1[4] (active)	
+[05:24:09]: Validating portal[2] <-> 1[2] (active)	
+[05:24:09]: Validating portal[10] <-> 1[10] (active)	
+[05:24:09]: Validating portal[1] <-> 1[1] (active)	
+[05:24:09]: Validating portal[3] <-> 1[3] (active)	
+[05:24:09]: Validating portal[5] <-> 1[5] (active)	
+[05:24:09]: Validating portal[6] <-> 1[6] (active)	
+[05:24:09]: Validating portal[7] <-> 1[7] (active)	
+[05:24:09]: Validating portal[8] <-> 1[8] (active)	
+[05:24:09]: Validating portal[9] <-> 1[9] (active)	
+[05:24:10]: Sim paused
+[05:24:17]: Sim unpaused
+[05:24:48]: [P2P] Session timed out for '76561198280591878'
+[05:24:48]: [P2P] Remove session: 129.31.233.155|1 '76561198280591878'
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[05:32:17]: Available disk space for save files: 384268 MB
+[05:32:17]: Serializing world: session/C5D9CBF66F6A2502/0000000099
+[05:32:17]: Truncating to snapshot #99...
+[05:32:17]:  - session/C5D9CBF66F6A2502/0000000093
+[05:32:17]:    1 file(s) removed
+[05:40:17]: Available disk space for save files: 384267 MB
+[05:40:17]: Serializing world: session/C5D9CBF66F6A2502/0000000100
+[05:40:17]: Truncating to snapshot #100...
+[05:40:17]:  - session/C5D9CBF66F6A2502/0000000094
+[05:40:17]:    1 file(s) removed
+[05:48:17]: Available disk space for save files: 384266 MB
+[05:48:18]: Serializing world: session/C5D9CBF66F6A2502/0000000101
+[05:48:18]: Truncating to snapshot #101...
+[05:48:18]:  - session/C5D9CBF66F6A2502/0000000095
+[05:48:18]:    1 file(s) removed
+[05:56:18]: Available disk space for save files: 384266 MB
+[05:56:18]: Serializing world: session/C5D9CBF66F6A2502/0000000102
+[05:56:18]: Truncating to snapshot #102...
+[05:56:18]:  - session/C5D9CBF66F6A2502/0000000096
+[05:56:18]:  - session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000074
+[05:56:18]:    2 file(s) removed
+[06:00:05]: [200] Account Communication Success (6)
+[06:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[06:04:18]: Available disk space for save files: 384265 MB
+[06:04:18]: Serializing world: session/C5D9CBF66F6A2502/0000000103
+[06:04:18]: Truncating to snapshot #103...
+[06:04:18]:  - session/C5D9CBF66F6A2502/0000000097
+[06:04:18]:  - session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000097
+[06:04:18]:    2 file(s) removed
+[06:12:18]: Available disk space for save files: 384264 MB
+[06:12:18]: Serializing world: session/C5D9CBF66F6A2502/0000000104
+[06:12:18]: Truncating to snapshot #104...
+[06:12:18]:  - session/C5D9CBF66F6A2502/0000000098
+[06:12:18]:    1 file(s) removed
+[06:20:19]: Available disk space for save files: 384264 MB
+[06:20:19]: Serializing world: session/C5D9CBF66F6A2502/0000000105
+[06:20:19]: Truncating to snapshot #105...
+[06:20:19]:  - session/C5D9CBF66F6A2502/0000000099
+[06:20:19]:    1 file(s) removed
+[06:28:19]: Available disk space for save files: 384263 MB
+[06:28:19]: Serializing world: session/C5D9CBF66F6A2502/0000000106
+[06:28:19]: Truncating to snapshot #106...
+[06:28:19]:  - session/C5D9CBF66F6A2502/0000000100
+[06:28:19]:    1 file(s) removed
+[06:30:05]: [200] Account Communication Success (6)
+[06:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[06:36:19]: Available disk space for save files: 384262 MB
+[06:36:19]: Serializing world: session/C5D9CBF66F6A2502/0000000107
+[06:36:19]: Truncating to snapshot #107...
+[06:36:19]:  - session/C5D9CBF66F6A2502/0000000101
+[06:36:19]:    1 file(s) removed
+[06:44:19]: Available disk space for save files: 384262 MB
+[06:44:20]: Serializing world: session/C5D9CBF66F6A2502/0000000108
+[06:44:20]: Truncating to snapshot #108...
+[06:44:20]:  - session/C5D9CBF66F6A2502/0000000102
+[06:44:20]:    1 file(s) removed
