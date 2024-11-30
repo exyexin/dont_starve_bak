@@ -1,0 +1,83 @@
+[02:50:08]: [Join Announcement] d8e_labmem
+[02:50:09]: [Join Announcement] dercaft
+[02:54:11]: [Join Announcement] akuma
+[02:57:15]: [Say] (KU_V_2d0tcA) dercaft: we need to kill dragon fly
+[02:57:26]: [Say] (KU_V_2d0tcA) dercaft: perpare 24 meat,
+[02:57:42]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:58:01]: [Say] (KU_V_2d0tcA) dercaft: hunt elephant
+[03:02:27]: [Death Announcement] d8e_labmem was killed by Dangling Depth Dweller. He became a spooky ghost!
+[03:02:43]: [Say] (KU__CRUc3BC) d8e_labmem: 离谱
+[03:03:23]: [Say] (KU__CRUc3BC) d8e_labmem: 洞穴蜘蛛强的可怕
+[03:04:24]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[03:05:43]: [Say] (KU__CRUc3BC) d8e_labmem: 走位好难
+[03:06:35]: [Say] (KU__CRUc3BC) d8e_labmem: 战斗！
+[03:07:09]: [Say] (KU__CRUc3BC) d8e_labmem: 牛群那里有大象
+[03:11:47]: [Death Announcement] akuma was killed by Spider Warrior. He became a spooky ghost!
+[03:14:23]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[03:21:11]: [Say] (KU_rM9kGGoQ) akuma: fire
+[03:21:49]: [Say] (KU_rM9kGGoQ) akuma: north may be lots of meet
+[03:21:56]: [Say] (KU__CRUc3BC) d8e_labmem: 感觉地下没什么东西
+[03:23:19]: [Say] (KU__CRUc3BC) d8e_labmem: 要用狗牙做陷阱吗
+[03:23:41]: [Say] (KU_V_2d0tcA) dercaft: ok
+[03:24:39]: [Say] (KU_rM9kGGoQ) akuma: 堆肥桶有什么用吗
+[03:30:16]: [Say] (KU_V_2d0tcA) dercaft: 秋季boss，熊大
+[03:30:22]: [Say] (KU_V_2d0tcA) dercaft: 没有主动攻击性，
+[03:30:28]: [Say] (KU_V_2d0tcA) dercaft: 在牛群这里
+[03:30:48]: [Say] (KU_V_2d0tcA) dercaft: 我们可以在旁边种树，勾引他主动攻击，帮忙砍树
+[03:31:25]: [Say] (KU_V_2d0tcA) dercaft: 完辣
+[03:31:32]: [Say] (KU__CRUc3BC) d8e_labmem: ?
+[03:31:32]: [Say] (KU_rM9kGGoQ) akuma: ?
+[03:31:37]: [Say] (KU_V_2d0tcA) dercaft: 熊大把牛杀了
+[03:31:43]: [Say] (KU_rM9kGGoQ) akuma: no
+[03:31:49]: [Say] (KU_V_2d0tcA) dercaft: 回档吧
+[03:32:00]: [Vote Announcement] rollback passed
+[03:36:17]: [Say] (KU__CRUc3BC) d8e_labmem: where the bear
+[03:38:51]: [Say] (KU__CRUc3BC) d8e_labmem: 你们呢
+[03:39:00]: [Say] (KU__CRUc3BC) d8e_labmem: 在哪里
+[03:40:04]: [Say] (KU__CRUc3BC) d8e_labmem: 宇航在哪里
+[03:41:38]: [Say] (KU__CRUc3BC) d8e_labmem: bear?
+[03:41:49]: [Say] (KU_V_2d0tcA) dercaft: killed
+[03:41:56]: [Say] (KU_V_2d0tcA) dercaft: by tree guider
+[03:43:00]: [Say] (KU_V_2d0tcA) dercaft: take meat
+[03:43:01]: [Say] (KU_V_2d0tcA) dercaft: run
+[03:43:19]: [Say] (KU_V_2d0tcA) dercaft: run
+[03:45:27]: [Say] (KU__CRUc3BC) d8e_labmem: 树人出现了
+[03:45:41]: [Say] (KU__CRUc3BC) d8e_labmem: double
+[03:45:49]: [Say] (KU__CRUc3BC) d8e_labmem: 3
+[03:47:52]: [Say] (KU_rM9kGGoQ) akuma: sleep is all i need
+[03:50:12]: [Say] (KU_V_2d0tcA) dercaft: 石果都放天气指示器旁的箱子里
+[03:50:38]: [Say] (KU_rM9kGGoQ) akuma: 有啥用
+[03:50:40]: [Say] (KU_V_2d0tcA) dercaft: 腐烂物和粪便等放在田-天气指示器之间的箱子里
+[03:51:08]: [Say] (KU_V_2d0tcA) dercaft: 石果敲掉有石头或者石果（蔬菜）
+[03:53:03]: [Say] (KU__CRUc3BC) d8e_labmem: 带回来8组木头
+[03:53:13]: [Say] (KU_V_2d0tcA) dercaft: hhhhhh
+[03:53:23]: [Say] (KU_V_2d0tcA) dercaft: 熊大免费伐木工
+[03:57:15]: [Say] (KU_V_2d0tcA) dercaft: 天气指示器和箱子旁边的绿边包包是种子袋
+[03:57:38]: [Say] (KU_V_2d0tcA) dercaft: 种子放里面保存时间延长
+[04:01:48]: [Say] (KU_rM9kGGoQ) akuma: 从蜘蛛哪儿搞来了大量怪物肉
+[04:01:54]: [Say] (KU_V_2d0tcA) dercaft: GOOD
+[04:03:51]: [Say] (KU__CRUc3BC) d8e_labmem: 现在要做什么
+[04:04:08]: [Leave Announcement] akuma
+[04:04:13]: [Say] (KU_V_2d0tcA) dercaft: 怪物肉->蛋
+[04:04:13]: [Say] (KU__CRUc3BC) d8e_labmem: 养牛？或者什么
+[04:04:26]: [Say] (KU_V_2d0tcA) dercaft: 肉+蛋+菜 波兰饺子
+[04:04:31]: [Say] (KU_V_2d0tcA) dercaft: 打龙樱
+[04:09:15]: [Join Announcement] akuma
+[04:09:29]: [Leave Announcement] akuma
+[04:12:23]: [Join Announcement] akuma
+[04:13:19]: [Death Announcement] dercaft was killed by Frog. He became a spooky ghost!
+[04:13:51]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[04:35:22]: [Say] (KU_rM9kGGoQ) akuma: fire
+[04:39:37]: [Say] (KU__CRUc3BC) d8e_labmem: 怎么全是必忘我
+[04:44:00]: [Say] (KU__CRUc3BC) d8e_labmem: 草墙被挡住了
+[04:44:08]: [Say] (KU__CRUc3BC) d8e_labmem: 要拆点东西
+[04:44:48]: [Say] (KU_V_2d0tcA) dercaft: 大肉干放冰箱里
+[04:45:11]: [Say] (KU_rM9kGGoQ) akuma: 今天早点下班？
+[04:45:12]: [Say] (KU_V_2d0tcA) dercaft: 6个大肉3猪皮，做3大肉棒
+[04:45:15]: [Say] (KU_V_2d0tcA) dercaft: queshi
+[04:46:16]: [Leave Announcement] akuma
+[04:46:49]: [Leave Announcement] dercaft
+[04:47:03]: [Leave Announcement] d8e_labmem
+[04:16:11]: [Join Announcement] d8e_labmem
+[04:16:56]: [Join Announcement] akuma
+[04:18:20]: [Join Announcement] dercaft

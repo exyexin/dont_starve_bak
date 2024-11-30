@@ -1,0 +1,2749 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 639083
+[00:00:00]: Current time: Fri Nov 22 12:11:24 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 0e30774292b7
+[00:00:00]: Release(Kernel) Version: 6.11.9-arch1-1
+[00:00:00]: Kernel Build Timestamp: #1 SMP PREEMPT_DYNAMIC Sun, 17 Nov 2024 16:06:17 +0000
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 639083 LINUX
+[00:00:00]: Build Date: 9742
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Caves 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (3992099648)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.48
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(11000, 12347)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (3931110208)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]:   taskgrouplist:	default	Together	
+[00:00:00]:   taskgrouplist:	classic	Classic	
+[00:00:00]:   taskgrouplist:	cave_default	Underground	
+[00:00:00]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:00]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:00]: Running main.lua
+	
+[00:00:00]: loaded modindex	
+[00:00:00]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:00]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:01]: LOADING LUA SUCCESS
+[00:00:01]: PlayerDeaths could not load morgue	
+[00:00:01]: PlayerHistory could not load player_history	
+[00:00:01]: ServerPreferences could not load server_preferences	
+[00:00:01]: ConsoleScreenSettings could not load consolescreen	
+[00:00:01]: bloom_enabled	true	
+[00:00:01]: OnFilesLoaded()	
+[00:00:01]: OnUpdatePurchaseStateComplete	
+[00:00:01]: Klump load on boot started.	
+[00:00:01]: Klump files loaded: 	0	
+[00:00:01]: 	Load FE	
+[00:00:02]: 	Load FE: done	
+[00:00:02]: THREAD - started 'FilesExistAsyncThread' (3894410048)
+[00:00:02]: FilesExistAsyncThread started (25160 files)...
+[00:00:02]: Check for write access: TRUE
+[00:00:02]: Check for read access: TRUE
+[00:00:02]: Available disk space for save files: 384291 MB
+[00:00:02]: ModIndex: Load sequence finished successfully.	
+[00:00:02]: Reset() returning
+[00:00:02]: ... FilesExistAsyncThread complete
+[00:00:03]: [200] Account Communication Success (6)
+[00:00:03]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Caves/save/cached_userid
+[00:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:03]: Starting Dedicated Server Game	
+[00:00:03]: Network tick rate: U=15(2), D=0
+[00:00:03]: About to start a server with the following settings:
+[00:00:03]:   Dedicated: true
+[00:00:03]:   Online: true
+[00:00:03]:   Passworded: true
+[00:00:03]:   ServerPort: 11000
+[00:00:03]:   SteamAuthPort: 8767
+[00:00:03]:   SteamMasterServerPort: 12347
+[00:00:03]:   ClanID: false
+[00:00:03]:   ClanOnly: false
+[00:00:03]:   ClanAdmin: false
+[00:00:03]:   LanOnly: false
+[00:00:03]:   FriendsOnly: false
+[00:00:03]:   EnableAutosaver: true
+[00:00:03]:   EncodeUserPath: true
+[00:00:03]:   PVP: true
+[00:00:03]:   MaxPlayers: 64
+[00:00:03]:   GameMode: endless
+[00:00:03]:   OverridenDNS: 
+[00:00:03]:   PauseWhenEmpty: true
+[00:00:03]:   IdleTimeout: 1800s
+[00:00:03]:   VoteEnabled: true
+[00:00:03]:   InternetBroadcasting: true
+[00:00:03]: Online Server Started on port: 11000
+[00:00:03]: Not applying level data overrides.	
+[00:00:03]: Found a worldgen override file with these contents:	
+[00:00:03]: 	K: 	override_enabled	 V: 	true	
+[00:00:03]: 	K: 	overrides	 V: 	table: 0x1171ba40	
+[00:00:03]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:03]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:03]: 		K: 	portalresurection	 V: 	always	
+[00:00:03]: 		K: 	resettime	 V: 	none	
+[00:00:03]: 		K: 	start_location	 V: 	default	
+[00:00:03]: 	K: 	settings_preset	 V: 	DST_CAVE	
+[00:00:03]: 	K: 	worldgen_preset	 V: 	DST_CAVE	
+[00:00:03]:   sanity-checking worldgenoverride.lua...	
+[00:00:03]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:03]:   contained worldgen preset DST_CAVE, loading...	
+[00:00:03]:   contained settings preset DST_CAVE, loading...	
+[00:00:03]: Overwriting savedata with override file.	
+[00:00:03]: Collecting garbage...
+[00:00:03]: lua_gc took 0.04 seconds
+[00:00:03]: ~ShardLuaProxy()
+[00:00:03]: ~cEventLeaderboardProxy()
+[00:00:03]: ~ItemServerLuaProxy()
+[00:00:03]: ~InventoryLuaProxy()
+[00:00:03]: ~NetworkLuaProxy()
+[00:00:03]: ~SimLuaProxy()
+[00:00:03]: Cancelling LuaQueryCallback handle [1]
+[00:00:03]: lua_close took 0.04 seconds
+[00:00:03]: ReleaseAll
+[00:00:03]: ReleaseAll Finished
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: AppVersion::GetArchitecture() x32
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]:   taskgrouplist:	default	Together	
+[00:00:03]:   taskgrouplist:	classic	Classic	
+[00:00:03]:   taskgrouplist:	cave_default	Underground	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:03]: Running main.lua
+	
+[00:00:03]: loaded modindex	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Loading world: session/C5D9CBF66F6A2502/0000000041	
+[00:00:03]: Save file is at version 5.151	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:03]: 	Unload FE	
+[00:00:03]: 	Unload FE done	
+[00:00:04]: 	LOAD BE	
+[00:00:10]: 	LOAD BE: done	
+[00:00:10]: Begin Session: C5D9CBF66F6A2502
+[00:00:10]: saving to server_temp/server_save	
+[00:00:10]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:10]: Loading 19 new character(s)	
+[00:00:10]: Total 19 character(s) loaded	
+[00:00:12]: Loading Nav Grid	
+[00:00:12]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[00:00:12]: setting 	summerlength	15	
+[00:00:12]: setting 	cavemoonphase	half	
+[00:00:12]: setting 	iscavefullmoon	false	
+[00:00:12]: setting 	isnightmaredawn	false	
+[00:00:12]: setting 	elapseddaysinseason	14	
+[00:00:12]: setting 	isfullmoon	false	
+[00:00:12]: setting 	moisture	1810.1813964844	
+[00:00:12]: setting 	springlength	20	
+[00:00:12]: setting 	islunarhailing	false	
+[00:00:12]: setting 	isnightmarewild	false	
+[00:00:12]: setting 	nightmaretimeinphase	0.13574645704757	
+[00:00:12]: setting 	precipitationrate	0	
+[00:00:12]: setting 	iswet	true	
+[00:00:12]: setting 	isnewmoon	false	
+[00:00:12]: setting 	israining	false	
+[00:00:12]: setting 	iswinter	true	
+[00:00:12]: setting 	isnightmarewarn	false	
+[00:00:12]: setting 	precipitation	none	
+[00:00:12]: setting 	iscavewaxingmoon	false	
+[00:00:12]: setting 	isacidraining	false	
+[00:00:12]: setting 	moonphase	new	
+[00:00:12]: setting 	remainingdaysinseason	1	
+[00:00:12]: setting 	temperature	-1.8707962142656	
+[00:00:12]: setting 	wetness	42.350570678711	
+[00:00:12]: setting 	cycles	34	
+[00:00:12]: setting 	moistureceil	1836.775390625	
+[00:00:12]: setting 	isday	false	
+[00:00:12]: setting 	winterlength	15	
+[00:00:12]: setting 	season	winter	
+[00:00:12]: setting 	iswaxingmoon	true	
+[00:00:12]: setting 	isalterawake	false	
+[00:00:12]: setting 	isnightmarecalm	true	
+[00:00:12]: setting 	isnight	true	
+[00:00:12]: setting 	isdusk	false	
+[00:00:12]: setting 	isspring	false	
+[00:00:12]: setting 	isautumn	false	
+[00:00:12]: setting 	iscaveday	false	
+[00:00:12]: setting 	lunarhaillevel	0	
+[00:00:12]: setting 	pop	0.9678098847877	
+[00:00:12]: setting 	snowlevel	0	
+[00:00:12]: setting 	issnowcovered	false	
+[00:00:12]: setting 	autumnlength	20	
+[00:00:12]: setting 	phase	night	
+[00:00:12]: setting 	nightmaretime	48.868724537127	
+[00:00:12]: setting 	issnowing	false	
+[00:00:12]: setting 	iscavedusk	true	
+[00:00:12]: setting 	nightmarephase	calm	
+[00:00:12]: setting 	timeinphase	0.91594782405429	
+[00:00:12]: setting 	seasonprogress	0.93333333333333	
+[00:00:12]: setting 	iscavenight	false	
+[00:00:12]: setting 	iscavenewmoon	false	
+[00:00:12]: setting 	issummer	false	
+[00:00:12]: setting 	cavephase	dusk	
+[00:00:12]: setting 	time	0.65598043402036	
+[00:00:12]: [Shard] Secondary shard is waiting for LUA...
+[00:00:12]: OVERRIDE: setting	resettime	to	none	
+[00:00:12]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:12]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:12]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:13]: Reconstructing topology	
+[00:00:13]: 	...Sorting points	
+[00:00:13]: 	...Sorting edges	
+[00:00:13]: 	...Connecting nodes	
+[00:00:13]: 	...Validating connections	
+[00:00:13]: 	...Housekeeping	
+[00:00:13]: 	...Done!	
+[00:00:13]: 1 uploads added to server. From server_temp
+[00:00:13]: About to start a shard with these settings:
+[00:00:13]:   ShardName: Caves
+[00:00:13]:   ShardID: 1867152374
+[00:00:13]:   ShardRole: SECONDARY
+[00:00:13]:   MasterHost: 127.0.0.1
+[00:00:13]:   MasterBind: (null)
+[00:00:13]:   MasterPort: 10998
+[00:00:13]: [Shard] Connecting to master...
+[00:00:13]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: Available disk space for save files: 384290 MB
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: [Shard] Sending secondary shard information to master...
+[00:00:13]: Validating portal[8] <-> 1[8] (inactive)	
+[00:00:13]: Validating portal[9] <-> 1[9] (inactive)	
+[00:00:13]: Validating portal[10] <-> 1[10] (inactive)	
+[00:00:13]: Validating portal[2] <-> 1[2] (inactive)	
+[00:00:13]: Validating portal[7] <-> 1[7] (inactive)	
+[00:00:13]: Validating portal[4] <-> 1[4] (inactive)	
+[00:00:13]: Validating portal[1] <-> 1[1] (inactive)	
+[00:00:13]: Validating portal[3] <-> 1[3] (inactive)	
+[00:00:13]: Validating portal[5] <-> 1[5] (inactive)	
+[00:00:13]: Validating portal[6] <-> 1[6] (inactive)	
+[00:00:13]: Received MasterInfoPacket row 2b9fdd5b299edc6048a27df5746f7c48 region ap-east-1
+[00:00:13]: Obtaining secondary shard IP from ap-east-1 lobby
+[00:00:14]: [Shard] secondary shard is now ready!
+[00:00:14]: World 1 is now connected	
+[00:00:14]: Validating portal[8] <-> 1[8] (active)	
+[00:00:14]: Validating portal[9] <-> 1[9] (active)	
+[00:00:14]: Validating portal[10] <-> 1[10] (active)	
+[00:00:14]: Validating portal[2] <-> 1[2] (active)	
+[00:00:14]: Validating portal[7] <-> 1[7] (active)	
+[00:00:14]: Validating portal[4] <-> 1[4] (active)	
+[00:00:14]: Validating portal[1] <-> 1[1] (active)	
+[00:00:14]: Validating portal[3] <-> 1[3] (active)	
+[00:00:14]: Validating portal[5] <-> 1[5] (active)	
+[00:00:14]: Validating portal[6] <-> 1[6] (active)	
+[00:00:14]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:14]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:14]: component hauntable already exists on entity 102986 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:14]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:14]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:14]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:14]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:14]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:14]: component hauntable already exists on entity 102986 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:14]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[00:00:14]: [SyncWorldSettings] applying resettime = none from master shard.	
+[00:00:14]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[00:00:15]: [Shard] secondary shard LUA is now ready!
+[00:00:15]: Sim paused
+[00:03:10]: Sim unpaused
+[00:03:17]: Sim paused
+[00:30:03]: [200] Account Communication Success (6)
+[00:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:45:55]: Sim unpaused
+[00:45:58]: Server Autopaused	
+[00:45:58]: Server Unpaused	
+[00:45:58]: Server Autopaused	
+[00:46:00]: Server Unpaused	
+[00:48:36]: Available disk space for save files: 384290 MB
+[00:48:36]: Serializing world: session/C5D9CBF66F6A2502/0000000042
+[00:48:36]: Truncating to snapshot #42...
+[00:48:36]:  - session/C5D9CBF66F6A2502/0000000036
+[00:48:36]:    1 file(s) removed
+[00:50:52]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:55:52]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[00:56:36]: Available disk space for save files: 384290 MB
+[00:56:36]: Serializing world: session/C5D9CBF66F6A2502/0000000043
+[00:56:36]: Truncating to snapshot #43...
+[00:56:36]:  - session/C5D9CBF66F6A2502/0000000037
+[00:56:36]:    1 file(s) removed
+[01:00:02]: [200] Account Communication Success (6)
+[01:00:02]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:52]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:03:38]: World 1 is now disconnected	
+[01:03:38]: Validating portal[8] <-> 1[8] (inactive)	
+[01:03:38]: Validating portal[9] <-> 1[9] (inactive)	
+[01:03:38]: Validating portal[10] <-> 1[10] (inactive)	
+[01:03:38]: Validating portal[2] <-> 1[2] (inactive)	
+[01:03:38]: Validating portal[7] <-> 1[7] (inactive)	
+[01:03:38]: Validating portal[4] <-> 1[4] (inactive)	
+[01:03:38]: Validating portal[1] <-> 1[1] (inactive)	
+[01:03:38]: Validating portal[3] <-> 1[3] (inactive)	
+[01:03:38]: Validating portal[5] <-> 1[5] (inactive)	
+[01:03:38]: Validating portal[6] <-> 1[6] (inactive)	
+[01:03:38]: Sim paused
+[01:03:43]: Synchronizing backward to master snapshot 43	
+[01:03:43]: World 1 is now connected	
+[01:03:43]: Validating portal[8] <-> 1[8] (active)	
+[01:03:43]: Validating portal[9] <-> 1[9] (active)	
+[01:03:43]: Validating portal[10] <-> 1[10] (active)	
+[01:03:43]: Validating portal[2] <-> 1[2] (active)	
+[01:03:43]: Validating portal[7] <-> 1[7] (active)	
+[01:03:43]: Validating portal[4] <-> 1[4] (active)	
+[01:03:43]: Validating portal[1] <-> 1[1] (active)	
+[01:03:43]: Validating portal[3] <-> 1[3] (active)	
+[01:03:43]: Validating portal[5] <-> 1[5] (active)	
+[01:03:43]: Validating portal[6] <-> 1[6] (active)	
+[01:03:43]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[01:03:43]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[01:03:43]: component hauntable already exists on entity 102986 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[01:03:43]: [SyncWorldSettings] applying krampus = default from master shard.	
+[01:03:43]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[01:03:43]: [SyncWorldSettings] applying resettime = none from master shard.	
+[01:03:43]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[01:03:43]: Sim unpaused
+[01:03:43]: Collecting garbage...
+[01:03:43]: lua_gc took 0.10 seconds
+[01:03:43]: ~ShardLuaProxy()
+[01:03:43]: ~cEventLeaderboardProxy()
+[01:03:43]: ~ItemServerLuaProxy()
+[01:03:43]: ~InventoryLuaProxy()
+[01:03:43]: ~NetworkLuaProxy()
+[01:03:43]: ~SimLuaProxy()
+[01:03:43]: lua_close took 0.15 seconds
+[01:03:43]: ReleaseAll
+[01:03:43]: ReleaseAll Finished
+[01:03:43]: cGame::StartPlaying
+[01:03:43]: AppVersion::GetArchitecture() x32
+[01:03:43]: LOADING LUA
+[01:03:43]: DoLuaFile scripts/main.lua
+[01:03:43]: DoLuaFile loading buffer scripts/main.lua
+[01:03:44]:   taskgrouplist:	default	Together	
+[01:03:44]:   taskgrouplist:	classic	Classic	
+[01:03:44]:   taskgrouplist:	cave_default	Underground	
+[01:03:44]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[01:03:44]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[01:03:44]: Running main.lua
+	
+[01:03:44]: loaded modindex	
+[01:03:44]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[01:03:44]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[01:03:44]: LOADING LUA SUCCESS
+[01:03:44]: PlayerDeaths could not load morgue	
+[01:03:44]: PlayerHistory could not load player_history	
+[01:03:44]: ServerPreferences could not load server_preferences	
+[01:03:44]: ConsoleScreenSettings could not load consolescreen	
+[01:03:44]: bloom_enabled	true	
+[01:03:44]: OnFilesLoaded()	
+[01:03:44]: OnUpdatePurchaseStateComplete	
+[01:03:44]: Loading world: session/C5D9CBF66F6A2502/0000000043	
+[01:03:44]: Save file is at version 5.151	
+[01:03:44]: Klump load on boot started.	
+[01:03:44]: Klump files loaded: 	0	
+[01:03:44]: 	Unload characters	
+[01:03:44]: 	BE assets already loaded	
+[01:03:44]: Begin Session: C5D9CBF66F6A2502
+[01:03:44]: Stomping previously assigned session identifier, two loads issued.
+[01:03:44]: saving to server_temp/server_save	
+[01:03:44]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[01:03:44]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[01:03:44]: Loading 19 new character(s)	
+[01:03:45]: Total 19 character(s) loaded	
+[01:03:46]: Loading Nav Grid	
+[01:03:46]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[01:03:46]: setting 	summerlength	15	
+[01:03:46]: setting 	cavemoonphase	half	
+[01:03:46]: setting 	iscavefullmoon	false	
+[01:03:46]: setting 	isnightmaredawn	false	
+[01:03:46]: setting 	elapseddaysinseason	1	
+[01:03:46]: setting 	isfullmoon	false	
+[01:03:46]: setting 	moisture	2854.0749511719	
+[01:03:46]: setting 	springlength	20	
+[01:03:46]: setting 	islunarhailing	false	
+[01:03:46]: setting 	isnightmarewild	true	
+[01:03:46]: setting 	nightmaretimeinphase	0.72915056635259	
+[01:03:46]: setting 	precipitationrate	0	
+[01:03:46]: setting 	iswet	true	
+[01:03:46]: setting 	isnewmoon	false	
+[01:03:46]: setting 	israining	false	
+[01:03:46]: setting 	iswinter	false	
+[01:03:46]: setting 	isnightmarewarn	false	
+[01:03:46]: setting 	precipitation	none	
+[01:03:46]: setting 	iscavewaxingmoon	false	
+[01:03:46]: setting 	isacidraining	false	
+[01:03:46]: setting 	moonphase	new	
+[01:03:46]: setting 	remainingdaysinseason	19	
+[01:03:46]: setting 	temperature	4.3591088338942	
+[01:03:46]: setting 	wetness	43.875759124756	
+[01:03:46]: setting 	cycles	36	
+[01:03:46]: setting 	moistureceil	5009.328125	
+[01:03:46]: setting 	isday	false	
+[01:03:46]: setting 	winterlength	15	
+[01:03:46]: setting 	season	spring	
+[01:03:46]: setting 	iswaxingmoon	true	
+[01:03:46]: setting 	isalterawake	false	
+[01:03:46]: setting 	isnightmarecalm	false	
+[01:03:46]: setting 	isnight	true	
+[01:03:46]: setting 	isdusk	false	
+[01:03:46]: setting 	isspring	true	
+[01:03:46]: setting 	isautumn	false	
+[01:03:46]: setting 	iscaveday	true	
+[01:03:46]: setting 	lunarhaillevel	0	
+[01:03:46]: setting 	pop	0.43544822462209	
+[01:03:46]: setting 	snowlevel	0	
+[01:03:46]: setting 	issnowcovered	false	
+[01:03:46]: setting 	autumnlength	20	
+[01:03:46]: setting 	phase	night	
+[01:03:46]: setting 	nightmaretime	559.37258495289	
+[01:03:46]: setting 	issnowing	false	
+[01:03:46]: setting 	iscavedusk	false	
+[01:03:46]: setting 	nightmarephase	wild	
+[01:03:46]: setting 	timeinphase	0.0070421346028646	
+[01:03:46]: setting 	seasonprogress	0.05	
+[01:03:46]: setting 	iscavenight	false	
+[01:03:46]: setting 	iscavenewmoon	false	
+[01:03:46]: setting 	issummer	false	
+[01:03:46]: setting 	cavephase	day	
+[01:03:46]: setting 	time	0.0022006670633952	
+[01:03:46]: OVERRIDE: setting	resettime	to	none	
+[01:03:46]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[01:03:46]: OVERRIDE: setting	portalresurection	to	always	
+[01:03:46]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[01:03:47]: Reconstructing topology	
+[01:03:47]: 	...Sorting points	
+[01:03:47]: 	...Sorting edges	
+[01:03:47]: 	...Connecting nodes	
+[01:03:47]: 	...Validating connections	
+[01:03:48]: 	...Housekeeping	
+[01:03:48]: 	...Done!	
+[01:03:48]: 1 uploads added to server. From server_temp
+[01:03:48]: World 1 is now connected	
+[01:03:48]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[01:03:48]: Check for write access: TRUE
+[01:03:48]: Check for read access: TRUE
+[01:03:48]: Available disk space for save files: 384289 MB
+[01:03:48]: ModIndex: Load sequence finished successfully.	
+[01:03:48]: Reset() returning
+[01:03:48]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[01:03:48]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[01:03:48]: component hauntable already exists on entity 103117 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[01:03:48]: [SyncWorldSettings] applying krampus = default from master shard.	
+[01:03:48]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[01:03:48]: [SyncWorldSettings] applying resettime = none from master shard.	
+[01:03:48]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[01:03:48]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[01:03:48]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[01:03:48]: component hauntable already exists on entity 103117 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[01:03:48]: [SyncWorldSettings] applying krampus = default from master shard.	
+[01:03:48]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[01:03:48]: [SyncWorldSettings] applying resettime = none from master shard.	
+[01:03:48]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[01:03:48]: Validating portal[3] <-> 1[3] (active)	
+[01:03:48]: Validating portal[9] <-> 1[9] (active)	
+[01:03:48]: Validating portal[10] <-> 1[10] (active)	
+[01:03:48]: Validating portal[1] <-> 1[1] (active)	
+[01:03:48]: Validating portal[2] <-> 1[2] (active)	
+[01:03:48]: Validating portal[4] <-> 1[4] (active)	
+[01:03:48]: Validating portal[5] <-> 1[5] (active)	
+[01:03:48]: Validating portal[6] <-> 1[6] (active)	
+[01:03:48]: Validating portal[8] <-> 1[8] (active)	
+[01:03:48]: Validating portal[7] <-> 1[7] (active)	
+[01:03:49]: Sim paused
+[01:03:53]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:03:53]: Sim unpaused
+[01:08:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:11:53]: Available disk space for save files: 384290 MB
+[01:11:53]: Serializing world: session/C5D9CBF66F6A2502/0000000044
+[01:11:53]: Truncating to snapshot #44...
+[01:11:53]:  - session/C5D9CBF66F6A2502/0000000038
+[01:11:53]:    1 file(s) removed
+[01:13:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:18:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:19:53]: Available disk space for save files: 384290 MB
+[01:19:53]: Serializing world: session/C5D9CBF66F6A2502/0000000045
+[01:19:53]: Truncating to snapshot #45...
+[01:19:53]:  - session/C5D9CBF66F6A2502/0000000039
+[01:19:53]:    1 file(s) removed
+[01:23:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:27:53]: Available disk space for save files: 384289 MB
+[01:27:53]: Serializing world: session/C5D9CBF66F6A2502/0000000046
+[01:27:53]: Truncating to snapshot #46...
+[01:27:53]:  - session/C5D9CBF66F6A2502/0000000040
+[01:27:53]:    1 file(s) removed
+[01:28:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:30:02]: [200] Account Communication Success (6)
+[01:30:02]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:08]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:33:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:35:53]: Available disk space for save files: 384288 MB
+[01:35:54]: Serializing world: session/C5D9CBF66F6A2502/0000000047
+[01:35:54]: Truncating to snapshot #47...
+[01:35:54]:  - session/C5D9CBF66F6A2502/0000000041
+[01:35:54]:    1 file(s) removed
+[01:38:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:43:54]: Available disk space for save files: 384288 MB
+[01:43:54]: Serializing world: session/C5D9CBF66F6A2502/0000000048
+[01:43:54]: Truncating to snapshot #48...
+[01:43:54]:  - session/C5D9CBF66F6A2502/0000000042
+[01:43:54]:    1 file(s) removed
+[01:43:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:48:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:51:54]: Available disk space for save files: 384287 MB
+[01:51:54]: Serializing world: session/C5D9CBF66F6A2502/0000000049
+[01:51:54]: Truncating to snapshot #49...
+[01:51:54]:  - session/C5D9CBF66F6A2502/0000000043
+[01:51:54]:    1 file(s) removed
+[01:53:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:58:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[01:59:54]: Available disk space for save files: 384287 MB
+[01:59:54]: Serializing world: session/C5D9CBF66F6A2502/0000000050
+[01:59:54]: Truncating to snapshot #50...
+[01:59:54]:  - session/C5D9CBF66F6A2502/0000000044
+[01:59:54]:    1 file(s) removed
+[02:00:03]: [200] Account Communication Success (6)
+[02:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:03:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:07:54]: Available disk space for save files: 384286 MB
+[02:07:55]: Serializing world: session/C5D9CBF66F6A2502/0000000051
+[02:07:55]: Truncating to snapshot #51...
+[02:07:55]:  - session/C5D9CBF66F6A2502/0000000045
+[02:07:55]:    1 file(s) removed
+[02:08:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:13:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:15:55]: Available disk space for save files: 384285 MB
+[02:15:55]: Serializing world: session/C5D9CBF66F6A2502/0000000052
+[02:15:55]: Truncating to snapshot #52...
+[02:15:55]:  - session/C5D9CBF66F6A2502/0000000046
+[02:15:55]:    1 file(s) removed
+[02:18:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:23:55]: Available disk space for save files: 384285 MB
+[02:23:55]: Serializing world: session/C5D9CBF66F6A2502/0000000053
+[02:23:55]: Truncating to snapshot #53...
+[02:23:55]:  - session/C5D9CBF66F6A2502/0000000047
+[02:23:55]:    1 file(s) removed
+[02:23:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:28:59]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:30:02]: [200] Account Communication Success (6)
+[02:30:02]: Received (KU__CRUc3BC) from TokenPurpose
+[02:31:55]: Available disk space for save files: 384284 MB
+[02:31:55]: Serializing world: session/C5D9CBF66F6A2502/0000000054
+[02:31:55]: Truncating to snapshot #54...
+[02:31:55]:  - session/C5D9CBF66F6A2502/0000000048
+[02:31:55]:    1 file(s) removed
+[02:33:59]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:38:59]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:39:55]: Available disk space for save files: 384284 MB
+[02:39:56]: Serializing world: session/C5D9CBF66F6A2502/0000000055
+[02:39:56]: Truncating to snapshot #55...
+[02:39:56]:  - session/C5D9CBF66F6A2502/0000000049
+[02:39:56]:    1 file(s) removed
+[02:43:59]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:47:56]: Available disk space for save files: 384283 MB
+[02:47:56]: Serializing world: session/C5D9CBF66F6A2502/0000000056
+[02:47:56]: Truncating to snapshot #56...
+[02:47:56]:  - session/C5D9CBF66F6A2502/0000000050
+[02:47:56]:    1 file(s) removed
+[02:48:45]: Server Autopaused	
+[02:48:47]: Server Unpaused	
+[02:48:49]: Sim paused
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[03:03:08]: Sim unpaused
+[03:03:20]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:05:29]: World 1 is now disconnected	
+[03:05:29]: Validating portal[3] <-> 1[3] (inactive)	
+[03:05:29]: Validating portal[9] <-> 1[9] (inactive)	
+[03:05:29]: Validating portal[10] <-> 1[10] (inactive)	
+[03:05:29]: Validating portal[1] <-> 1[1] (inactive)	
+[03:05:29]: Validating portal[2] <-> 1[2] (inactive)	
+[03:05:29]: Validating portal[4] <-> 1[4] (inactive)	
+[03:05:29]: Validating portal[5] <-> 1[5] (inactive)	
+[03:05:29]: Validating portal[6] <-> 1[6] (inactive)	
+[03:05:29]: Validating portal[8] <-> 1[8] (inactive)	
+[03:05:29]: Validating portal[7] <-> 1[7] (inactive)	
+[03:05:29]: Sim paused
+[03:05:33]: Synchronizing backward to master snapshot 56	
+[03:05:33]: World 1 is now connected	
+[03:05:33]: Validating portal[3] <-> 1[3] (active)	
+[03:05:33]: Validating portal[9] <-> 1[9] (active)	
+[03:05:33]: Validating portal[10] <-> 1[10] (active)	
+[03:05:33]: Validating portal[1] <-> 1[1] (active)	
+[03:05:33]: Validating portal[2] <-> 1[2] (active)	
+[03:05:33]: Validating portal[4] <-> 1[4] (active)	
+[03:05:33]: Validating portal[5] <-> 1[5] (active)	
+[03:05:33]: Validating portal[6] <-> 1[6] (active)	
+[03:05:33]: Validating portal[8] <-> 1[8] (active)	
+[03:05:33]: Validating portal[7] <-> 1[7] (active)	
+[03:05:33]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:05:33]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:05:33]: component hauntable already exists on entity 103117 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:05:33]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:05:33]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:05:33]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:05:33]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:05:33]: Sim unpaused
+[03:05:33]: Collecting garbage...
+[03:05:33]: lua_gc took 0.13 seconds
+[03:05:34]: ~ShardLuaProxy()
+[03:05:34]: ~cEventLeaderboardProxy()
+[03:05:34]: ~ItemServerLuaProxy()
+[03:05:34]: ~InventoryLuaProxy()
+[03:05:34]: ~NetworkLuaProxy()
+[03:05:34]: ~SimLuaProxy()
+[03:05:34]: lua_close took 0.15 seconds
+[03:05:34]: ReleaseAll
+[03:05:34]: ReleaseAll Finished
+[03:05:34]: cGame::StartPlaying
+[03:05:34]: AppVersion::GetArchitecture() x32
+[03:05:34]: LOADING LUA
+[03:05:34]: DoLuaFile scripts/main.lua
+[03:05:34]: DoLuaFile loading buffer scripts/main.lua
+[03:05:34]:   taskgrouplist:	default	Together	
+[03:05:34]:   taskgrouplist:	classic	Classic	
+[03:05:34]:   taskgrouplist:	cave_default	Underground	
+[03:05:34]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[03:05:34]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[03:05:34]: Running main.lua
+	
+[03:05:34]: loaded modindex	
+[03:05:34]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[03:05:34]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[03:05:34]: LOADING LUA SUCCESS
+[03:05:34]: PlayerDeaths could not load morgue	
+[03:05:34]: PlayerHistory could not load player_history	
+[03:05:34]: ServerPreferences could not load server_preferences	
+[03:05:34]: ConsoleScreenSettings could not load consolescreen	
+[03:05:34]: bloom_enabled	true	
+[03:05:34]: OnFilesLoaded()	
+[03:05:34]: OnUpdatePurchaseStateComplete	
+[03:05:34]: Loading world: session/C5D9CBF66F6A2502/0000000056	
+[03:05:34]: Save file is at version 5.151	
+[03:05:34]: Klump load on boot started.	
+[03:05:34]: Klump files loaded: 	0	
+[03:05:34]: 	Unload characters	
+[03:05:34]: 	BE assets already loaded	
+[03:05:34]: Begin Session: C5D9CBF66F6A2502
+[03:05:34]: Stomping previously assigned session identifier, two loads issued.
+[03:05:34]: saving to server_temp/server_save	
+[03:05:35]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[03:05:35]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[03:05:35]: Loading 19 new character(s)	
+[03:05:35]: Total 19 character(s) loaded	
+[03:05:36]: Loading Nav Grid	
+[03:05:36]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[03:05:36]: setting 	summerlength	15	
+[03:05:36]: setting 	cavemoonphase	threequarter	
+[03:05:36]: setting 	iscavefullmoon	false	
+[03:05:36]: setting 	isnightmaredawn	false	
+[03:05:36]: setting 	elapseddaysinseason	14	
+[03:05:36]: setting 	isfullmoon	false	
+[03:05:36]: setting 	moisture	387.25714111328	
+[03:05:36]: setting 	springlength	20	
+[03:05:36]: setting 	islunarhailing	false	
+[03:05:36]: setting 	isnightmarewild	false	
+[03:05:36]: setting 	nightmaretimeinphase	0.71459135166573	
+[03:05:36]: setting 	precipitationrate	0.18395085261217	
+[03:05:36]: setting 	iswet	true	
+[03:05:36]: setting 	isnewmoon	false	
+[03:05:36]: setting 	israining	true	
+[03:05:36]: setting 	iswinter	false	
+[03:05:36]: setting 	isnightmarewarn	false	
+[03:05:36]: setting 	precipitation	rain	
+[03:05:36]: setting 	iscavewaxingmoon	false	
+[03:05:36]: setting 	isacidraining	false	
+[03:05:36]: setting 	moonphase	new	
+[03:05:36]: setting 	remainingdaysinseason	6	
+[03:05:36]: setting 	temperature	23.641726517093	
+[03:05:36]: setting 	wetness	100	
+[03:05:36]: setting 	cycles	49	
+[03:05:36]: setting 	moistureceil	2700.2094726562	
+[03:05:36]: setting 	isday	false	
+[03:05:36]: setting 	winterlength	15	
+[03:05:36]: setting 	season	spring	
+[03:05:36]: setting 	iswaxingmoon	true	
+[03:05:36]: setting 	isalterawake	false	
+[03:05:36]: setting 	isnightmarecalm	true	
+[03:05:36]: setting 	isnight	true	
+[03:05:36]: setting 	isdusk	false	
+[03:05:36]: setting 	isspring	true	
+[03:05:36]: setting 	isautumn	false	
+[03:05:36]: setting 	iscaveday	true	
+[03:05:36]: setting 	lunarhaillevel	0	
+[03:05:36]: setting 	pop	1	
+[03:05:36]: setting 	snowlevel	0	
+[03:05:36]: setting 	issnowcovered	false	
+[03:05:36]: setting 	autumnlength	20	
+[03:05:36]: setting 	phase	night	
+[03:05:36]: setting 	nightmaretime	257.25288659966	
+[03:05:36]: setting 	issnowing	false	
+[03:05:36]: setting 	iscavedusk	false	
+[03:05:36]: setting 	nightmarephase	calm	
+[03:05:36]: setting 	timeinphase	0.0058086819118923	
+[03:05:36]: setting 	seasonprogress	0.7	
+[03:05:36]: setting 	iscavenight	false	
+[03:05:36]: setting 	iscavenewmoon	false	
+[03:05:36]: setting 	issummer	false	
+[03:05:36]: setting 	cavephase	day	
+[03:05:36]: setting 	time	0.0021782557169596	
+[03:05:36]: OVERRIDE: setting	resettime	to	none	
+[03:05:36]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[03:05:36]: OVERRIDE: setting	portalresurection	to	always	
+[03:05:36]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[03:05:38]: Reconstructing topology	
+[03:05:38]: 	...Sorting points	
+[03:05:38]: 	...Sorting edges	
+[03:05:38]: 	...Connecting nodes	
+[03:05:38]: 	...Validating connections	
+[03:05:38]: 	...Housekeeping	
+[03:05:38]: 	...Done!	
+[03:05:38]: 1 uploads added to server. From server_temp
+[03:05:38]: World 1 is now connected	
+[03:05:38]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[03:05:38]: Check for write access: TRUE
+[03:05:38]: Check for read access: TRUE
+[03:05:38]: Available disk space for save files: 384290 MB
+[03:05:38]: ModIndex: Load sequence finished successfully.	
+[03:05:38]: Reset() returning
+[03:05:38]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:05:38]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:05:38]: component hauntable already exists on entity 103180 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:05:38]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:05:38]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:05:38]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:05:38]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:05:38]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:05:38]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:05:38]: component hauntable already exists on entity 103180 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:05:38]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:05:38]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:05:38]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:05:38]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:05:38]: Validating portal[5] <-> 1[5] (active)	
+[03:05:38]: Validating portal[6] <-> 1[6] (active)	
+[03:05:38]: Validating portal[7] <-> 1[7] (active)	
+[03:05:38]: Validating portal[8] <-> 1[8] (active)	
+[03:05:38]: Validating portal[1] <-> 1[1] (active)	
+[03:05:38]: Validating portal[9] <-> 1[9] (active)	
+[03:05:38]: Validating portal[3] <-> 1[3] (active)	
+[03:05:38]: Validating portal[10] <-> 1[10] (active)	
+[03:05:38]: Validating portal[2] <-> 1[2] (active)	
+[03:05:38]: Validating portal[4] <-> 1[4] (active)	
+[03:05:39]: Sim paused
+[03:05:43]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:05:43]: Sim unpaused
+[03:05:56]: World 1 is now disconnected	
+[03:05:56]: Validating portal[5] <-> 1[5] (inactive)	
+[03:05:56]: Validating portal[6] <-> 1[6] (inactive)	
+[03:05:56]: Validating portal[7] <-> 1[7] (inactive)	
+[03:05:56]: Validating portal[8] <-> 1[8] (inactive)	
+[03:05:56]: Validating portal[1] <-> 1[1] (inactive)	
+[03:05:56]: Validating portal[9] <-> 1[9] (inactive)	
+[03:05:56]: Validating portal[3] <-> 1[3] (inactive)	
+[03:05:56]: Validating portal[10] <-> 1[10] (inactive)	
+[03:05:56]: Validating portal[2] <-> 1[2] (inactive)	
+[03:05:56]: Validating portal[4] <-> 1[4] (inactive)	
+[03:05:56]: Sim paused
+[03:06:01]: Synchronizing backward to master snapshot 55	
+[03:06:01]: Truncating to snapshot #55...
+[03:06:01]:  - session/C5D9CBF66F6A2502/0000000056
+[03:06:01]:    1 file(s) removed
+[03:06:01]: World 1 is now connected	
+[03:06:01]: Validating portal[5] <-> 1[5] (active)	
+[03:06:01]: Validating portal[6] <-> 1[6] (active)	
+[03:06:01]: Validating portal[7] <-> 1[7] (active)	
+[03:06:01]: Validating portal[8] <-> 1[8] (active)	
+[03:06:01]: Validating portal[1] <-> 1[1] (active)	
+[03:06:01]: Validating portal[9] <-> 1[9] (active)	
+[03:06:01]: Validating portal[3] <-> 1[3] (active)	
+[03:06:01]: Validating portal[10] <-> 1[10] (active)	
+[03:06:01]: Validating portal[2] <-> 1[2] (active)	
+[03:06:01]: Validating portal[4] <-> 1[4] (active)	
+[03:06:01]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:06:01]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:06:01]: component hauntable already exists on entity 103180 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:06:01]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:06:01]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:06:01]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:06:01]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:06:01]: Sim unpaused
+[03:06:01]: Collecting garbage...
+[03:06:01]: lua_gc took 0.13 seconds
+[03:06:01]: ~ShardLuaProxy()
+[03:06:01]: ~cEventLeaderboardProxy()
+[03:06:01]: ~ItemServerLuaProxy()
+[03:06:01]: ~InventoryLuaProxy()
+[03:06:01]: ~NetworkLuaProxy()
+[03:06:01]: ~SimLuaProxy()
+[03:06:01]: lua_close took 0.14 seconds
+[03:06:01]: ReleaseAll
+[03:06:01]: ReleaseAll Finished
+[03:06:01]: cGame::StartPlaying
+[03:06:01]: AppVersion::GetArchitecture() x32
+[03:06:01]: LOADING LUA
+[03:06:01]: DoLuaFile scripts/main.lua
+[03:06:01]: DoLuaFile loading buffer scripts/main.lua
+[03:06:01]:   taskgrouplist:	default	Together	
+[03:06:01]:   taskgrouplist:	classic	Classic	
+[03:06:01]:   taskgrouplist:	cave_default	Underground	
+[03:06:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[03:06:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[03:06:01]: Running main.lua
+	
+[03:06:01]: loaded modindex	
+[03:06:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[03:06:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[03:06:01]: LOADING LUA SUCCESS
+[03:06:01]: PlayerDeaths could not load morgue	
+[03:06:01]: PlayerHistory could not load player_history	
+[03:06:01]: ServerPreferences could not load server_preferences	
+[03:06:01]: ConsoleScreenSettings could not load consolescreen	
+[03:06:01]: bloom_enabled	true	
+[03:06:01]: OnFilesLoaded()	
+[03:06:01]: OnUpdatePurchaseStateComplete	
+[03:06:01]: Loading world: session/C5D9CBF66F6A2502/0000000055	
+[03:06:01]: Save file is at version 5.151	
+[03:06:01]: Klump load on boot started.	
+[03:06:01]: Klump files loaded: 	0	
+[03:06:01]: 	Unload characters	
+[03:06:01]: 	BE assets already loaded	
+[03:06:02]: Begin Session: C5D9CBF66F6A2502
+[03:06:02]: Stomping previously assigned session identifier, two loads issued.
+[03:06:02]: saving to server_temp/server_save	
+[03:06:02]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[03:06:02]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[03:06:02]: Loading 19 new character(s)	
+[03:06:02]: Total 19 character(s) loaded	
+[03:06:04]: Loading Nav Grid	
+[03:06:04]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[03:06:04]: setting 	summerlength	15	
+[03:06:04]: setting 	cavemoonphase	threequarter	
+[03:06:04]: setting 	iscavefullmoon	false	
+[03:06:04]: setting 	isnightmaredawn	false	
+[03:06:04]: setting 	elapseddaysinseason	13	
+[03:06:04]: setting 	isfullmoon	false	
+[03:06:04]: setting 	moisture	2614.2490234375	
+[03:06:04]: setting 	springlength	20	
+[03:06:04]: setting 	islunarhailing	false	
+[03:06:04]: setting 	isnightmarewild	true	
+[03:06:04]: setting 	nightmaretimeinphase	0.90994031267974	
+[03:06:04]: setting 	precipitationrate	0	
+[03:06:04]: setting 	iswet	false	
+[03:06:04]: setting 	isnewmoon	false	
+[03:06:04]: setting 	israining	false	
+[03:06:04]: setting 	iswinter	false	
+[03:06:04]: setting 	isnightmarewarn	false	
+[03:06:04]: setting 	precipitation	none	
+[03:06:04]: setting 	iscavewaxingmoon	true	
+[03:06:04]: setting 	isacidraining	false	
+[03:06:04]: setting 	moonphase	new	
+[03:06:04]: setting 	remainingdaysinseason	7	
+[03:06:04]: setting 	temperature	24.90497120469	
+[03:06:04]: setting 	wetness	0	
+[03:06:04]: setting 	cycles	48	
+[03:06:04]: setting 	moistureceil	2700.2094726562	
+[03:06:04]: setting 	isday	false	
+[03:06:04]: setting 	winterlength	15	
+[03:06:04]: setting 	season	spring	
+[03:06:04]: setting 	iswaxingmoon	true	
+[03:06:04]: setting 	isalterawake	false	
+[03:06:04]: setting 	isnightmarecalm	false	
+[03:06:04]: setting 	isnight	true	
+[03:06:04]: setting 	isdusk	false	
+[03:06:04]: setting 	isspring	true	
+[03:06:04]: setting 	isautumn	false	
+[03:06:04]: setting 	iscaveday	true	
+[03:06:04]: setting 	lunarhaillevel	0	
+[03:06:04]: setting 	pop	0.96473420293734	
+[03:06:04]: setting 	snowlevel	0	
+[03:06:04]: setting 	issnowcovered	false	
+[03:06:04]: setting 	autumnlength	20	
+[03:06:04]: setting 	phase	night	
+[03:06:04]: setting 	nightmaretime	586.49104690196	
+[03:06:04]: setting 	issnowing	false	
+[03:06:04]: setting 	iscavedusk	false	
+[03:06:04]: setting 	nightmarephase	wild	
+[03:06:04]: setting 	timeinphase	0.0072525024414063	
+[03:06:04]: setting 	seasonprogress	0.65	
+[03:06:04]: setting 	iscavenight	false	
+[03:06:04]: setting 	iscavenewmoon	false	
+[03:06:04]: setting 	issummer	false	
+[03:06:04]: setting 	cavephase	day	
+[03:06:04]: setting 	time	0.0022664070129395	
+[03:06:04]: OVERRIDE: setting	resettime	to	none	
+[03:06:04]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[03:06:04]: OVERRIDE: setting	portalresurection	to	always	
+[03:06:04]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[03:06:05]: Reconstructing topology	
+[03:06:05]: 	...Sorting points	
+[03:06:05]: 	...Sorting edges	
+[03:06:05]: 	...Connecting nodes	
+[03:06:05]: 	...Validating connections	
+[03:06:05]: 	...Housekeeping	
+[03:06:05]: 	...Done!	
+[03:06:05]: 1 uploads added to server. From server_temp
+[03:06:05]: World 1 is now connected	
+[03:06:05]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[03:06:05]: Check for write access: TRUE
+[03:06:05]: Check for read access: TRUE
+[03:06:05]: Available disk space for save files: 384291 MB
+[03:06:05]: ModIndex: Load sequence finished successfully.	
+[03:06:05]: Reset() returning
+[03:06:05]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:06:05]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:06:05]: component hauntable already exists on entity 103149 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:06:05]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:06:05]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:06:05]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:06:05]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:06:05]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:06:05]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:06:05]: component hauntable already exists on entity 103149 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:06:05]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:06:05]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:06:05]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:06:05]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:06:05]: Validating portal[3] <-> 1[3] (active)	
+[03:06:05]: Validating portal[5] <-> 1[5] (active)	
+[03:06:05]: Validating portal[9] <-> 1[9] (active)	
+[03:06:05]: Validating portal[6] <-> 1[6] (active)	
+[03:06:05]: Validating portal[10] <-> 1[10] (active)	
+[03:06:05]: Validating portal[8] <-> 1[8] (active)	
+[03:06:05]: Validating portal[7] <-> 1[7] (active)	
+[03:06:05]: Validating portal[2] <-> 1[2] (active)	
+[03:06:05]: Validating portal[4] <-> 1[4] (active)	
+[03:06:05]: Validating portal[1] <-> 1[1] (active)	
+[03:06:06]: Sim paused
+[03:06:10]: Sim unpaused
+[03:06:10]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:06:38]: World 1 is now disconnected	
+[03:06:38]: Validating portal[3] <-> 1[3] (inactive)	
+[03:06:38]: Validating portal[5] <-> 1[5] (inactive)	
+[03:06:38]: Validating portal[9] <-> 1[9] (inactive)	
+[03:06:38]: Validating portal[6] <-> 1[6] (inactive)	
+[03:06:38]: Validating portal[10] <-> 1[10] (inactive)	
+[03:06:38]: Validating portal[8] <-> 1[8] (inactive)	
+[03:06:38]: Validating portal[7] <-> 1[7] (inactive)	
+[03:06:38]: Validating portal[2] <-> 1[2] (inactive)	
+[03:06:38]: Validating portal[4] <-> 1[4] (inactive)	
+[03:06:38]: Validating portal[1] <-> 1[1] (inactive)	
+[03:06:38]: Sim paused
+[03:06:43]: Synchronizing backward to master snapshot 54	
+[03:06:43]: Truncating to snapshot #54...
+[03:06:43]:  - session/C5D9CBF66F6A2502/0000000055
+[03:06:43]:    1 file(s) removed
+[03:06:43]: World 1 is now connected	
+[03:06:43]: Validating portal[3] <-> 1[3] (active)	
+[03:06:43]: Validating portal[5] <-> 1[5] (active)	
+[03:06:43]: Validating portal[9] <-> 1[9] (active)	
+[03:06:43]: Validating portal[6] <-> 1[6] (active)	
+[03:06:43]: Validating portal[10] <-> 1[10] (active)	
+[03:06:43]: Validating portal[8] <-> 1[8] (active)	
+[03:06:43]: Validating portal[7] <-> 1[7] (active)	
+[03:06:43]: Validating portal[2] <-> 1[2] (active)	
+[03:06:43]: Validating portal[4] <-> 1[4] (active)	
+[03:06:43]: Validating portal[1] <-> 1[1] (active)	
+[03:06:43]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:06:43]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:06:43]: component hauntable already exists on entity 103149 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:06:43]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:06:43]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:06:43]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:06:43]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:06:43]: Sim unpaused
+[03:06:43]: Collecting garbage...
+[03:06:43]: lua_gc took 0.13 seconds
+[03:06:43]: ~ShardLuaProxy()
+[03:06:43]: ~cEventLeaderboardProxy()
+[03:06:43]: ~ItemServerLuaProxy()
+[03:06:43]: ~InventoryLuaProxy()
+[03:06:43]: ~NetworkLuaProxy()
+[03:06:43]: ~SimLuaProxy()
+[03:06:43]: lua_close took 0.14 seconds
+[03:06:43]: ReleaseAll
+[03:06:43]: ReleaseAll Finished
+[03:06:43]: cGame::StartPlaying
+[03:06:43]: AppVersion::GetArchitecture() x32
+[03:06:43]: LOADING LUA
+[03:06:43]: DoLuaFile scripts/main.lua
+[03:06:43]: DoLuaFile loading buffer scripts/main.lua
+[03:06:44]:   taskgrouplist:	default	Together	
+[03:06:44]:   taskgrouplist:	classic	Classic	
+[03:06:44]:   taskgrouplist:	cave_default	Underground	
+[03:06:44]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[03:06:44]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[03:06:44]: Running main.lua
+	
+[03:06:44]: loaded modindex	
+[03:06:44]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[03:06:44]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[03:06:44]: LOADING LUA SUCCESS
+[03:06:44]: PlayerDeaths could not load morgue	
+[03:06:44]: PlayerHistory could not load player_history	
+[03:06:44]: ServerPreferences could not load server_preferences	
+[03:06:44]: ConsoleScreenSettings could not load consolescreen	
+[03:06:44]: bloom_enabled	true	
+[03:06:44]: OnFilesLoaded()	
+[03:06:44]: OnUpdatePurchaseStateComplete	
+[03:06:44]: Loading world: session/C5D9CBF66F6A2502/0000000054	
+[03:06:44]: Save file is at version 5.151	
+[03:06:44]: Klump load on boot started.	
+[03:06:44]: Klump files loaded: 	0	
+[03:06:44]: 	Unload characters	
+[03:06:44]: 	BE assets already loaded	
+[03:06:44]: Begin Session: C5D9CBF66F6A2502
+[03:06:44]: Stomping previously assigned session identifier, two loads issued.
+[03:06:44]: saving to server_temp/server_save	
+[03:06:44]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[03:06:44]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[03:06:44]: Loading 19 new character(s)	
+[03:06:45]: Total 19 character(s) loaded	
+[03:06:46]: Loading Nav Grid	
+[03:06:46]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[03:06:46]: setting 	summerlength	15	
+[03:06:46]: setting 	cavemoonphase	threequarter	
+[03:06:46]: setting 	iscavefullmoon	false	
+[03:06:46]: setting 	isnightmaredawn	false	
+[03:06:46]: setting 	elapseddaysinseason	12	
+[03:06:46]: setting 	isfullmoon	false	
+[03:06:46]: setting 	moisture	1155.9897460938	
+[03:06:46]: setting 	springlength	20	
+[03:06:46]: setting 	islunarhailing	false	
+[03:06:46]: setting 	isnightmarewild	false	
+[03:06:46]: setting 	nightmaretimeinphase	0.6147286519691	
+[03:06:46]: setting 	precipitationrate	0	
+[03:06:46]: setting 	iswet	true	
+[03:06:46]: setting 	isnewmoon	false	
+[03:06:46]: setting 	israining	false	
+[03:06:46]: setting 	iswinter	false	
+[03:06:46]: setting 	isnightmarewarn	false	
+[03:06:46]: setting 	precipitation	none	
+[03:06:46]: setting 	iscavewaxingmoon	true	
+[03:06:46]: setting 	isacidraining	false	
+[03:06:46]: setting 	moonphase	new	
+[03:06:46]: setting 	remainingdaysinseason	8	
+[03:06:46]: setting 	temperature	21.002917053169	
+[03:06:46]: setting 	wetness	41.828716278076	
+[03:06:46]: setting 	cycles	47	
+[03:06:46]: setting 	moistureceil	2700.2094726562	
+[03:06:46]: setting 	isday	false	
+[03:06:46]: setting 	winterlength	15	
+[03:06:46]: setting 	season	spring	
+[03:06:46]: setting 	iswaxingmoon	true	
+[03:06:46]: setting 	isalterawake	false	
+[03:06:46]: setting 	isnightmarecalm	true	
+[03:06:46]: setting 	isnight	true	
+[03:06:46]: setting 	isdusk	false	
+[03:06:46]: setting 	isspring	true	
+[03:06:46]: setting 	isautumn	false	
+[03:06:46]: setting 	iscaveday	true	
+[03:06:46]: setting 	lunarhaillevel	0	
+[03:06:46]: setting 	pop	0.36647446596597	
+[03:06:46]: setting 	snowlevel	0	
+[03:06:46]: setting 	issnowcovered	false	
+[03:06:46]: setting 	autumnlength	20	
+[03:06:46]: setting 	phase	night	
+[03:06:46]: setting 	nightmaretime	221.30231470888	
+[03:06:46]: setting 	issnowing	false	
+[03:06:46]: setting 	iscavedusk	false	
+[03:06:46]: setting 	nightmarephase	calm	
+[03:06:46]: setting 	timeinphase	0.0070900472005209	
+[03:06:46]: setting 	seasonprogress	0.6	
+[03:06:46]: setting 	iscavenight	false	
+[03:06:46]: setting 	iscavenewmoon	false	
+[03:06:46]: setting 	issummer	false	
+[03:06:46]: setting 	cavephase	day	
+[03:06:46]: setting 	time	0.0022156397501628	
+[03:06:46]: OVERRIDE: setting	resettime	to	none	
+[03:06:46]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[03:06:46]: OVERRIDE: setting	portalresurection	to	always	
+[03:06:46]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[03:06:47]: Reconstructing topology	
+[03:06:47]: 	...Sorting points	
+[03:06:47]: 	...Sorting edges	
+[03:06:47]: 	...Connecting nodes	
+[03:06:47]: 	...Validating connections	
+[03:06:48]: 	...Housekeeping	
+[03:06:48]: 	...Done!	
+[03:06:48]: 1 uploads added to server. From server_temp
+[03:06:48]: World 1 is now connected	
+[03:06:48]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[03:06:48]: Check for write access: TRUE
+[03:06:48]: Check for read access: TRUE
+[03:06:48]: Available disk space for save files: 384291 MB
+[03:06:48]: ModIndex: Load sequence finished successfully.	
+[03:06:48]: Reset() returning
+[03:06:48]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:06:48]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:06:48]: component hauntable already exists on entity 103158 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:06:48]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:06:48]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:06:48]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:06:48]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:06:48]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[03:06:48]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[03:06:48]: component hauntable already exists on entity 103158 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[03:06:48]: [SyncWorldSettings] applying krampus = default from master shard.	
+[03:06:48]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[03:06:48]: [SyncWorldSettings] applying resettime = none from master shard.	
+[03:06:48]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[03:06:48]: Validating portal[2] <-> 1[2] (active)	
+[03:06:48]: Validating portal[4] <-> 1[4] (active)	
+[03:06:48]: Validating portal[3] <-> 1[3] (active)	
+[03:06:48]: Validating portal[5] <-> 1[5] (active)	
+[03:06:48]: Validating portal[6] <-> 1[6] (active)	
+[03:06:48]: Validating portal[7] <-> 1[7] (active)	
+[03:06:48]: Validating portal[8] <-> 1[8] (active)	
+[03:06:48]: Validating portal[9] <-> 1[9] (active)	
+[03:06:48]: Validating portal[10] <-> 1[10] (active)	
+[03:06:48]: Validating portal[1] <-> 1[1] (active)	
+[03:06:49]: Sim paused
+[03:06:53]: Sim unpaused
+[03:06:53]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:11:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:14:52]: Available disk space for save files: 384292 MB
+[03:14:52]: Serializing world: session/C5D9CBF66F6A2502/0000000055
+[03:16:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:21:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:22:53]: Available disk space for save files: 384291 MB
+[03:22:53]: Serializing world: session/C5D9CBF66F6A2502/0000000056
+[03:26:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:30:03]: [200] Account Communication Success (6)
+[03:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:08]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:30:53]: Available disk space for save files: 384290 MB
+[03:30:53]: Serializing world: session/C5D9CBF66F6A2502/0000000057
+[03:30:53]: Truncating to snapshot #57...
+[03:30:53]:  - session/C5D9CBF66F6A2502/0000000051
+[03:30:53]:    1 file(s) removed
+[03:31:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:36:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:38:53]: Available disk space for save files: 384289 MB
+[03:38:53]: Serializing world: session/C5D9CBF66F6A2502/0000000058
+[03:38:53]: Truncating to snapshot #58...
+[03:38:53]:  - session/C5D9CBF66F6A2502/0000000052
+[03:38:53]:    1 file(s) removed
+[03:41:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:46:53]: Available disk space for save files: 384288 MB
+[03:46:54]: Serializing world: session/C5D9CBF66F6A2502/0000000059
+[03:46:54]: Truncating to snapshot #59...
+[03:46:54]:  - session/C5D9CBF66F6A2502/0000000053
+[03:46:54]:    1 file(s) removed
+[03:46:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:51:57]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[03:54:54]: Available disk space for save files: 384288 MB
+[03:54:54]: Serializing world: session/C5D9CBF66F6A2502/0000000060
+[03:54:54]: Truncating to snapshot #60...
+[03:54:54]:  - session/C5D9CBF66F6A2502/0000000054
+[03:54:54]:    1 file(s) removed
+[03:56:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:00:03]: [200] Account Communication Success (6)
+[04:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:01:58]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:02:54]: Available disk space for save files: 384287 MB
+[04:02:54]: Serializing world: session/C5D9CBF66F6A2502/0000000061
+[04:02:54]: Truncating to snapshot #61...
+[04:02:54]:  - session/C5D9CBF66F6A2502/0000000055
+[04:02:54]:    1 file(s) removed
+[04:03:19]: World 1 is now disconnected	
+[04:03:19]: Validating portal[2] <-> 1[2] (inactive)	
+[04:03:19]: Validating portal[4] <-> 1[4] (inactive)	
+[04:03:19]: Validating portal[3] <-> 1[3] (inactive)	
+[04:03:19]: Validating portal[5] <-> 1[5] (inactive)	
+[04:03:19]: Validating portal[6] <-> 1[6] (inactive)	
+[04:03:19]: Validating portal[7] <-> 1[7] (inactive)	
+[04:03:19]: Validating portal[8] <-> 1[8] (inactive)	
+[04:03:19]: Validating portal[9] <-> 1[9] (inactive)	
+[04:03:19]: Validating portal[10] <-> 1[10] (inactive)	
+[04:03:19]: Validating portal[1] <-> 1[1] (inactive)	
+[04:03:19]: Sim paused
+[04:03:24]: Synchronizing backward to master snapshot 60	
+[04:03:24]: Truncating to snapshot #60...
+[04:03:24]:  - session/C5D9CBF66F6A2502/0000000061
+[04:03:24]:    1 file(s) removed
+[04:03:24]: World 1 is now connected	
+[04:03:24]: Validating portal[2] <-> 1[2] (active)	
+[04:03:24]: Validating portal[4] <-> 1[4] (active)	
+[04:03:24]: Validating portal[3] <-> 1[3] (active)	
+[04:03:24]: Validating portal[5] <-> 1[5] (active)	
+[04:03:24]: Validating portal[6] <-> 1[6] (active)	
+[04:03:24]: Validating portal[7] <-> 1[7] (active)	
+[04:03:24]: Validating portal[8] <-> 1[8] (active)	
+[04:03:24]: Validating portal[9] <-> 1[9] (active)	
+[04:03:24]: Validating portal[10] <-> 1[10] (active)	
+[04:03:24]: Validating portal[1] <-> 1[1] (active)	
+[04:03:24]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:03:24]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:03:24]: component hauntable already exists on entity 103158 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:03:24]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:03:24]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:03:24]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:03:24]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:03:24]: Sim unpaused
+[04:03:24]: Collecting garbage...
+[04:03:24]: lua_gc took 0.12 seconds
+[04:03:24]: ~ShardLuaProxy()
+[04:03:24]: ~cEventLeaderboardProxy()
+[04:03:24]: ~ItemServerLuaProxy()
+[04:03:24]: ~InventoryLuaProxy()
+[04:03:24]: ~NetworkLuaProxy()
+[04:03:24]: ~SimLuaProxy()
+[04:03:24]: lua_close took 0.15 seconds
+[04:03:24]: ReleaseAll
+[04:03:24]: ReleaseAll Finished
+[04:03:24]: cGame::StartPlaying
+[04:03:24]: AppVersion::GetArchitecture() x32
+[04:03:24]: LOADING LUA
+[04:03:24]: DoLuaFile scripts/main.lua
+[04:03:24]: DoLuaFile loading buffer scripts/main.lua
+[04:03:24]:   taskgrouplist:	default	Together	
+[04:03:24]:   taskgrouplist:	classic	Classic	
+[04:03:24]:   taskgrouplist:	cave_default	Underground	
+[04:03:24]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:03:24]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:03:24]: Running main.lua
+	
+[04:03:24]: loaded modindex	
+[04:03:24]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:03:24]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:03:24]: LOADING LUA SUCCESS
+[04:03:24]: PlayerDeaths could not load morgue	
+[04:03:24]: PlayerHistory could not load player_history	
+[04:03:24]: ServerPreferences could not load server_preferences	
+[04:03:24]: ConsoleScreenSettings could not load consolescreen	
+[04:03:24]: bloom_enabled	true	
+[04:03:24]: OnFilesLoaded()	
+[04:03:24]: OnUpdatePurchaseStateComplete	
+[04:03:24]: Loading world: session/C5D9CBF66F6A2502/0000000060	
+[04:03:24]: Save file is at version 5.151	
+[04:03:24]: Klump load on boot started.	
+[04:03:24]: Klump files loaded: 	0	
+[04:03:24]: 	Unload characters	
+[04:03:24]: 	BE assets already loaded	
+[04:03:25]: Begin Session: C5D9CBF66F6A2502
+[04:03:25]: Stomping previously assigned session identifier, two loads issued.
+[04:03:25]: saving to server_temp/server_save	
+[04:03:25]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:03:25]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:03:25]: Loading 19 new character(s)	
+[04:03:25]: Total 19 character(s) loaded	
+[04:03:27]: Loading Nav Grid	
+[04:03:27]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:03:27]: setting 	summerlength	15	
+[04:03:27]: setting 	cavemoonphase	threequarter	
+[04:03:27]: setting 	iscavefullmoon	false	
+[04:03:27]: setting 	isnightmaredawn	true	
+[04:03:27]: setting 	elapseddaysinseason	18	
+[04:03:27]: setting 	isfullmoon	false	
+[04:03:27]: setting 	moisture	3662.4189453125	
+[04:03:27]: setting 	springlength	20	
+[04:03:27]: setting 	islunarhailing	false	
+[04:03:27]: setting 	isnightmarewild	false	
+[04:03:27]: setting 	nightmaretimeinphase	0.45501441008842	
+[04:03:27]: setting 	precipitationrate	0.713119328022	
+[04:03:27]: setting 	iswet	true	
+[04:03:27]: setting 	isnewmoon	false	
+[04:03:27]: setting 	israining	true	
+[04:03:27]: setting 	iswinter	false	
+[04:03:27]: setting 	isnightmarewarn	false	
+[04:03:27]: setting 	precipitation	rain	
+[04:03:27]: setting 	iscavewaxingmoon	false	
+[04:03:27]: setting 	isacidraining	false	
+[04:03:27]: setting 	moonphase	new	
+[04:03:27]: setting 	remainingdaysinseason	2	
+[04:03:27]: setting 	temperature	30.750694228976	
+[04:03:27]: setting 	wetness	43.798435211182	
+[04:03:27]: setting 	cycles	53	
+[04:03:27]: setting 	moistureceil	4792.7329101562	
+[04:03:27]: setting 	isday	false	
+[04:03:27]: setting 	winterlength	15	
+[04:03:27]: setting 	season	spring	
+[04:03:27]: setting 	iswaxingmoon	true	
+[04:03:27]: setting 	isalterawake	false	
+[04:03:27]: setting 	isnightmarecalm	false	
+[04:03:27]: setting 	isnight	true	
+[04:03:27]: setting 	isdusk	false	
+[04:03:27]: setting 	isspring	true	
+[04:03:27]: setting 	isautumn	false	
+[04:03:27]: setting 	iscaveday	true	
+[04:03:27]: setting 	lunarhaillevel	0	
+[04:03:27]: setting 	pop	1	
+[04:03:27]: setting 	snowlevel	0	
+[04:03:27]: setting 	issnowcovered	false	
+[04:03:27]: setting 	autumnlength	20	
+[04:03:27]: setting 	phase	night	
+[04:03:27]: setting 	nightmaretime	627.30086460531	
+[04:03:27]: setting 	issnowing	false	
+[04:03:27]: setting 	iscavedusk	false	
+[04:03:27]: setting 	nightmarephase	dawn	
+[04:03:27]: setting 	timeinphase	0.0049667358398438	
+[04:03:27]: setting 	seasonprogress	0.9	
+[04:03:27]: setting 	iscavenight	false	
+[04:03:27]: setting 	iscavenewmoon	false	
+[04:03:27]: setting 	issummer	false	
+[04:03:27]: setting 	cavephase	day	
+[04:03:27]: setting 	time	0.0021729469299316	
+[04:03:27]: OVERRIDE: setting	resettime	to	none	
+[04:03:27]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:03:27]: OVERRIDE: setting	portalresurection	to	always	
+[04:03:27]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:03:28]: Reconstructing topology	
+[04:03:28]: 	...Sorting points	
+[04:03:28]: 	...Sorting edges	
+[04:03:28]: 	...Connecting nodes	
+[04:03:28]: 	...Validating connections	
+[04:03:28]: 	...Housekeeping	
+[04:03:28]: 	...Done!	
+[04:03:28]: 1 uploads added to server. From server_temp
+[04:03:28]: World 1 is now connected	
+[04:03:28]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:03:28]: Check for write access: TRUE
+[04:03:28]: Check for read access: TRUE
+[04:03:28]: Available disk space for save files: 384287 MB
+[04:03:28]: ModIndex: Load sequence finished successfully.	
+[04:03:28]: Reset() returning
+[04:03:28]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:03:28]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:03:28]: component hauntable already exists on entity 103253 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:03:28]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:03:28]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:03:28]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:03:28]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:03:28]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:03:28]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:03:28]: component hauntable already exists on entity 103253 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:03:28]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:03:28]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:03:28]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:03:28]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:03:28]: Validating portal[9] <-> 1[9] (active)	
+[04:03:28]: Validating portal[1] <-> 1[1] (active)	
+[04:03:28]: Validating portal[10] <-> 1[10] (active)	
+[04:03:28]: Validating portal[2] <-> 1[2] (active)	
+[04:03:28]: Validating portal[7] <-> 1[7] (active)	
+[04:03:28]: Validating portal[4] <-> 1[4] (active)	
+[04:03:28]: Validating portal[5] <-> 1[5] (active)	
+[04:03:28]: Validating portal[3] <-> 1[3] (active)	
+[04:03:28]: Validating portal[6] <-> 1[6] (active)	
+[04:03:28]: Validating portal[8] <-> 1[8] (active)	
+[04:03:29]: Sim paused
+[04:03:33]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:03:37]: Sim unpaused
+[04:03:50]: World 1 is now disconnected	
+[04:03:50]: Validating portal[9] <-> 1[9] (inactive)	
+[04:03:50]: Validating portal[1] <-> 1[1] (inactive)	
+[04:03:50]: Validating portal[10] <-> 1[10] (inactive)	
+[04:03:50]: Validating portal[2] <-> 1[2] (inactive)	
+[04:03:50]: Validating portal[7] <-> 1[7] (inactive)	
+[04:03:50]: Validating portal[4] <-> 1[4] (inactive)	
+[04:03:50]: Validating portal[5] <-> 1[5] (inactive)	
+[04:03:50]: Validating portal[3] <-> 1[3] (inactive)	
+[04:03:50]: Validating portal[6] <-> 1[6] (inactive)	
+[04:03:50]: Validating portal[8] <-> 1[8] (inactive)	
+[04:03:50]: Sim paused
+[04:03:55]: Synchronizing backward to master snapshot 59	
+[04:03:55]: Truncating to snapshot #59...
+[04:03:55]:  - session/C5D9CBF66F6A2502/0000000060
+[04:03:55]:    1 file(s) removed
+[04:03:55]: World 1 is now connected	
+[04:03:55]: Validating portal[9] <-> 1[9] (active)	
+[04:03:55]: Validating portal[1] <-> 1[1] (active)	
+[04:03:55]: Validating portal[10] <-> 1[10] (active)	
+[04:03:55]: Validating portal[2] <-> 1[2] (active)	
+[04:03:55]: Validating portal[7] <-> 1[7] (active)	
+[04:03:55]: Validating portal[4] <-> 1[4] (active)	
+[04:03:55]: Validating portal[5] <-> 1[5] (active)	
+[04:03:55]: Validating portal[3] <-> 1[3] (active)	
+[04:03:55]: Validating portal[6] <-> 1[6] (active)	
+[04:03:55]: Validating portal[8] <-> 1[8] (active)	
+[04:03:55]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:03:55]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:03:55]: component hauntable already exists on entity 103253 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:03:55]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:03:55]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:03:55]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:03:55]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:03:55]: Sim unpaused
+[04:03:55]: Collecting garbage...
+[04:03:55]: lua_gc took 0.13 seconds
+[04:03:55]: ~ShardLuaProxy()
+[04:03:55]: ~cEventLeaderboardProxy()
+[04:03:55]: ~ItemServerLuaProxy()
+[04:03:55]: ~InventoryLuaProxy()
+[04:03:55]: ~NetworkLuaProxy()
+[04:03:55]: ~SimLuaProxy()
+[04:03:55]: lua_close took 0.14 seconds
+[04:03:55]: ReleaseAll
+[04:03:55]: ReleaseAll Finished
+[04:03:55]: cGame::StartPlaying
+[04:03:55]: AppVersion::GetArchitecture() x32
+[04:03:55]: LOADING LUA
+[04:03:55]: DoLuaFile scripts/main.lua
+[04:03:55]: DoLuaFile loading buffer scripts/main.lua
+[04:03:55]:   taskgrouplist:	default	Together	
+[04:03:55]:   taskgrouplist:	classic	Classic	
+[04:03:55]:   taskgrouplist:	cave_default	Underground	
+[04:03:55]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:03:55]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:03:55]: Running main.lua
+	
+[04:03:55]: loaded modindex	
+[04:03:55]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:03:56]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:03:56]: LOADING LUA SUCCESS
+[04:03:56]: PlayerDeaths could not load morgue	
+[04:03:56]: PlayerHistory could not load player_history	
+[04:03:56]: ServerPreferences could not load server_preferences	
+[04:03:56]: ConsoleScreenSettings could not load consolescreen	
+[04:03:56]: bloom_enabled	true	
+[04:03:56]: OnFilesLoaded()	
+[04:03:56]: OnUpdatePurchaseStateComplete	
+[04:03:56]: Loading world: session/C5D9CBF66F6A2502/0000000059	
+[04:03:56]: Save file is at version 5.151	
+[04:03:56]: Klump load on boot started.	
+[04:03:56]: Klump files loaded: 	0	
+[04:03:56]: 	Unload characters	
+[04:03:56]: 	BE assets already loaded	
+[04:03:56]: Begin Session: C5D9CBF66F6A2502
+[04:03:56]: Stomping previously assigned session identifier, two loads issued.
+[04:03:56]: saving to server_temp/server_save	
+[04:03:56]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:03:56]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:03:56]: Loading 19 new character(s)	
+[04:03:56]: Total 19 character(s) loaded	
+[04:03:58]: Loading Nav Grid	
+[04:03:58]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:03:58]: setting 	summerlength	15	
+[04:03:58]: setting 	cavemoonphase	threequarter	
+[04:03:58]: setting 	iscavefullmoon	false	
+[04:03:58]: setting 	isnightmaredawn	false	
+[04:03:58]: setting 	elapseddaysinseason	17	
+[04:03:58]: setting 	isfullmoon	false	
+[04:03:58]: setting 	moisture	4289.3916015625	
+[04:03:58]: setting 	springlength	20	
+[04:03:58]: setting 	islunarhailing	false	
+[04:03:58]: setting 	isnightmarewild	false	
+[04:03:58]: setting 	nightmaretimeinphase	0.71472495236604	
+[04:03:58]: setting 	precipitationrate	0	
+[04:03:58]: setting 	iswet	false	
+[04:03:58]: setting 	isnewmoon	false	
+[04:03:58]: setting 	israining	false	
+[04:03:58]: setting 	iswinter	false	
+[04:03:58]: setting 	isnightmarewarn	false	
+[04:03:58]: setting 	precipitation	none	
+[04:03:58]: setting 	iscavewaxingmoon	false	
+[04:03:58]: setting 	isacidraining	false	
+[04:03:58]: setting 	moonphase	new	
+[04:03:58]: setting 	remainingdaysinseason	3	
+[04:03:58]: setting 	temperature	29.02244133079	
+[04:03:58]: setting 	wetness	0	
+[04:03:58]: setting 	cycles	52	
+[04:03:58]: setting 	moistureceil	4792.7329101562	
+[04:03:58]: setting 	isday	false	
+[04:03:58]: setting 	winterlength	15	
+[04:03:58]: setting 	season	spring	
+[04:03:58]: setting 	iswaxingmoon	true	
+[04:03:58]: setting 	isalterawake	false	
+[04:03:58]: setting 	isnightmarecalm	true	
+[04:03:58]: setting 	isnight	true	
+[04:03:58]: setting 	isdusk	false	
+[04:03:58]: setting 	isspring	true	
+[04:03:58]: setting 	isautumn	false	
+[04:03:58]: setting 	iscaveday	true	
+[04:03:58]: setting 	lunarhaillevel	0	
+[04:03:58]: setting 	pop	0.89027625662616	
+[04:03:58]: setting 	snowlevel	0	
+[04:03:58]: setting 	issnowcovered	false	
+[04:03:58]: setting 	autumnlength	20	
+[04:03:58]: setting 	phase	night	
+[04:03:58]: setting 	nightmaretime	257.30098285178	
+[04:03:58]: setting 	issnowing	false	
+[04:03:58]: setting 	iscavedusk	false	
+[04:03:58]: setting 	nightmarephase	calm	
+[04:03:58]: setting 	timeinphase	0.005168224516369	
+[04:03:58]: setting 	seasonprogress	0.85	
+[04:03:58]: setting 	iscavenight	false	
+[04:03:58]: setting 	iscavenewmoon	false	
+[04:03:58]: setting 	issummer	false	
+[04:03:58]: setting 	cavephase	day	
+[04:03:58]: setting 	time	0.0022610982259114	
+[04:03:58]: OVERRIDE: setting	resettime	to	none	
+[04:03:58]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:03:58]: OVERRIDE: setting	portalresurection	to	always	
+[04:03:58]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:03:59]: Reconstructing topology	
+[04:03:59]: 	...Sorting points	
+[04:03:59]: 	...Sorting edges	
+[04:03:59]: 	...Connecting nodes	
+[04:03:59]: 	...Validating connections	
+[04:03:59]: 	...Housekeeping	
+[04:03:59]: 	...Done!	
+[04:03:59]: 1 uploads added to server. From server_temp
+[04:03:59]: World 1 is now connected	
+[04:03:59]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:03:59]: Check for write access: TRUE
+[04:03:59]: Check for read access: TRUE
+[04:03:59]: Available disk space for save files: 384291 MB
+[04:03:59]: ModIndex: Load sequence finished successfully.	
+[04:03:59]: Reset() returning
+[04:04:00]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:04:00]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:04:00]: component hauntable already exists on entity 103307 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:04:00]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:04:00]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:04:00]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:04:00]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:04:00]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:04:00]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:04:00]: component hauntable already exists on entity 103307 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:04:00]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:04:00]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:04:00]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:04:00]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:04:00]: Validating portal[5] <-> 1[5] (active)	
+[04:04:00]: Validating portal[6] <-> 1[6] (active)	
+[04:04:00]: Validating portal[7] <-> 1[7] (active)	
+[04:04:00]: Validating portal[8] <-> 1[8] (active)	
+[04:04:00]: Validating portal[1] <-> 1[1] (active)	
+[04:04:00]: Validating portal[4] <-> 1[4] (active)	
+[04:04:00]: Validating portal[3] <-> 1[3] (active)	
+[04:04:00]: Validating portal[9] <-> 1[9] (active)	
+[04:04:00]: Validating portal[10] <-> 1[10] (active)	
+[04:04:00]: Validating portal[2] <-> 1[2] (active)	
+[04:04:00]: Sim paused
+[04:04:04]: Sim unpaused
+[04:04:05]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:04:36]: World 1 is now disconnected	
+[04:04:36]: Validating portal[5] <-> 1[5] (inactive)	
+[04:04:36]: Validating portal[6] <-> 1[6] (inactive)	
+[04:04:36]: Validating portal[7] <-> 1[7] (inactive)	
+[04:04:36]: Validating portal[8] <-> 1[8] (inactive)	
+[04:04:36]: Validating portal[1] <-> 1[1] (inactive)	
+[04:04:36]: Validating portal[4] <-> 1[4] (inactive)	
+[04:04:36]: Validating portal[3] <-> 1[3] (inactive)	
+[04:04:36]: Validating portal[9] <-> 1[9] (inactive)	
+[04:04:36]: Validating portal[10] <-> 1[10] (inactive)	
+[04:04:36]: Validating portal[2] <-> 1[2] (inactive)	
+[04:04:36]: Sim paused
+[04:04:41]: Synchronizing backward to master snapshot 59	
+[04:04:41]: World 1 is now connected	
+[04:04:41]: Validating portal[5] <-> 1[5] (active)	
+[04:04:41]: Validating portal[6] <-> 1[6] (active)	
+[04:04:41]: Validating portal[7] <-> 1[7] (active)	
+[04:04:41]: Validating portal[8] <-> 1[8] (active)	
+[04:04:41]: Validating portal[1] <-> 1[1] (active)	
+[04:04:41]: Validating portal[4] <-> 1[4] (active)	
+[04:04:41]: Validating portal[3] <-> 1[3] (active)	
+[04:04:41]: Validating portal[9] <-> 1[9] (active)	
+[04:04:41]: Validating portal[10] <-> 1[10] (active)	
+[04:04:41]: Validating portal[2] <-> 1[2] (active)	
+[04:04:41]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:04:41]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:04:41]: component hauntable already exists on entity 103307 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:04:41]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:04:41]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:04:41]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:04:41]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:04:41]: Sim unpaused
+[04:04:41]: Collecting garbage...
+[04:04:41]: lua_gc took 0.11 seconds
+[04:04:41]: ~ShardLuaProxy()
+[04:04:41]: ~cEventLeaderboardProxy()
+[04:04:41]: ~ItemServerLuaProxy()
+[04:04:41]: ~InventoryLuaProxy()
+[04:04:41]: ~NetworkLuaProxy()
+[04:04:41]: ~SimLuaProxy()
+[04:04:41]: lua_close took 0.14 seconds
+[04:04:41]: ReleaseAll
+[04:04:41]: ReleaseAll Finished
+[04:04:41]: cGame::StartPlaying
+[04:04:41]: AppVersion::GetArchitecture() x32
+[04:04:41]: LOADING LUA
+[04:04:41]: DoLuaFile scripts/main.lua
+[04:04:41]: DoLuaFile loading buffer scripts/main.lua
+[04:04:41]:   taskgrouplist:	default	Together	
+[04:04:41]:   taskgrouplist:	classic	Classic	
+[04:04:41]:   taskgrouplist:	cave_default	Underground	
+[04:04:41]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:04:41]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:04:41]: Running main.lua
+	
+[04:04:41]: loaded modindex	
+[04:04:41]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:04:41]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:04:41]: LOADING LUA SUCCESS
+[04:04:41]: PlayerDeaths could not load morgue	
+[04:04:41]: PlayerHistory could not load player_history	
+[04:04:41]: ServerPreferences could not load server_preferences	
+[04:04:41]: ConsoleScreenSettings could not load consolescreen	
+[04:04:41]: bloom_enabled	true	
+[04:04:41]: OnFilesLoaded()	
+[04:04:41]: OnUpdatePurchaseStateComplete	
+[04:04:41]: Loading world: session/C5D9CBF66F6A2502/0000000059	
+[04:04:41]: Save file is at version 5.151	
+[04:04:41]: Klump load on boot started.	
+[04:04:41]: Klump files loaded: 	0	
+[04:04:42]: 	Unload characters	
+[04:04:42]: 	BE assets already loaded	
+[04:04:42]: Begin Session: C5D9CBF66F6A2502
+[04:04:42]: Stomping previously assigned session identifier, two loads issued.
+[04:04:42]: saving to server_temp/server_save	
+[04:04:42]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:04:42]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:04:42]: Loading 19 new character(s)	
+[04:04:42]: Total 19 character(s) loaded	
+[04:04:44]: Loading Nav Grid	
+[04:04:44]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:04:44]: setting 	summerlength	15	
+[04:04:44]: setting 	cavemoonphase	threequarter	
+[04:04:44]: setting 	iscavefullmoon	false	
+[04:04:44]: setting 	isnightmaredawn	false	
+[04:04:44]: setting 	elapseddaysinseason	17	
+[04:04:44]: setting 	isfullmoon	false	
+[04:04:44]: setting 	moisture	4289.3916015625	
+[04:04:44]: setting 	springlength	20	
+[04:04:44]: setting 	islunarhailing	false	
+[04:04:44]: setting 	isnightmarewild	false	
+[04:04:44]: setting 	nightmaretimeinphase	0.71472495236604	
+[04:04:44]: setting 	precipitationrate	0	
+[04:04:44]: setting 	iswet	false	
+[04:04:44]: setting 	isnewmoon	false	
+[04:04:44]: setting 	israining	false	
+[04:04:44]: setting 	iswinter	false	
+[04:04:44]: setting 	isnightmarewarn	false	
+[04:04:44]: setting 	precipitation	none	
+[04:04:44]: setting 	iscavewaxingmoon	false	
+[04:04:44]: setting 	isacidraining	false	
+[04:04:44]: setting 	moonphase	new	
+[04:04:44]: setting 	remainingdaysinseason	3	
+[04:04:44]: setting 	temperature	29.02244133079	
+[04:04:44]: setting 	wetness	0	
+[04:04:44]: setting 	cycles	52	
+[04:04:44]: setting 	moistureceil	4792.7329101562	
+[04:04:44]: setting 	isday	false	
+[04:04:44]: setting 	winterlength	15	
+[04:04:44]: setting 	season	spring	
+[04:04:44]: setting 	iswaxingmoon	true	
+[04:04:44]: setting 	isalterawake	false	
+[04:04:44]: setting 	isnightmarecalm	true	
+[04:04:44]: setting 	isnight	true	
+[04:04:44]: setting 	isdusk	false	
+[04:04:44]: setting 	isspring	true	
+[04:04:44]: setting 	isautumn	false	
+[04:04:44]: setting 	iscaveday	true	
+[04:04:44]: setting 	lunarhaillevel	0	
+[04:04:44]: setting 	pop	0.89027625662616	
+[04:04:44]: setting 	snowlevel	0	
+[04:04:44]: setting 	issnowcovered	false	
+[04:04:44]: setting 	autumnlength	20	
+[04:04:44]: setting 	phase	night	
+[04:04:44]: setting 	nightmaretime	257.30098285178	
+[04:04:44]: setting 	issnowing	false	
+[04:04:44]: setting 	iscavedusk	false	
+[04:04:44]: setting 	nightmarephase	calm	
+[04:04:44]: setting 	timeinphase	0.005168224516369	
+[04:04:44]: setting 	seasonprogress	0.85	
+[04:04:44]: setting 	iscavenight	false	
+[04:04:44]: setting 	iscavenewmoon	false	
+[04:04:44]: setting 	issummer	false	
+[04:04:44]: setting 	cavephase	day	
+[04:04:44]: setting 	time	0.0022610982259114	
+[04:04:44]: OVERRIDE: setting	resettime	to	none	
+[04:04:44]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:04:44]: OVERRIDE: setting	portalresurection	to	always	
+[04:04:44]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:04:45]: Reconstructing topology	
+[04:04:45]: 	...Sorting points	
+[04:04:45]: 	...Sorting edges	
+[04:04:45]: 	...Connecting nodes	
+[04:04:45]: 	...Validating connections	
+[04:04:45]: 	...Housekeeping	
+[04:04:45]: 	...Done!	
+[04:04:45]: 1 uploads added to server. From server_temp
+[04:04:45]: World 1 is now connected	
+[04:04:45]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:04:45]: Check for write access: TRUE
+[04:04:45]: Check for read access: TRUE
+[04:04:45]: Available disk space for save files: 384292 MB
+[04:04:45]: ModIndex: Load sequence finished successfully.	
+[04:04:45]: Reset() returning
+[04:04:45]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:04:45]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:04:45]: component hauntable already exists on entity 103307 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:04:45]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:04:45]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:04:45]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:04:45]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:04:45]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:04:45]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:04:45]: component hauntable already exists on entity 103307 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:04:45]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:04:45]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:04:45]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:04:45]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:04:45]: Validating portal[9] <-> 1[9] (active)	
+[04:04:45]: Validating portal[1] <-> 1[1] (active)	
+[04:04:45]: Validating portal[2] <-> 1[2] (active)	
+[04:04:45]: Validating portal[4] <-> 1[4] (active)	
+[04:04:45]: Validating portal[10] <-> 1[10] (active)	
+[04:04:45]: Validating portal[5] <-> 1[5] (active)	
+[04:04:45]: Validating portal[3] <-> 1[3] (active)	
+[04:04:45]: Validating portal[6] <-> 1[6] (active)	
+[04:04:45]: Validating portal[7] <-> 1[7] (active)	
+[04:04:45]: Validating portal[8] <-> 1[8] (active)	
+[04:04:46]: Sim paused
+[04:04:50]: Sim unpaused
+[04:04:50]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:05:06]: World 1 is now disconnected	
+[04:05:06]: Validating portal[9] <-> 1[9] (inactive)	
+[04:05:06]: Validating portal[1] <-> 1[1] (inactive)	
+[04:05:06]: Validating portal[2] <-> 1[2] (inactive)	
+[04:05:06]: Validating portal[4] <-> 1[4] (inactive)	
+[04:05:06]: Validating portal[10] <-> 1[10] (inactive)	
+[04:05:06]: Validating portal[5] <-> 1[5] (inactive)	
+[04:05:06]: Validating portal[3] <-> 1[3] (inactive)	
+[04:05:06]: Validating portal[6] <-> 1[6] (inactive)	
+[04:05:06]: Validating portal[7] <-> 1[7] (inactive)	
+[04:05:06]: Validating portal[8] <-> 1[8] (inactive)	
+[04:05:06]: Sim paused
+[04:05:11]: Synchronizing backward to master snapshot 58	
+[04:05:11]: Truncating to snapshot #58...
+[04:05:11]:  - session/C5D9CBF66F6A2502/0000000059
+[04:05:11]:    1 file(s) removed
+[04:05:11]: World 1 is now connected	
+[04:05:11]: Validating portal[9] <-> 1[9] (active)	
+[04:05:11]: Validating portal[1] <-> 1[1] (active)	
+[04:05:11]: Validating portal[2] <-> 1[2] (active)	
+[04:05:11]: Validating portal[4] <-> 1[4] (active)	
+[04:05:11]: Validating portal[10] <-> 1[10] (active)	
+[04:05:11]: Validating portal[5] <-> 1[5] (active)	
+[04:05:11]: Validating portal[3] <-> 1[3] (active)	
+[04:05:11]: Validating portal[6] <-> 1[6] (active)	
+[04:05:11]: Validating portal[7] <-> 1[7] (active)	
+[04:05:11]: Validating portal[8] <-> 1[8] (active)	
+[04:05:11]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:05:11]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:05:11]: component hauntable already exists on entity 103307 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:05:11]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:05:11]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:05:11]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:05:11]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:05:11]: Sim unpaused
+[04:05:11]: Collecting garbage...
+[04:05:11]: lua_gc took 0.13 seconds
+[04:05:11]: ~ShardLuaProxy()
+[04:05:11]: ~cEventLeaderboardProxy()
+[04:05:11]: ~ItemServerLuaProxy()
+[04:05:11]: ~InventoryLuaProxy()
+[04:05:11]: ~NetworkLuaProxy()
+[04:05:11]: ~SimLuaProxy()
+[04:05:12]: lua_close took 0.14 seconds
+[04:05:12]: ReleaseAll
+[04:05:12]: ReleaseAll Finished
+[04:05:12]: cGame::StartPlaying
+[04:05:12]: AppVersion::GetArchitecture() x32
+[04:05:12]: LOADING LUA
+[04:05:12]: DoLuaFile scripts/main.lua
+[04:05:12]: DoLuaFile loading buffer scripts/main.lua
+[04:05:12]:   taskgrouplist:	default	Together	
+[04:05:12]:   taskgrouplist:	classic	Classic	
+[04:05:12]:   taskgrouplist:	cave_default	Underground	
+[04:05:12]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:05:12]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:05:12]: Running main.lua
+	
+[04:05:12]: loaded modindex	
+[04:05:12]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:05:12]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:05:12]: LOADING LUA SUCCESS
+[04:05:12]: PlayerDeaths could not load morgue	
+[04:05:12]: PlayerHistory could not load player_history	
+[04:05:12]: ServerPreferences could not load server_preferences	
+[04:05:12]: ConsoleScreenSettings could not load consolescreen	
+[04:05:12]: bloom_enabled	true	
+[04:05:12]: OnFilesLoaded()	
+[04:05:12]: OnUpdatePurchaseStateComplete	
+[04:05:12]: Loading world: session/C5D9CBF66F6A2502/0000000058	
+[04:05:12]: Save file is at version 5.151	
+[04:05:12]: Klump load on boot started.	
+[04:05:12]: Klump files loaded: 	0	
+[04:05:12]: 	Unload characters	
+[04:05:12]: 	BE assets already loaded	
+[04:05:12]: Begin Session: C5D9CBF66F6A2502
+[04:05:12]: Stomping previously assigned session identifier, two loads issued.
+[04:05:12]: saving to server_temp/server_save	
+[04:05:13]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:05:13]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:05:13]: Loading 19 new character(s)	
+[04:05:13]: Total 19 character(s) loaded	
+[04:05:15]: Loading Nav Grid	
+[04:05:15]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:05:15]: setting 	summerlength	15	
+[04:05:15]: setting 	cavemoonphase	threequarter	
+[04:05:15]: setting 	iscavefullmoon	false	
+[04:05:15]: setting 	isnightmaredawn	false	
+[04:05:15]: setting 	elapseddaysinseason	16	
+[04:05:15]: setting 	isfullmoon	false	
+[04:05:15]: setting 	moisture	2699.7783203125	
+[04:05:15]: setting 	springlength	20	
+[04:05:15]: setting 	islunarhailing	false	
+[04:05:15]: setting 	isnightmarewild	true	
+[04:05:15]: setting 	nightmaretimeinphase	0.48596510688256	
+[04:05:15]: setting 	precipitationrate	0	
+[04:05:15]: setting 	iswet	false	
+[04:05:15]: setting 	isnewmoon	false	
+[04:05:15]: setting 	israining	false	
+[04:05:15]: setting 	iswinter	false	
+[04:05:15]: setting 	isnightmarewarn	false	
+[04:05:15]: setting 	precipitation	none	
+[04:05:15]: setting 	iscavewaxingmoon	false	
+[04:05:15]: setting 	isacidraining	false	
+[04:05:15]: setting 	moonphase	new	
+[04:05:15]: setting 	remainingdaysinseason	4	
+[04:05:15]: setting 	temperature	26.440226693812	
+[04:05:15]: setting 	wetness	0	
+[04:05:15]: setting 	cycles	51	
+[04:05:15]: setting 	moistureceil	4792.7329101562	
+[04:05:15]: setting 	isday	false	
+[04:05:15]: setting 	winterlength	15	
+[04:05:15]: setting 	season	spring	
+[04:05:15]: setting 	iswaxingmoon	true	
+[04:05:15]: setting 	isalterawake	false	
+[04:05:15]: setting 	isnightmarecalm	false	
+[04:05:15]: setting 	isnight	true	
+[04:05:15]: setting 	isdusk	false	
+[04:05:15]: setting 	isspring	true	
+[04:05:15]: setting 	isautumn	false	
+[04:05:15]: setting 	iscaveday	true	
+[04:05:15]: setting 	lunarhaillevel	0	
+[04:05:15]: setting 	pop	0.54375528416155	
+[04:05:15]: setting 	snowlevel	0	
+[04:05:15]: setting 	issnowcovered	false	
+[04:05:15]: setting 	autumnlength	20	
+[04:05:15]: setting 	phase	night	
+[04:05:15]: setting 	nightmaretime	522.89476603238	
+[04:05:15]: setting 	issnowing	false	
+[04:05:15]: setting 	iscavedusk	false	
+[04:05:15]: setting 	nightmarephase	wild	
+[04:05:15]: setting 	timeinphase	0.0058942159016927	
+[04:05:15]: setting 	seasonprogress	0.8	
+[04:05:15]: setting 	iscavenight	false	
+[04:05:15]: setting 	iscavenewmoon	false	
+[04:05:15]: setting 	issummer	false	
+[04:05:15]: setting 	cavephase	day	
+[04:05:15]: setting 	time	0.0022103309631348	
+[04:05:15]: OVERRIDE: setting	resettime	to	none	
+[04:05:15]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:05:15]: OVERRIDE: setting	portalresurection	to	always	
+[04:05:15]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:05:16]: Reconstructing topology	
+[04:05:16]: 	...Sorting points	
+[04:05:16]: 	...Sorting edges	
+[04:05:16]: 	...Connecting nodes	
+[04:05:16]: 	...Validating connections	
+[04:05:16]: 	...Housekeeping	
+[04:05:16]: 	...Done!	
+[04:05:16]: 1 uploads added to server. From server_temp
+[04:05:16]: World 1 is now connected	
+[04:05:16]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:05:16]: Check for write access: TRUE
+[04:05:16]: Check for read access: TRUE
+[04:05:16]: Available disk space for save files: 384292 MB
+[04:05:16]: ModIndex: Load sequence finished successfully.	
+[04:05:16]: Reset() returning
+[04:05:16]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:05:16]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:05:16]: component hauntable already exists on entity 103272 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:05:16]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:05:16]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:05:16]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:05:16]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:05:16]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:05:16]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:05:16]: component hauntable already exists on entity 103272 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:05:16]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:05:16]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:05:16]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:05:16]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:05:16]: Validating portal[7] <-> 1[7] (active)	
+[04:05:16]: Validating portal[8] <-> 1[8] (active)	
+[04:05:16]: Validating portal[9] <-> 1[9] (active)	
+[04:05:16]: Validating portal[10] <-> 1[10] (active)	
+[04:05:16]: Validating portal[1] <-> 1[1] (active)	
+[04:05:16]: Validating portal[4] <-> 1[4] (active)	
+[04:05:16]: Validating portal[3] <-> 1[3] (active)	
+[04:05:16]: Validating portal[5] <-> 1[5] (active)	
+[04:05:16]: Validating portal[6] <-> 1[6] (active)	
+[04:05:16]: Validating portal[2] <-> 1[2] (active)	
+[04:05:17]: Sim paused
+[04:05:21]: Sim unpaused
+[04:05:21]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:10:25]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:13:20]: Available disk space for save files: 384292 MB
+[04:13:21]: Serializing world: session/C5D9CBF66F6A2502/0000000059
+[04:15:25]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:20:25]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:21:21]: Available disk space for save files: 384291 MB
+[04:21:21]: Serializing world: session/C5D9CBF66F6A2502/0000000060
+[04:22:15]: World 1 is now disconnected	
+[04:22:15]: Validating portal[7] <-> 1[7] (inactive)	
+[04:22:15]: Validating portal[8] <-> 1[8] (inactive)	
+[04:22:15]: Validating portal[9] <-> 1[9] (inactive)	
+[04:22:15]: Validating portal[10] <-> 1[10] (inactive)	
+[04:22:15]: Validating portal[1] <-> 1[1] (inactive)	
+[04:22:15]: Validating portal[4] <-> 1[4] (inactive)	
+[04:22:15]: Validating portal[3] <-> 1[3] (inactive)	
+[04:22:15]: Validating portal[5] <-> 1[5] (inactive)	
+[04:22:15]: Validating portal[6] <-> 1[6] (inactive)	
+[04:22:15]: Validating portal[2] <-> 1[2] (inactive)	
+[04:22:15]: Sim paused
+[04:22:20]: Synchronizing backward to master snapshot 60	
+[04:22:20]: World 1 is now connected	
+[04:22:20]: Validating portal[7] <-> 1[7] (active)	
+[04:22:20]: Validating portal[8] <-> 1[8] (active)	
+[04:22:20]: Validating portal[9] <-> 1[9] (active)	
+[04:22:20]: Validating portal[10] <-> 1[10] (active)	
+[04:22:20]: Validating portal[1] <-> 1[1] (active)	
+[04:22:20]: Validating portal[4] <-> 1[4] (active)	
+[04:22:20]: Validating portal[3] <-> 1[3] (active)	
+[04:22:20]: Validating portal[5] <-> 1[5] (active)	
+[04:22:20]: Validating portal[6] <-> 1[6] (active)	
+[04:22:20]: Validating portal[2] <-> 1[2] (active)	
+[04:22:20]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:22:20]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:22:20]: component hauntable already exists on entity 103272 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:22:20]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:22:20]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:22:20]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:22:20]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:22:20]: Sim unpaused
+[04:22:20]: Collecting garbage...
+[04:22:20]: lua_gc took 0.13 seconds
+[04:22:20]: ~ShardLuaProxy()
+[04:22:20]: ~cEventLeaderboardProxy()
+[04:22:20]: ~ItemServerLuaProxy()
+[04:22:20]: ~InventoryLuaProxy()
+[04:22:20]: ~NetworkLuaProxy()
+[04:22:20]: ~SimLuaProxy()
+[04:22:21]: lua_close took 0.15 seconds
+[04:22:21]: ReleaseAll
+[04:22:21]: ReleaseAll Finished
+[04:22:21]: cGame::StartPlaying
+[04:22:21]: AppVersion::GetArchitecture() x32
+[04:22:21]: LOADING LUA
+[04:22:21]: DoLuaFile scripts/main.lua
+[04:22:21]: DoLuaFile loading buffer scripts/main.lua
+[04:22:21]:   taskgrouplist:	default	Together	
+[04:22:21]:   taskgrouplist:	classic	Classic	
+[04:22:21]:   taskgrouplist:	cave_default	Underground	
+[04:22:21]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:22:21]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:22:21]: Running main.lua
+	
+[04:22:21]: loaded modindex	
+[04:22:21]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:22:21]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:22:21]: LOADING LUA SUCCESS
+[04:22:21]: PlayerDeaths could not load morgue	
+[04:22:21]: PlayerHistory could not load player_history	
+[04:22:21]: ServerPreferences could not load server_preferences	
+[04:22:21]: ConsoleScreenSettings could not load consolescreen	
+[04:22:21]: bloom_enabled	true	
+[04:22:21]: OnFilesLoaded()	
+[04:22:21]: OnUpdatePurchaseStateComplete	
+[04:22:21]: Loading world: session/C5D9CBF66F6A2502/0000000060	
+[04:22:21]: Save file is at version 5.151	
+[04:22:21]: Klump load on boot started.	
+[04:22:21]: Klump files loaded: 	0	
+[04:22:21]: 	Unload characters	
+[04:22:21]: 	BE assets already loaded	
+[04:22:21]: Begin Session: C5D9CBF66F6A2502
+[04:22:21]: Stomping previously assigned session identifier, two loads issued.
+[04:22:21]: saving to server_temp/server_save	
+[04:22:22]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:22:22]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:22:22]: Loading 19 new character(s)	
+[04:22:22]: Total 19 character(s) loaded	
+[04:22:23]: Loading Nav Grid	
+[04:22:23]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:22:23]: setting 	summerlength	15	
+[04:22:23]: setting 	cavemoonphase	threequarter	
+[04:22:23]: setting 	iscavefullmoon	false	
+[04:22:23]: setting 	isnightmaredawn	true	
+[04:22:23]: setting 	elapseddaysinseason	18	
+[04:22:23]: setting 	isfullmoon	false	
+[04:22:23]: setting 	moisture	3613.8352050781	
+[04:22:23]: setting 	springlength	20	
+[04:22:23]: setting 	islunarhailing	false	
+[04:22:23]: setting 	isnightmarewild	false	
+[04:22:23]: setting 	nightmaretimeinphase	0.66449685099096	
+[04:22:23]: setting 	precipitationrate	0.72637212276459	
+[04:22:23]: setting 	iswet	true	
+[04:22:23]: setting 	isnewmoon	false	
+[04:22:23]: setting 	israining	true	
+[04:22:23]: setting 	iswinter	false	
+[04:22:23]: setting 	isnightmarewarn	false	
+[04:22:23]: setting 	precipitation	rain	
+[04:22:23]: setting 	iscavewaxingmoon	false	
+[04:22:23]: setting 	isacidraining	false	
+[04:22:23]: setting 	moonphase	new	
+[04:22:23]: setting 	remainingdaysinseason	2	
+[04:22:23]: setting 	temperature	30.750142073224	
+[04:22:23]: setting 	wetness	47.599491119385	
+[04:22:23]: setting 	cycles	53	
+[04:22:23]: setting 	moistureceil	4792.7329101562	
+[04:22:23]: setting 	isday	false	
+[04:22:23]: setting 	winterlength	15	
+[04:22:23]: setting 	season	spring	
+[04:22:23]: setting 	iswaxingmoon	true	
+[04:22:23]: setting 	isalterawake	false	
+[04:22:23]: setting 	isnightmarecalm	false	
+[04:22:23]: setting 	isnight	true	
+[04:22:23]: setting 	isdusk	false	
+[04:22:23]: setting 	isspring	true	
+[04:22:23]: setting 	isautumn	false	
+[04:22:23]: setting 	iscaveday	true	
+[04:22:23]: setting 	lunarhaillevel	0	
+[04:22:23]: setting 	pop	1	
+[04:22:23]: setting 	snowlevel	0	
+[04:22:23]: setting 	issnowcovered	false	
+[04:22:23]: setting 	autumnlength	20	
+[04:22:23]: setting 	phase	night	
+[04:22:23]: setting 	nightmaretime	639.86981105946	
+[04:22:23]: setting 	issnowing	false	
+[04:22:23]: setting 	iscavedusk	false	
+[04:22:23]: setting 	nightmarephase	dawn	
+[04:22:23]: setting 	timeinphase	0.0051254999069941	
+[04:22:23]: setting 	seasonprogress	0.9	
+[04:22:23]: setting 	iscavenight	false	
+[04:22:23]: setting 	iscavenewmoon	false	
+[04:22:23]: setting 	issummer	false	
+[04:22:23]: setting 	cavephase	day	
+[04:22:23]: setting 	time	0.0022424062093099	
+[04:22:23]: OVERRIDE: setting	resettime	to	none	
+[04:22:23]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:22:23]: OVERRIDE: setting	portalresurection	to	always	
+[04:22:23]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:22:25]: Reconstructing topology	
+[04:22:25]: 	...Sorting points	
+[04:22:25]: 	...Sorting edges	
+[04:22:25]: 	...Connecting nodes	
+[04:22:25]: 	...Validating connections	
+[04:22:25]: 	...Housekeeping	
+[04:22:25]: 	...Done!	
+[04:22:25]: 1 uploads added to server. From server_temp
+[04:22:25]: World 1 is now connected	
+[04:22:25]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:22:25]: Check for write access: TRUE
+[04:22:25]: Check for read access: TRUE
+[04:22:25]: Available disk space for save files: 384290 MB
+[04:22:25]: ModIndex: Load sequence finished successfully.	
+[04:22:25]: Reset() returning
+[04:22:25]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:22:25]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:22:25]: component hauntable already exists on entity 103068 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:22:25]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:22:25]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:22:25]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:22:25]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:22:25]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:22:25]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:22:25]: component hauntable already exists on entity 103068 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:22:25]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:22:25]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:22:25]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:22:25]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:22:25]: Validating portal[9] <-> 1[9] (active)	
+[04:22:25]: Validating portal[10] <-> 1[10] (active)	
+[04:22:25]: Validating portal[1] <-> 1[1] (active)	
+[04:22:25]: Validating portal[2] <-> 1[2] (active)	
+[04:22:25]: Validating portal[4] <-> 1[4] (active)	
+[04:22:25]: Validating portal[3] <-> 1[3] (active)	
+[04:22:25]: Validating portal[5] <-> 1[5] (active)	
+[04:22:25]: Validating portal[6] <-> 1[6] (active)	
+[04:22:25]: Validating portal[8] <-> 1[8] (active)	
+[04:22:25]: Validating portal[7] <-> 1[7] (active)	
+[04:22:26]: Sim paused
+[04:22:30]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:22:30]: Sim unpaused
+[04:24:01]: World 1 is now disconnected	
+[04:24:01]: Validating portal[9] <-> 1[9] (inactive)	
+[04:24:01]: Validating portal[10] <-> 1[10] (inactive)	
+[04:24:01]: Validating portal[1] <-> 1[1] (inactive)	
+[04:24:01]: Validating portal[2] <-> 1[2] (inactive)	
+[04:24:01]: Validating portal[4] <-> 1[4] (inactive)	
+[04:24:01]: Validating portal[3] <-> 1[3] (inactive)	
+[04:24:01]: Validating portal[5] <-> 1[5] (inactive)	
+[04:24:01]: Validating portal[6] <-> 1[6] (inactive)	
+[04:24:01]: Validating portal[8] <-> 1[8] (inactive)	
+[04:24:01]: Validating portal[7] <-> 1[7] (inactive)	
+[04:24:01]: Sim paused
+[04:24:06]: Synchronizing backward to master snapshot 60	
+[04:24:06]: World 1 is now connected	
+[04:24:06]: Validating portal[9] <-> 1[9] (active)	
+[04:24:06]: Validating portal[10] <-> 1[10] (active)	
+[04:24:06]: Validating portal[1] <-> 1[1] (active)	
+[04:24:06]: Validating portal[2] <-> 1[2] (active)	
+[04:24:06]: Validating portal[4] <-> 1[4] (active)	
+[04:24:06]: Validating portal[3] <-> 1[3] (active)	
+[04:24:06]: Validating portal[5] <-> 1[5] (active)	
+[04:24:06]: Validating portal[6] <-> 1[6] (active)	
+[04:24:06]: Validating portal[8] <-> 1[8] (active)	
+[04:24:06]: Validating portal[7] <-> 1[7] (active)	
+[04:24:06]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:24:06]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:24:06]: component hauntable already exists on entity 103068 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:24:06]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:24:06]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:24:06]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:24:06]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:24:06]: Sim unpaused
+[04:24:06]: Collecting garbage...
+[04:24:06]: lua_gc took 0.13 seconds
+[04:24:06]: ~ShardLuaProxy()
+[04:24:06]: ~cEventLeaderboardProxy()
+[04:24:06]: ~ItemServerLuaProxy()
+[04:24:06]: ~InventoryLuaProxy()
+[04:24:06]: ~NetworkLuaProxy()
+[04:24:06]: ~SimLuaProxy()
+[04:24:06]: lua_close took 0.14 seconds
+[04:24:06]: ReleaseAll
+[04:24:06]: ReleaseAll Finished
+[04:24:06]: cGame::StartPlaying
+[04:24:06]: AppVersion::GetArchitecture() x32
+[04:24:06]: LOADING LUA
+[04:24:06]: DoLuaFile scripts/main.lua
+[04:24:06]: DoLuaFile loading buffer scripts/main.lua
+[04:24:07]:   taskgrouplist:	default	Together	
+[04:24:07]:   taskgrouplist:	classic	Classic	
+[04:24:07]:   taskgrouplist:	cave_default	Underground	
+[04:24:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:24:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:24:07]: Running main.lua
+	
+[04:24:07]: loaded modindex	
+[04:24:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:24:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:24:07]: LOADING LUA SUCCESS
+[04:24:07]: PlayerDeaths could not load morgue	
+[04:24:07]: PlayerHistory could not load player_history	
+[04:24:07]: ServerPreferences could not load server_preferences	
+[04:24:07]: ConsoleScreenSettings could not load consolescreen	
+[04:24:07]: bloom_enabled	true	
+[04:24:07]: OnFilesLoaded()	
+[04:24:07]: OnUpdatePurchaseStateComplete	
+[04:24:07]: Loading world: session/C5D9CBF66F6A2502/0000000060	
+[04:24:07]: Save file is at version 5.151	
+[04:24:07]: Klump load on boot started.	
+[04:24:07]: Klump files loaded: 	0	
+[04:24:07]: 	Unload characters	
+[04:24:07]: 	BE assets already loaded	
+[04:24:07]: Begin Session: C5D9CBF66F6A2502
+[04:24:07]: Stomping previously assigned session identifier, two loads issued.
+[04:24:07]: saving to server_temp/server_save	
+[04:24:07]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:24:07]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:24:07]: Loading 19 new character(s)	
+[04:24:08]: Total 19 character(s) loaded	
+[04:24:09]: Loading Nav Grid	
+[04:24:09]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:24:09]: setting 	summerlength	15	
+[04:24:09]: setting 	cavemoonphase	threequarter	
+[04:24:09]: setting 	iscavefullmoon	false	
+[04:24:09]: setting 	isnightmaredawn	true	
+[04:24:09]: setting 	elapseddaysinseason	18	
+[04:24:09]: setting 	isfullmoon	false	
+[04:24:09]: setting 	moisture	3613.8352050781	
+[04:24:09]: setting 	springlength	20	
+[04:24:09]: setting 	islunarhailing	false	
+[04:24:09]: setting 	isnightmarewild	false	
+[04:24:09]: setting 	nightmaretimeinphase	0.66449685099096	
+[04:24:09]: setting 	precipitationrate	0.72637212276459	
+[04:24:09]: setting 	iswet	true	
+[04:24:09]: setting 	isnewmoon	false	
+[04:24:09]: setting 	israining	true	
+[04:24:09]: setting 	iswinter	false	
+[04:24:09]: setting 	isnightmarewarn	false	
+[04:24:09]: setting 	precipitation	rain	
+[04:24:09]: setting 	iscavewaxingmoon	false	
+[04:24:09]: setting 	isacidraining	false	
+[04:24:09]: setting 	moonphase	new	
+[04:24:09]: setting 	remainingdaysinseason	2	
+[04:24:09]: setting 	temperature	30.750142073224	
+[04:24:09]: setting 	wetness	47.599491119385	
+[04:24:09]: setting 	cycles	53	
+[04:24:09]: setting 	moistureceil	4792.7329101562	
+[04:24:09]: setting 	isday	false	
+[04:24:09]: setting 	winterlength	15	
+[04:24:09]: setting 	season	spring	
+[04:24:09]: setting 	iswaxingmoon	true	
+[04:24:09]: setting 	isalterawake	false	
+[04:24:09]: setting 	isnightmarecalm	false	
+[04:24:09]: setting 	isnight	true	
+[04:24:09]: setting 	isdusk	false	
+[04:24:09]: setting 	isspring	true	
+[04:24:09]: setting 	isautumn	false	
+[04:24:09]: setting 	iscaveday	true	
+[04:24:09]: setting 	lunarhaillevel	0	
+[04:24:09]: setting 	pop	1	
+[04:24:09]: setting 	snowlevel	0	
+[04:24:09]: setting 	issnowcovered	false	
+[04:24:09]: setting 	autumnlength	20	
+[04:24:09]: setting 	phase	night	
+[04:24:09]: setting 	nightmaretime	639.86981105946	
+[04:24:09]: setting 	issnowing	false	
+[04:24:09]: setting 	iscavedusk	false	
+[04:24:09]: setting 	nightmarephase	dawn	
+[04:24:09]: setting 	timeinphase	0.0051254999069941	
+[04:24:09]: setting 	seasonprogress	0.9	
+[04:24:09]: setting 	iscavenight	false	
+[04:24:09]: setting 	iscavenewmoon	false	
+[04:24:09]: setting 	issummer	false	
+[04:24:09]: setting 	cavephase	day	
+[04:24:09]: setting 	time	0.0022424062093099	
+[04:24:09]: OVERRIDE: setting	resettime	to	none	
+[04:24:09]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:24:09]: OVERRIDE: setting	portalresurection	to	always	
+[04:24:09]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:24:10]: Reconstructing topology	
+[04:24:10]: 	...Sorting points	
+[04:24:10]: 	...Sorting edges	
+[04:24:10]: 	...Connecting nodes	
+[04:24:10]: 	...Validating connections	
+[04:24:11]: 	...Housekeeping	
+[04:24:11]: 	...Done!	
+[04:24:11]: 1 uploads added to server. From server_temp
+[04:24:11]: World 1 is now connected	
+[04:24:11]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:24:11]: Check for write access: TRUE
+[04:24:11]: Check for read access: TRUE
+[04:24:11]: Available disk space for save files: 384290 MB
+[04:24:11]: ModIndex: Load sequence finished successfully.	
+[04:24:11]: Reset() returning
+[04:24:11]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:24:11]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:24:11]: component hauntable already exists on entity 103068 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:24:11]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:24:11]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:24:11]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:24:11]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:24:11]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:24:11]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:24:11]: component hauntable already exists on entity 103068 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:24:11]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:24:11]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:24:11]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:24:11]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:24:11]: Validating portal[1] <-> 1[1] (active)	
+[04:24:11]: Validating portal[2] <-> 1[2] (active)	
+[04:24:11]: Validating portal[4] <-> 1[4] (active)	
+[04:24:11]: Validating portal[9] <-> 1[9] (active)	
+[04:24:11]: Validating portal[5] <-> 1[5] (active)	
+[04:24:11]: Validating portal[10] <-> 1[10] (active)	
+[04:24:11]: Validating portal[3] <-> 1[3] (active)	
+[04:24:11]: Validating portal[8] <-> 1[8] (active)	
+[04:24:11]: Validating portal[7] <-> 1[7] (active)	
+[04:24:11]: Validating portal[6] <-> 1[6] (active)	
+[04:24:12]: Sim paused
+[04:24:16]: Sim unpaused
+[04:24:16]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:24:32]: World 1 is now disconnected	
+[04:24:32]: Validating portal[1] <-> 1[1] (inactive)	
+[04:24:32]: Validating portal[2] <-> 1[2] (inactive)	
+[04:24:32]: Validating portal[4] <-> 1[4] (inactive)	
+[04:24:32]: Validating portal[9] <-> 1[9] (inactive)	
+[04:24:32]: Validating portal[5] <-> 1[5] (inactive)	
+[04:24:32]: Validating portal[10] <-> 1[10] (inactive)	
+[04:24:32]: Validating portal[3] <-> 1[3] (inactive)	
+[04:24:32]: Validating portal[8] <-> 1[8] (inactive)	
+[04:24:32]: Validating portal[7] <-> 1[7] (inactive)	
+[04:24:32]: Validating portal[6] <-> 1[6] (inactive)	
+[04:24:32]: Sim paused
+[04:24:37]: Synchronizing backward to master snapshot 59	
+[04:24:37]: Truncating to snapshot #59...
+[04:24:37]:  - session/C5D9CBF66F6A2502/0000000060
+[04:24:37]:    1 file(s) removed
+[04:24:37]: World 1 is now connected	
+[04:24:37]: Validating portal[1] <-> 1[1] (active)	
+[04:24:37]: Validating portal[2] <-> 1[2] (active)	
+[04:24:37]: Validating portal[4] <-> 1[4] (active)	
+[04:24:37]: Validating portal[9] <-> 1[9] (active)	
+[04:24:37]: Validating portal[5] <-> 1[5] (active)	
+[04:24:37]: Validating portal[10] <-> 1[10] (active)	
+[04:24:37]: Validating portal[3] <-> 1[3] (active)	
+[04:24:37]: Validating portal[8] <-> 1[8] (active)	
+[04:24:37]: Validating portal[7] <-> 1[7] (active)	
+[04:24:37]: Validating portal[6] <-> 1[6] (active)	
+[04:24:37]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:24:37]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:24:37]: component hauntable already exists on entity 103068 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:24:37]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:24:37]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:24:37]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:24:37]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:24:37]: Sim unpaused
+[04:24:37]: Collecting garbage...
+[04:24:37]: lua_gc took 0.13 seconds
+[04:24:37]: ~ShardLuaProxy()
+[04:24:37]: ~cEventLeaderboardProxy()
+[04:24:37]: ~ItemServerLuaProxy()
+[04:24:37]: ~InventoryLuaProxy()
+[04:24:37]: ~NetworkLuaProxy()
+[04:24:37]: ~SimLuaProxy()
+[04:24:38]: lua_close took 0.14 seconds
+[04:24:38]: ReleaseAll
+[04:24:38]: ReleaseAll Finished
+[04:24:38]: cGame::StartPlaying
+[04:24:38]: AppVersion::GetArchitecture() x32
+[04:24:38]: LOADING LUA
+[04:24:38]: DoLuaFile scripts/main.lua
+[04:24:38]: DoLuaFile loading buffer scripts/main.lua
+[04:24:38]:   taskgrouplist:	default	Together	
+[04:24:38]:   taskgrouplist:	classic	Classic	
+[04:24:38]:   taskgrouplist:	cave_default	Underground	
+[04:24:38]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[04:24:38]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[04:24:38]: Running main.lua
+	
+[04:24:38]: loaded modindex	
+[04:24:38]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[04:24:38]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[04:24:38]: LOADING LUA SUCCESS
+[04:24:38]: PlayerDeaths could not load morgue	
+[04:24:38]: PlayerHistory could not load player_history	
+[04:24:38]: ServerPreferences could not load server_preferences	
+[04:24:38]: ConsoleScreenSettings could not load consolescreen	
+[04:24:38]: bloom_enabled	true	
+[04:24:38]: OnFilesLoaded()	
+[04:24:38]: OnUpdatePurchaseStateComplete	
+[04:24:38]: Loading world: session/C5D9CBF66F6A2502/0000000059	
+[04:24:38]: Save file is at version 5.151	
+[04:24:38]: Klump load on boot started.	
+[04:24:38]: Klump files loaded: 	0	
+[04:24:38]: 	Unload characters	
+[04:24:38]: 	BE assets already loaded	
+[04:24:38]: Begin Session: C5D9CBF66F6A2502
+[04:24:38]: Stomping previously assigned session identifier, two loads issued.
+[04:24:38]: saving to server_temp/server_save	
+[04:24:39]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[04:24:39]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[04:24:39]: Loading 19 new character(s)	
+[04:24:39]: Total 19 character(s) loaded	
+[04:24:41]: Loading Nav Grid	
+[04:24:41]: World generated on build 639083 with save version: 5.151, using seed: 1452306802	
+[04:24:41]: setting 	summerlength	15	
+[04:24:41]: setting 	cavemoonphase	threequarter	
+[04:24:41]: setting 	iscavefullmoon	false	
+[04:24:41]: setting 	isnightmaredawn	false	
+[04:24:41]: setting 	elapseddaysinseason	17	
+[04:24:41]: setting 	isfullmoon	false	
+[04:24:41]: setting 	moisture	4291.150390625	
+[04:24:41]: setting 	springlength	20	
+[04:24:41]: setting 	islunarhailing	false	
+[04:24:41]: setting 	isnightmarewild	false	
+[04:24:41]: setting 	nightmaretimeinphase	0.87710946463237	
+[04:24:41]: setting 	precipitationrate	0	
+[04:24:41]: setting 	iswet	false	
+[04:24:41]: setting 	isnewmoon	false	
+[04:24:41]: setting 	israining	false	
+[04:24:41]: setting 	iswinter	false	
+[04:24:41]: setting 	isnightmarewarn	false	
+[04:24:41]: setting 	precipitation	none	
+[04:24:41]: setting 	iscavewaxingmoon	false	
+[04:24:41]: setting 	isacidraining	false	
+[04:24:41]: setting 	moonphase	new	
+[04:24:41]: setting 	remainingdaysinseason	3	
+[04:24:41]: setting 	temperature	29.067137722684	
+[04:24:41]: setting 	wetness	0	
+[04:24:41]: setting 	cycles	52	
+[04:24:41]: setting 	moistureceil	4792.7329101562	
+[04:24:41]: setting 	isday	false	
+[04:24:41]: setting 	winterlength	15	
+[04:24:41]: setting 	season	spring	
+[04:24:41]: setting 	iswaxingmoon	true	
+[04:24:41]: setting 	isalterawake	false	
+[04:24:41]: setting 	isnightmarecalm	true	
+[04:24:41]: setting 	isnight	true	
+[04:24:41]: setting 	isdusk	false	
+[04:24:41]: setting 	isspring	true	
+[04:24:41]: setting 	isautumn	false	
+[04:24:41]: setting 	iscaveday	true	
+[04:24:41]: setting 	lunarhaillevel	0	
+[04:24:41]: setting 	pop	0.89065965635205	
+[04:24:41]: setting 	snowlevel	0	
+[04:24:41]: setting 	issnowcovered	false	
+[04:24:41]: setting 	autumnlength	20	
+[04:24:41]: setting 	phase	night	
+[04:24:41]: setting 	nightmaretime	315.75940726765	
+[04:24:41]: setting 	issnowing	false	
+[04:24:41]: setting 	iscavedusk	false	
+[04:24:41]: setting 	nightmarephase	calm	
+[04:24:41]: setting 	timeinphase	0.0050094604492188	
+[04:24:41]: setting 	seasonprogress	0.85	
+[04:24:41]: setting 	iscavenight	false	
+[04:24:41]: setting 	iscavenewmoon	false	
+[04:24:41]: setting 	issummer	false	
+[04:24:41]: setting 	cavephase	day	
+[04:24:41]: setting 	time	0.0021916389465332	
+[04:24:41]: OVERRIDE: setting	resettime	to	none	
+[04:24:41]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[04:24:41]: OVERRIDE: setting	portalresurection	to	always	
+[04:24:41]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[04:24:42]: Reconstructing topology	
+[04:24:42]: 	...Sorting points	
+[04:24:42]: 	...Sorting edges	
+[04:24:42]: 	...Connecting nodes	
+[04:24:42]: 	...Validating connections	
+[04:24:42]: 	...Housekeeping	
+[04:24:42]: 	...Done!	
+[04:24:42]: 1 uploads added to server. From server_temp
+[04:24:42]: World 1 is now connected	
+[04:24:42]: Telling Client our new session identifier: C5D9CBF66F6A2502
+[04:24:42]: Check for write access: TRUE
+[04:24:42]: Check for read access: TRUE
+[04:24:42]: Available disk space for save files: 384290 MB
+[04:24:42]: ModIndex: Load sequence finished successfully.	
+[04:24:42]: Reset() returning
+[04:24:42]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:24:42]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:24:42]: component hauntable already exists on entity 102958 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:24:42]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:24:42]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:24:42]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:24:42]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:24:42]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[04:24:42]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[04:24:42]: component hauntable already exists on entity 102958 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[04:24:42]: [SyncWorldSettings] applying krampus = default from master shard.	
+[04:24:42]: [SyncWorldSettings] applying ghostsanitydrain = none from master shard.	
+[04:24:42]: [SyncWorldSettings] applying resettime = none from master shard.	
+[04:24:42]: [SyncWorldSettings] applying basicresource_regrowth = always from master shard.	
+[04:24:42]: Validating portal[1] <-> 1[1] (active)	
+[04:24:42]: Validating portal[9] <-> 1[9] (active)	
+[04:24:42]: Validating portal[8] <-> 1[8] (active)	
+[04:24:42]: Validating portal[3] <-> 1[3] (active)	
+[04:24:42]: Validating portal[10] <-> 1[10] (active)	
+[04:24:42]: Validating portal[2] <-> 1[2] (active)	
+[04:24:42]: Validating portal[4] <-> 1[4] (active)	
+[04:24:42]: Validating portal[5] <-> 1[5] (active)	
+[04:24:42]: Validating portal[7] <-> 1[7] (active)	
+[04:24:42]: Validating portal[6] <-> 1[6] (active)	
+[04:24:43]: Sim paused
+[04:24:47]: Sim unpaused
+[04:24:47]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:29:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:30:03]: [200] Account Communication Success (6)
+[04:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:30:09]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:32:46]: Available disk space for save files: 384291 MB
+[04:32:47]: Serializing world: session/C5D9CBF66F6A2502/0000000060
+[04:34:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:39:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:40:47]: Available disk space for save files: 384290 MB
+[04:40:47]: Serializing world: session/C5D9CBF66F6A2502/0000000061
+[04:42:28]: [Shard] #1 -> session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000062
+[04:42:28]: [Shard] Received migration #1 data for (KU_V_2d0tcA)
+[04:42:30]: [P2P] Session request for '76561198280591878'
+[04:42:34]: [P2P] Create session: 72.74.32.159|1 '76561198280591878'
+[04:42:34]: [P2P] Received from 72.74.32.159|1 '76561198280591878'
+[04:42:34]: [P2P] Sent to 72.74.32.159|1 '76561198280591878'
+[04:42:35]: New incoming connection 72.74.32.159|1 <16627648307137389>
+[04:42:35]: Client connected from 72.74.32.159|1 <16627648307137389>
+[04:42:35]: ValidateGameSessionToken GUID<16627648307137389>
+[04:42:36]: Client authenticated: (KU_V_2d0tcA) dercaft
+[04:42:36]: [Steam] SendUserConnectAndAuthenticate for '76561198280591878'
+[04:42:36]: [Steam] Authenticated client '76561198280591878'
+[04:42:36]: [Shard] Completed incoming migration #1 for (KU_V_2d0tcA)
+[04:42:44]: Resuming user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000062
+[04:42:44]: Player will spawn close to portal #2	
+[04:42:44]: Spawning player at: [Load] (512.53, 0.00, 501.18)	
+[04:44:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:44:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:48:47]: Available disk space for save files: 384289 MB
+[04:48:47]: Serializing user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000062
+[04:48:47]: Serializing world: session/C5D9CBF66F6A2502/0000000062
+[04:49:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:49:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:54:10]: Could not find anim [death] in bank [ghost]
+[04:54:10]: Serializing user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000063
+[04:54:13]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:54:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:54:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:56:47]: Available disk space for save files: 384288 MB
+[04:56:47]: Serializing user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000063
+[04:56:47]: Serializing world: session/C5D9CBF66F6A2502/0000000063
+[04:58:58]: Activating portal[8] to 1	
+[04:58:58]: Serializing user: session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000064
+[04:58:58]: [Shard] Migration request: (KU_V_2d0tcA) to [SHDMASTER](1)
+[04:58:58]: [Shard] #2 <- session/C5D9CBF66F6A2502/A7JVU2JG6UCA/0000000064
+[04:58:58]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[04:58:58]: [Steam] SendUserDisconnect for '76561198280591878'
+[04:59:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[04:59:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[05:00:03]: [200] Account Communication Success (6)
+[05:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[05:04:47]: Available disk space for save files: 384276 MB
+[05:04:48]: Serializing world: session/C5D9CBF66F6A2502/0000000064
+[05:04:48]: Truncating to snapshot #64...
+[05:04:48]:  - session/C5D9CBF66F6A2502/0000000056
+[05:04:48]:  - session/C5D9CBF66F6A2502/0000000057
+[05:04:48]:  - session/C5D9CBF66F6A2502/0000000058
+[05:04:48]:    3 file(s) removed
+[05:04:51]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[05:06:23]: Server Autopaused	
+[05:06:24]: Server Unpaused	
+[05:06:24]: Server Autopaused	
+[05:06:26]: Server Unpaused	
+[05:06:28]: Sim paused
+[05:09:01]: [P2P] Session timed out for '76561198280591878'
+[05:09:01]: [P2P] Remove session: 72.74.32.159|1 '76561198280591878'
+[05:30:03]: [200] Account Communication Success (6)
+[05:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:00:03]: [200] Account Communication Success (6)
+[06:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:30:03]: [200] Account Communication Success (6)
+[06:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:03]: [200] Account Communication Success (6)
+[07:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:30:02]: [200] Account Communication Success (6)
+[07:30:02]: Received (KU__CRUc3BC) from TokenPurpose
+[08:00:03]: [200] Account Communication Success (6)
+[08:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:30:03]: [200] Account Communication Success (6)
+[08:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:00:03]: [200] Account Communication Success (6)
+[09:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:30:03]: [200] Account Communication Success (6)
+[09:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:00:03]: [200] Account Communication Success (6)
+[10:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:30:03]: [200] Account Communication Success (6)
+[10:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:00:03]: [200] Account Communication Success (6)
+[11:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:30:03]: [200] Account Communication Success (6)
+[11:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:00:03]: [200] Account Communication Success (6)
+[12:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:30:03]: [200] Account Communication Success (6)
+[12:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:00:03]: [200] Account Communication Success (6)
+[13:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:30:03]: [200] Account Communication Success (6)
+[13:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[14:00:03]: [200] Account Communication Success (6)
+[14:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[14:30:03]: [200] Account Communication Success (6)
+[14:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[15:00:03]: [200] Account Communication Success (6)
+[15:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[15:30:03]: [200] Account Communication Success (6)
+[15:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[16:00:03]: [200] Account Communication Success (6)
+[16:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[16:30:03]: [200] Account Communication Success (6)
+[16:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[17:00:03]: [200] Account Communication Success (6)
+[17:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[17:30:03]: [200] Account Communication Success (6)
+[17:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[18:00:03]: [200] Account Communication Success (6)
+[18:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[18:30:03]: [200] Account Communication Success (6)
+[18:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[19:00:03]: [200] Account Communication Success (6)
+[19:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[19:30:04]: [200] Account Communication Success (6)
+[19:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[20:00:03]: [200] Account Communication Success (6)
+[20:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[20:30:03]: [200] Account Communication Success (6)
+[20:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[21:00:03]: [200] Account Communication Success (6)
+[21:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[21:30:03]: [200] Account Communication Success (6)
+[21:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[22:00:03]: [200] Account Communication Success (6)
+[22:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[22:30:03]: [200] Account Communication Success (6)
+[22:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[23:00:03]: [200] Account Communication Success (6)
+[23:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[23:30:03]: [200] Account Communication Success (6)
+[23:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:03]: [200] Account Communication Success (6)
+[00:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:30:03]: [200] Account Communication Success (6)
+[00:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:03]: [200] Account Communication Success (6)
+[01:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:03]: [200] Account Communication Success (6)
+[01:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:03]: [200] Account Communication Success (6)
+[02:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:30:03]: [200] Account Communication Success (6)
+[02:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[03:00:03]: [200] Account Communication Success (6)
+[03:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[04:00:03]: [200] Account Communication Success (6)
+[04:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:30:06]: [200] Account Communication Success (6)
+[04:30:06]: Received (KU__CRUc3BC) from TokenPurpose
+[05:00:03]: [200] Account Communication Success (6)
+[05:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[05:30:03]: [200] Account Communication Success (6)
+[05:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:00:03]: [200] Account Communication Success (6)
+[06:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:30:03]: [200] Account Communication Success (6)
+[06:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:03]: [200] Account Communication Success (6)
+[07:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:30:03]: [200] Account Communication Success (6)
+[07:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:00:03]: [200] Account Communication Success (6)
+[08:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:30:03]: [200] Account Communication Success (6)
+[08:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:00:03]: [200] Account Communication Success (6)
+[09:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:30:03]: [200] Account Communication Success (6)
+[09:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:00:03]: [200] Account Communication Success (6)
+[10:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:30:03]: [200] Account Communication Success (6)
+[10:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:00:03]: [200] Account Communication Success (6)
+[11:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:30:03]: [200] Account Communication Success (6)
+[11:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:00:03]: [200] Account Communication Success (6)
+[12:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:30:03]: [200] Account Communication Success (6)
+[12:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:00:03]: [200] Account Communication Success (6)
+[13:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:30:03]: [200] Account Communication Success (6)
+[13:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[14:00:03]: [200] Account Communication Success (6)
+[14:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[14:30:03]: [200] Account Communication Success (6)
+[14:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[15:00:03]: [200] Account Communication Success (6)
+[15:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[15:30:03]: [200] Account Communication Success (6)
+[15:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[16:00:03]: [200] Account Communication Success (6)
+[16:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[16:30:03]: [200] Account Communication Success (6)
+[16:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[17:00:03]: [200] Account Communication Success (6)
+[17:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[17:30:03]: [200] Account Communication Success (6)
+[17:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[18:00:03]: [200] Account Communication Success (6)
+[18:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[18:30:03]: [200] Account Communication Success (6)
+[18:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[19:00:03]: [200] Account Communication Success (6)
+[19:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[19:30:03]: [200] Account Communication Success (6)
+[19:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[20:00:03]: [200] Account Communication Success (6)
+[20:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[20:30:03]: [200] Account Communication Success (6)
+[20:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[21:00:03]: [200] Account Communication Success (6)
+[21:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[21:30:03]: [200] Account Communication Success (6)
+[21:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[22:00:03]: [200] Account Communication Success (6)
+[22:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[22:30:03]: [200] Account Communication Success (6)
+[22:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[23:00:03]: [200] Account Communication Success (6)
+[23:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[23:30:03]: [200] Account Communication Success (6)
+[23:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:03]: [200] Account Communication Success (6)
+[00:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:30:03]: [200] Account Communication Success (6)
+[00:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:03]: [200] Account Communication Success (6)
+[01:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:03]: [200] Account Communication Success (6)
+[01:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:03]: [200] Account Communication Success (6)
+[02:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:28:34]: Sim unpaused
+[02:30:03]: [200] Account Communication Success (6)
+[02:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:31:16]: Sim paused
+[02:31:27]: Sim unpaused
+[02:32:11]: CURL ERROR: (dst.metrics.klei.com) [28]Operation too slow. Less than 5 bytes/sec transferred the last 5 seconds
+[02:35:07]: Available disk space for save files: 384276 MB
+[02:35:07]: Serializing world: session/C5D9CBF66F6A2502/0000000065
+[02:35:07]: Truncating to snapshot #65...
+[02:35:07]:  - session/C5D9CBF66F6A2502/0000000059
+[02:35:07]:    1 file(s) removed

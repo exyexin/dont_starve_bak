@@ -1,0 +1,1213 @@
+[00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 639083
+[00:00:00]: Current time: Tue Nov 26 10:42:20 2024
+
+[00:00:00]: System Name: Linux
+[00:00:00]: Host Name: 0e30774292b7
+[00:00:00]: Release(Kernel) Version: 6.11.9-arch1-1
+[00:00:00]: Kernel Build Timestamp: #1 SMP PREEMPT_DYNAMIC Sun, 17 Nov 2024 16:06:17 +0000
+[00:00:00]: Machine Arch: x86_64
+[00:00:00]: Don't Starve Together: 639083 LINUX
+[00:00:00]: Build Date: 9742
+[00:00:00]: Mode: 32-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: ....Done
+[00:00:00]: THREAD - started 'GAClient' (4059958080)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.46
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'StreamInput' (3999267648)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
+	
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:01]: LOADING LUA SUCCESS
+[00:00:01]: PlayerDeaths could not load morgue	
+[00:00:01]: PlayerHistory could not load player_history	
+[00:00:01]: ServerPreferences could not load server_preferences	
+[00:00:01]: ConsoleScreenSettings could not load consolescreen	
+[00:00:01]: bloom_enabled	true	
+[00:00:01]: OnFilesLoaded()	
+[00:00:01]: OnUpdatePurchaseStateComplete	
+[00:00:01]: Klump load on boot started.	
+[00:00:01]: Klump files loaded: 	0	
+[00:00:02]: 	Load FE	
+[00:00:02]: 	Load FE: done	
+[00:00:02]: THREAD - started 'FilesExistAsyncThread' (3962166080)
+[00:00:02]: FilesExistAsyncThread started (25160 files)...
+[00:00:02]: Check for write access: TRUE
+[00:00:02]: Check for read access: TRUE
+[00:00:02]: Available disk space for save files: 384266 MB
+[00:00:02]: ModIndex: Load sequence finished successfully.	
+[00:00:02]: Reset() returning
+[00:00:03]: ... FilesExistAsyncThread complete
+[00:00:03]: [200] Account Communication Success (6)
+[00:00:03]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
+[00:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:03]: Starting Dedicated Server Game	
+[00:00:03]: Network tick rate: U=15(2), D=0
+[00:00:03]: About to start a server with the following settings:
+[00:00:03]:   Dedicated: true
+[00:00:03]:   Online: true
+[00:00:03]:   Passworded: true
+[00:00:03]:   ServerPort: 10999
+[00:00:03]:   SteamAuthPort: 8766
+[00:00:03]:   SteamMasterServerPort: 12346
+[00:00:03]:   ClanID: false
+[00:00:03]:   ClanOnly: false
+[00:00:03]:   ClanAdmin: false
+[00:00:03]:   LanOnly: false
+[00:00:03]:   FriendsOnly: false
+[00:00:03]:   EnableAutosaver: true
+[00:00:03]:   EncodeUserPath: true
+[00:00:03]:   PVP: true
+[00:00:03]:   MaxPlayers: 64
+[00:00:03]:   GameMode: endless
+[00:00:03]:   OverridenDNS: 
+[00:00:03]:   PauseWhenEmpty: true
+[00:00:03]:   IdleTimeout: 1800s
+[00:00:03]:   VoteEnabled: true
+[00:00:03]:   InternetBroadcasting: true
+[00:00:03]: Online Server Started on port: 10999
+[00:00:03]: Not applying level data overrides.	
+[00:00:03]: Found a worldgen override file with these contents:	
+[00:00:03]: 	K: 	override_enabled	 V: 	true	
+[00:00:03]: 	K: 	overrides	 V: 	table: 0x10fdbca0	
+[00:00:03]: 		K: 	basicresource_regrowth	 V: 	always	
+[00:00:03]: 		K: 	ghostsanitydrain	 V: 	none	
+[00:00:03]: 		K: 	portalresurection	 V: 	always	
+[00:00:03]: 		K: 	resettime	 V: 	none	
+[00:00:03]: 	K: 	settings_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:03]: 	K: 	worldgen_preset	 V: 	SURVIVAL_TOGETHER	
+[00:00:03]:   sanity-checking worldgenoverride.lua...	
+[00:00:03]: Loaded and applied world gen overrides from ../worldgenoverride.lua	
+[00:00:03]:   contained worldgen preset SURVIVAL_TOGETHER, loading...	
+[00:00:03]:   contained settings preset SURVIVAL_TOGETHER, loading...	
+[00:00:03]: Overwriting savedata with override file.	
+[00:00:03]: Collecting garbage...
+[00:00:03]: lua_gc took 0.03 seconds
+[00:00:03]: ~ShardLuaProxy()
+[00:00:03]: ~cEventLeaderboardProxy()
+[00:00:03]: ~ItemServerLuaProxy()
+[00:00:03]: ~InventoryLuaProxy()
+[00:00:03]: ~NetworkLuaProxy()
+[00:00:03]: ~SimLuaProxy()
+[00:00:03]: lua_close took 0.04 seconds
+[00:00:03]: ReleaseAll
+[00:00:03]: ReleaseAll Finished
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: AppVersion::GetArchitecture() x32
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]:   taskgrouplist:	default	Together	
+[00:00:03]:   taskgrouplist:	classic	Classic	
+[00:00:03]:   taskgrouplist:	cave_default	Underground	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:03]: Running main.lua
+	
+[00:00:03]: loaded modindex	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Loading world: session/24D16F5B6F8040A6/0000000078	
+[00:00:03]: Save file is at version 5.151	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:03]: 	Unload FE	
+[00:00:03]: 	Unload FE done	
+[00:00:04]: 	LOAD BE	
+[00:00:10]: 	LOAD BE: done	
+[00:00:10]: Begin Session: 24D16F5B6F8040A6
+[00:00:10]: saving to server_temp/server_save	
+[00:00:10]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:10]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:10]: Loading 19 new character(s)	
+[00:00:11]: Total 19 character(s) loaded	
+[00:00:11]: Loading Nav Grid	
+[00:00:11]: World generated on build 639083 with save version: 5.151, using seed: 1452409363	
+[00:00:11]: setting 	summerlength	15	
+[00:00:11]: setting 	cavemoonphase	threequarter	
+[00:00:11]: setting 	iscavefullmoon	false	
+[00:00:11]: setting 	isnightmaredawn	false	
+[00:00:11]: setting 	elapseddaysinseason	1	
+[00:00:11]: setting 	isfullmoon	false	
+[00:00:11]: setting 	moisture	2688.9230957031	
+[00:00:11]: setting 	springlength	20	
+[00:00:11]: setting 	islunarhailing	false	
+[00:00:11]: setting 	isnightmarewild	false	
+[00:00:11]: setting 	nightmaretimeinphase	0	
+[00:00:11]: setting 	precipitationrate	0	
+[00:00:11]: setting 	iswet	false	
+[00:00:11]: setting 	isnewmoon	false	
+[00:00:11]: setting 	israining	false	
+[00:00:11]: setting 	iswinter	false	
+[00:00:11]: setting 	isnightmarewarn	false	
+[00:00:11]: setting 	precipitation	none	
+[00:00:11]: setting 	iscavewaxingmoon	false	
+[00:00:11]: setting 	isacidraining	false	
+[00:00:11]: setting 	moonphase	threequarter	
+[00:00:11]: setting 	remainingdaysinseason	19	
+[00:00:11]: setting 	temperature	52.55645603999	
+[00:00:11]: setting 	wetness	0	
+[00:00:11]: setting 	cycles	71	
+[00:00:11]: setting 	moistureceil	11262.422851562	
+[00:00:11]: setting 	isday	true	
+[00:00:11]: setting 	winterlength	15	
+[00:00:11]: setting 	season	autumn	
+[00:00:11]: setting 	iswaxingmoon	false	
+[00:00:11]: setting 	isalterawake	false	
+[00:00:11]: setting 	isnightmarecalm	false	
+[00:00:11]: setting 	isnight	false	
+[00:00:11]: setting 	isdusk	false	
+[00:00:11]: setting 	isspring	false	
+[00:00:11]: setting 	isautumn	true	
+[00:00:11]: setting 	iscaveday	true	
+[00:00:11]: setting 	lunarhaillevel	0	
+[00:00:11]: setting 	pop	0.19966530350322	
+[00:00:11]: setting 	snowlevel	0	
+[00:00:11]: setting 	issnowcovered	false	
+[00:00:11]: setting 	autumnlength	20	
+[00:00:11]: setting 	phase	day	
+[00:00:11]: setting 	nightmaretime	0	
+[00:00:11]: setting 	issnowing	false	
+[00:00:11]: setting 	iscavedusk	false	
+[00:00:11]: setting 	nightmarephase	none	
+[00:00:11]: setting 	timeinphase	0.0037176061559606	
+[00:00:11]: setting 	seasonprogress	0.05	
+[00:00:11]: setting 	iscavenight	false	
+[00:00:11]: setting 	iscavenewmoon	false	
+[00:00:11]: setting 	issummer	false	
+[00:00:11]: setting 	cavephase	day	
+[00:00:11]: setting 	time	0.0020911534627278	
+[00:00:11]: OVERRIDE: setting	resettime	to	none	
+[00:00:11]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:11]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:11]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:13]: Reconstructing topology	
+[00:00:13]: 	...Sorting points	
+[00:00:13]: 	...Sorting edges	
+[00:00:13]: 	...Connecting nodes	
+[00:00:13]: 	...Validating connections	
+[00:00:13]: 	...Housekeeping	
+[00:00:13]: 	...Done!	
+[00:00:13]: You must first AddTimer before you can start a timer	bearger_timetospawn	
+[00:00:13]: Truncating to snapshot #78...
+[00:00:13]:  - session/24D16F5B6F8040A6/0000000069
+[00:00:13]:  - session/24D16F5B6F8040A6/0000000070
+[00:00:13]:  - session/24D16F5B6F8040A6/0000000071
+[00:00:13]:  - session/24D16F5B6F8040A6/0000000072
+[00:00:13]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000072
+[00:00:13]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000071
+[00:00:13]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000070
+[00:00:13]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000069
+[00:00:13]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000079
+[00:00:13]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000072
+[00:00:13]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000071
+[00:00:13]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000070
+[00:00:13]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000069
+[00:00:13]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000079
+[00:00:13]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000071
+[00:00:13]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000070
+[00:00:13]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000069
+[00:00:13]:    17 file(s) removed
+[00:00:13]:  > session/24D16F5B6F8040A6/A7MLC9N4234Q/savelocation
+[00:00:13]:  > session/24D16F5B6F8040A6/A7NSORF9GCMC/savelocation
+[00:00:13]:    2 file(s) updated
+[00:00:13]: Restoring user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000078	
+[00:00:13]: Restoring user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000078	
+[00:00:13]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000079
+[00:00:13]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000079
+[00:00:13]: 1 uploads added to server. From server_temp
+[00:00:13]: About to start a shard with these settings:
+[00:00:13]:   ShardName: [SHDMASTER]
+[00:00:13]:   ShardID: 1
+[00:00:13]:   ShardRole: MASTER
+[00:00:13]:   MasterHost: (null)
+[00:00:13]:   MasterBind: 127.0.0.1
+[00:00:13]:   MasterPort: 10998
+[00:00:13]: [Shard] Starting master server
+[00:00:13]: [Shard] Shard server started on port: 10998
+[00:00:13]: Telling Client our new session identifier: 24D16F5B6F8040A6
+[00:00:13]: Check for write access: TRUE
+[00:00:13]: Check for read access: TRUE
+[00:00:13]: Available disk space for save files: 384267 MB
+[00:00:13]: ModIndex: Load sequence finished successfully.	
+[00:00:13]: Reset() returning
+[00:00:13]: Validating portal[2] <-> 1867152374[2] (inactive)	
+[00:00:13]: Validating portal[3] <-> 1867152374[3] (inactive)	
+[00:00:13]: Validating portal[5] <-> 1867152374[5] (inactive)	
+[00:00:13]: Validating portal[6] <-> 1867152374[6] (inactive)	
+[00:00:13]: Validating portal[7] <-> 1867152374[7] (inactive)	
+[00:00:13]: Validating portal[9] <-> 1867152374[9] (inactive)	
+[00:00:13]: Validating portal[10] <-> 1867152374[10] (inactive)	
+[00:00:13]: Validating portal[8] <-> 1867152374[8] (inactive)	
+[00:00:13]: Validating portal[4] <-> 1867152374[4] (inactive)	
+[00:00:13]: Validating portal[1] <-> 1867152374[1] (inactive)	
+[00:00:14]: Sim paused
+[00:00:14]: Server registered via geo DNS in ap-east-1
+[00:00:14]: [Shard] Secondary shard Caves(1867152374) connected: [LAN] 127.0.0.1
+[00:00:14]: [Shard] Secondary Caves(1867152374) ready!
+[00:00:14]: World 1867152374 is now connected	
+[00:00:14]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:14]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[00:00:14]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[00:00:14]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[00:00:14]: Validating portal[2] <-> 1867152374[2] (active)	
+[00:00:14]: Validating portal[3] <-> 1867152374[3] (disabled)	
+[00:00:14]: Validating portal[5] <-> 1867152374[5] (disabled)	
+[00:00:14]: Validating portal[6] <-> 1867152374[6] (disabled)	
+[00:00:14]: Validating portal[7] <-> 1867152374[7] (disabled)	
+[00:00:14]: Validating portal[9] <-> 1867152374[9] (disabled)	
+[00:00:14]: Validating portal[10] <-> 1867152374[10] (active)	
+[00:00:14]: Validating portal[8] <-> 1867152374[8] (active)	
+[00:00:14]: Validating portal[4] <-> 1867152374[4] (disabled)	
+[00:00:14]: Validating portal[1] <-> 1867152374[1] (disabled)	
+[00:00:14]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:00:14]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[00:00:14]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[00:00:14]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[00:30:03]: [200] Account Communication Success (6)
+[00:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:03]: [200] Account Communication Success (6)
+[01:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:03]: [200] Account Communication Success (6)
+[01:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:03]: [200] Account Communication Success (6)
+[02:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:30:03]: [200] Account Communication Success (6)
+[02:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[03:00:03]: [200] Account Communication Success (6)
+[03:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:03]: [200] Account Communication Success (6)
+[03:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:00:03]: [200] Account Communication Success (6)
+[04:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:30:03]: [200] Account Communication Success (6)
+[04:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[05:00:03]: [200] Account Communication Success (6)
+[05:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[05:30:03]: [200] Account Communication Success (6)
+[05:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:00:03]: [200] Account Communication Success (6)
+[06:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:30:03]: [200] Account Communication Success (6)
+[06:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:03]: [200] Account Communication Success (6)
+[07:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:30:03]: [200] Account Communication Success (6)
+[07:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:00:03]: [200] Account Communication Success (6)
+[08:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:30:03]: [200] Account Communication Success (6)
+[08:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:00:03]: [200] Account Communication Success (6)
+[09:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:30:03]: [200] Account Communication Success (6)
+[09:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:00:03]: [200] Account Communication Success (6)
+[10:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:30:03]: [200] Account Communication Success (6)
+[10:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:00:03]: [200] Account Communication Success (6)
+[11:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:30:03]: [200] Account Communication Success (6)
+[11:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:00:03]: [200] Account Communication Success (6)
+[12:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:30:03]: [200] Account Communication Success (6)
+[12:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:00:03]: [200] Account Communication Success (6)
+[13:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:30:03]: [200] Account Communication Success (6)
+[13:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[14:00:03]: [200] Account Communication Success (6)
+[14:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[14:30:03]: [200] Account Communication Success (6)
+[14:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[15:00:03]: [200] Account Communication Success (6)
+[15:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[15:30:03]: [200] Account Communication Success (6)
+[15:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[16:00:03]: [200] Account Communication Success (6)
+[16:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[16:30:03]: [200] Account Communication Success (6)
+[16:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[17:00:03]: [200] Account Communication Success (6)
+[17:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[17:30:03]: [200] Account Communication Success (6)
+[17:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[18:00:03]: [200] Account Communication Success (6)
+[18:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[18:30:03]: [200] Account Communication Success (6)
+[18:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[19:00:03]: [200] Account Communication Success (6)
+[19:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[19:30:03]: [200] Account Communication Success (6)
+[19:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[20:00:03]: [200] Account Communication Success (6)
+[20:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[20:30:03]: [200] Account Communication Success (6)
+[20:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[21:00:03]: [200] Account Communication Success (6)
+[21:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[21:30:03]: [200] Account Communication Success (6)
+[21:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[22:00:03]: [200] Account Communication Success (6)
+[22:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[22:30:03]: [200] Account Communication Success (6)
+[22:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[23:00:03]: [200] Account Communication Success (6)
+[23:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[23:30:03]: [200] Account Communication Success (6)
+[23:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:03]: [200] Account Communication Success (6)
+[00:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[00:30:03]: [200] Account Communication Success (6)
+[00:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:03]: [200] Account Communication Success (6)
+[01:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:03]: [200] Account Communication Success (6)
+[01:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:03]: [200] Account Communication Success (6)
+[02:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[03:00:03]: [200] Account Communication Success (6)
+[03:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:03]: [200] Account Communication Success (6)
+[03:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:00:03]: [200] Account Communication Success (6)
+[04:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[04:30:03]: [200] Account Communication Success (6)
+[04:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[05:00:03]: [200] Account Communication Success (6)
+[05:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[05:30:03]: [200] Account Communication Success (6)
+[05:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[06:30:03]: [200] Account Communication Success (6)
+[06:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:03]: [200] Account Communication Success (6)
+[07:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[07:30:03]: [200] Account Communication Success (6)
+[07:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:00:03]: [200] Account Communication Success (6)
+[08:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[08:30:03]: [200] Account Communication Success (6)
+[08:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:00:03]: [200] Account Communication Success (6)
+[09:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[09:30:03]: [200] Account Communication Success (6)
+[09:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:00:03]: [200] Account Communication Success (6)
+[10:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[10:30:03]: [200] Account Communication Success (6)
+[10:30:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:00:03]: [200] Account Communication Success (6)
+[11:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[11:30:04]: [200] Account Communication Success (6)
+[11:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[12:00:03]: [200] Account Communication Success (6)
+[12:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[12:30:04]: [200] Account Communication Success (6)
+[12:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[13:00:03]: [200] Account Communication Success (6)
+[13:00:03]: Received (KU__CRUc3BC) from TokenPurpose
+[13:30:04]: [200] Account Communication Success (6)
+[13:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:00:04]: [200] Account Communication Success (6)
+[14:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:30:04]: [200] Account Communication Success (6)
+[14:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[15:00:04]: [200] Account Communication Success (6)
+[15:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[15:30:04]: [200] Account Communication Success (6)
+[15:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[16:00:04]: [200] Account Communication Success (6)
+[16:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[16:30:04]: [200] Account Communication Success (6)
+[16:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[17:00:04]: [200] Account Communication Success (6)
+[17:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[17:09:40]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17:09:40]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
+[17:09:45]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17:09:45]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
+[17:09:50]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17:09:50]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
+[17:09:56]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17:09:56]: Failed to send server broadcast message
+[17:14:40]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[17:14:40]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
+[17:30:04]: [200] Account Communication Success (6)
+[17:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[18:00:04]: [200] Account Communication Success (6)
+[18:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[18:30:04]: [200] Account Communication Success (6)
+[18:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[19:00:04]: [200] Account Communication Success (6)
+[19:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[19:30:04]: [200] Account Communication Success (6)
+[19:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[20:00:04]: [200] Account Communication Success (6)
+[20:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[20:30:04]: [200] Account Communication Success (6)
+[20:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[21:00:05]: [200] Account Communication Success (6)
+[21:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[21:30:04]: [200] Account Communication Success (6)
+[21:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[22:00:04]: [200] Account Communication Success (6)
+[22:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[22:30:04]: [200] Account Communication Success (6)
+[22:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[23:00:04]: [200] Account Communication Success (6)
+[23:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[23:30:04]: [200] Account Communication Success (6)
+[23:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:04]: [200] Account Communication Success (6)
+[01:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[04:00:04]: [200] Account Communication Success (6)
+[04:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[04:30:04]: [200] Account Communication Success (6)
+[04:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[05:00:04]: [200] Account Communication Success (6)
+[05:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[05:23:25]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[05:23:25]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
+[05:23:28]: CURL ERROR: (lobby-v2.klei.com) [35]gnutls_handshake() failed: The TLS connection was non-properly terminated.
+[05:23:28]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
+[05:30:04]: [200] Account Communication Success (6)
+[05:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[06:30:04]: [200] Account Communication Success (6)
+[06:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:04]: [200] Account Communication Success (6)
+[07:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[07:30:04]: [200] Account Communication Success (6)
+[07:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[08:00:04]: [200] Account Communication Success (6)
+[08:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[08:30:04]: [200] Account Communication Success (6)
+[08:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[09:00:04]: [200] Account Communication Success (6)
+[09:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[09:30:04]: [200] Account Communication Success (6)
+[09:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[10:00:04]: [200] Account Communication Success (6)
+[10:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[10:30:04]: [200] Account Communication Success (6)
+[10:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[11:00:04]: [200] Account Communication Success (6)
+[11:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[11:30:04]: [200] Account Communication Success (6)
+[11:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[12:00:04]: [200] Account Communication Success (6)
+[12:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[12:30:04]: [200] Account Communication Success (6)
+[12:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[13:00:04]: [200] Account Communication Success (6)
+[13:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[13:30:04]: [200] Account Communication Success (6)
+[13:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:00:04]: [200] Account Communication Success (6)
+[14:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:30:04]: [200] Account Communication Success (6)
+[14:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[15:00:04]: [200] Account Communication Success (6)
+[15:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[15:30:04]: [200] Account Communication Success (6)
+[15:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[16:00:04]: [200] Account Communication Success (6)
+[16:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[16:30:04]: [200] Account Communication Success (6)
+[16:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[17:00:04]: [200] Account Communication Success (6)
+[17:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[17:30:04]: [200] Account Communication Success (6)
+[17:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[18:00:04]: [200] Account Communication Success (6)
+[18:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[18:30:04]: [200] Account Communication Success (6)
+[18:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[19:00:04]: [200] Account Communication Success (6)
+[19:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[19:30:04]: [200] Account Communication Success (6)
+[19:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[20:00:05]: [200] Account Communication Success (6)
+[20:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[20:30:04]: [200] Account Communication Success (6)
+[20:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[21:00:04]: [200] Account Communication Success (6)
+[21:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[21:30:04]: [200] Account Communication Success (6)
+[21:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[22:00:04]: [200] Account Communication Success (6)
+[22:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[22:30:04]: [200] Account Communication Success (6)
+[22:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[23:00:04]: [200] Account Communication Success (6)
+[23:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[23:30:04]: [200] Account Communication Success (6)
+[23:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:04]: [200] Account Communication Success (6)
+[00:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:04]: [200] Account Communication Success (6)
+[01:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:04]: [200] Account Communication Success (6)
+[02:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[02:30:04]: [200] Account Communication Success (6)
+[02:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[02:49:48]: [P2P] Session request for '76561198437240797'
+[02:49:52]: [P2P] Create session: 129.32.174.24|1 '76561198437240797'
+[02:49:52]: [P2P] Received from 129.32.174.24|1 '76561198437240797'
+[02:49:52]: [P2P] Sent to 129.32.174.24|1 '76561198437240797'
+[02:49:52]: New incoming connection 129.32.174.24|1 <6696131263774100358>
+[02:49:52]: Client connected from 129.32.174.24|1 <6696131263774100358>
+[02:49:52]: ValidateGameSessionToken GUID<6696131263774100358>
+[02:49:53]: Client authenticated: (KU__CRUc3BC) d8e_labmem
+[02:49:53]: [Steam] Authenticated host '76561198437240797'
+[02:49:54]: There is no active event to validate against.
+[02:49:54]: [Shard] Read save location file for (KU__CRUc3BC)
+[02:49:55]: New incoming connection 192.168.4.1|52502 <3907006099045381613>
+[02:49:55]: Client connected from 192.168.4.1|52502 <3907006099045381613>
+[02:49:55]: ValidateGameSessionToken GUID<3907006099045381613>
+[02:49:55]: Client authenticated: (KU_V_2d0tcA) dercaft
+[02:49:56]: [Steam] SendUserConnectAndAuthenticate for '76561198280591878'
+[02:49:56]: [Steam] Authenticated client '76561198280591878'
+[02:49:57]: There is no active event to validate against.
+[02:49:57]: [Shard] Read save location file for (KU_V_2d0tcA)
+[02:50:17]: Resuming user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000079
+[02:50:17]: Spawning player at: [Load] (119.07, -0.00, -393.46)	
+[02:50:17]: Sim unpaused
+[02:50:17]: Resuming user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000079
+[02:50:17]: Spawning player at: [Load] (109.11, 0.00, -314.48)	
+[02:53:49]: New incoming connection 192.168.4.1|65113 <998992074876521892>
+[02:53:49]: Client connected from 192.168.4.1|65113 <998992074876521892>
+[02:53:49]: ValidateGameSessionToken GUID<998992074876521892>
+[02:53:49]: Client authenticated: (KU_rM9kGGoQ) akuma
+[02:53:50]: [Steam] SendUserConnectAndAuthenticate for '76561198159408541'
+[02:53:50]: [Steam] Authenticated client '76561198159408541'
+[02:53:51]: There is no active event to validate against.
+[02:53:51]: [Shard] Read save location file for (KU_rM9kGGoQ)
+[02:54:23]: Resuming user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000077
+[02:54:23]: Spawning player at: [Load] (123.73, 0.00, -396.25)	
+[02:58:17]: Available disk space for save files: 384269 MB
+[02:58:17]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000079
+[02:58:17]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000079
+[02:58:17]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000079
+[02:58:17]: Serializing world: session/24D16F5B6F8040A6/0000000079
+[02:58:40]: Validating portal[1] <-> 1867152374[1] (active)	
+[02:58:46]: Activating portal[1] to 1867152374	
+[02:58:46]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000080
+[02:58:46]: [Shard] Migration request: (KU__CRUc3BC) to Caves(1867152374)
+[02:58:46]: [Shard] Begin migration #1 for (KU__CRUc3BC)
+[02:58:46]: [Shard] #1 [SHDMASTER](1) -> Caves(1867152374)
+[02:58:46]: [Shard] #1 <- session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000080
+[02:58:46]: [Shard] Writing save location file for (KU__CRUc3BC)
+[02:58:46]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:58:46]: [Steam] SendUserDisconnect for '76561198437240797'
+[02:58:46]: [Shard] (KU__CRUc3BC) disconnected from [SHDMASTER](1)
+[02:58:55]: [Shard] Completed migration #1 for player (KU__CRUc3BC)
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[03:02:01]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[03:02:02]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[03:02:49]: [Shard] Begin migration #2 for (KU__CRUc3BC)
+[03:02:49]: [Shard] #2 Caves(1867152374) -> [SHDMASTER](1)
+[03:02:49]: [Shard] #2 -> session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000080
+[03:02:49]: [Shard] Received migration #2 data for (KU__CRUc3BC)
+[03:02:49]: [Shard] Writing save location file for (KU__CRUc3BC)
+[03:02:49]: [Shard] (KU__CRUc3BC) disconnected from Caves(1867152374)
+[03:02:56]: [P2P] Received from 129.32.174.24|1 '76561198437240797'
+[03:02:56]: [P2P] Sent to 129.32.174.24|1 '76561198437240797'
+[03:02:57]: New incoming connection 129.32.174.24|1 <7669723943978227893>
+[03:02:57]: Client connected from 129.32.174.24|1 <7669723943978227893>
+[03:02:57]: ValidateGameSessionToken GUID<7669723943978227893>
+[03:02:58]: Client authenticated: (KU__CRUc3BC) d8e_labmem
+[03:02:58]: [Steam] Authenticated host '76561198437240797'
+[03:02:58]: [Shard] Completed incoming migration #2 for (KU__CRUc3BC)
+[03:02:58]: [Shard] Completed migration #2 for player (KU__CRUc3BC)
+[03:03:11]: Resuming user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000080
+[03:03:11]: Could not find anim [idle_loop] in bank [ghost]
+[03:03:11]: Player will spawn close to portal #1	
+[03:03:11]: Spawning player at: [Load] (-92.35, 0.00, -254.45)	
+[03:04:24]: Could not find anim [idle_loop] in bank [ghost]
+[03:04:27]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000080
+[03:05:02]: Could not find anim [transform_out] in bank [FROMNUM]
+[03:05:32]: Could not find anim [transform_out] in bank [FROMNUM]
+[03:06:17]: Available disk space for save files: 384269 MB
+[03:06:17]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000080
+[03:06:17]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000080
+[03:06:17]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000080
+[03:06:17]: Serializing world: session/24D16F5B6F8040A6/0000000080
+[03:07:38]: Activating portal[1] to 1867152374	
+[03:07:38]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000081
+[03:07:38]: [Shard] Migration request: (KU__CRUc3BC) to Caves(1867152374)
+[03:07:38]: [Shard] Begin migration #3 for (KU__CRUc3BC)
+[03:07:38]: [Shard] #3 [SHDMASTER](1) -> Caves(1867152374)
+[03:07:38]: [Shard] #3 <- session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000081
+[03:07:38]: [Shard] Writing save location file for (KU__CRUc3BC)
+[03:07:38]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[03:07:38]: [Steam] SendUserDisconnect for '76561198437240797'
+[03:07:38]: [Shard] (KU__CRUc3BC) disconnected from [SHDMASTER](1)
+[03:07:47]: [Shard] Completed migration #3 for player (KU__CRUc3BC)
+[03:11:47]: Could not find anim [death] in bank [ghost]
+[03:11:47]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000081
+[03:14:17]: Available disk space for save files: 384268 MB
+[03:14:18]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000081
+[03:14:18]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000081
+[03:14:18]: Serializing world: session/24D16F5B6F8040A6/0000000081
+[03:14:23]: Could not find anim [idle_loop] in bank [ghost]
+[03:14:26]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000082
+[03:17:41]: [P2P] Session timed out for '76561198437240797'
+[03:17:41]: [P2P] Remove session: 129.32.174.24|1 '76561198437240797'
+[03:20:21]: [Shard] Begin migration #4 for (KU__CRUc3BC)
+[03:20:21]: [Shard] #4 Caves(1867152374) -> [SHDMASTER](1)
+[03:20:21]: [Shard] #4 -> session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000082
+[03:20:21]: [Shard] Received migration #4 data for (KU__CRUc3BC)
+[03:20:21]: [Shard] Writing save location file for (KU__CRUc3BC)
+[03:20:21]: [Shard] (KU__CRUc3BC) disconnected from Caves(1867152374)
+[03:20:28]: [P2P] Create session: 129.32.174.25|1 '76561198437240797'
+[03:20:28]: [P2P] Received from 129.32.174.25|1 '76561198437240797'
+[03:20:28]: [P2P] Sent to 129.32.174.25|1 '76561198437240797'
+[03:20:29]: New incoming connection 129.32.174.25|1 <7376916258235263011>
+[03:20:29]: Client connected from 129.32.174.25|1 <7376916258235263011>
+[03:20:29]: ValidateGameSessionToken GUID<7376916258235263011>
+[03:20:30]: Client authenticated: (KU__CRUc3BC) d8e_labmem
+[03:20:30]: [Steam] Authenticated host '76561198437240797'
+[03:20:30]: [Shard] Completed incoming migration #4 for (KU__CRUc3BC)
+[03:20:30]: [Shard] Completed migration #4 for player (KU__CRUc3BC)
+[03:20:43]: Resuming user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000082
+[03:20:43]: Player will spawn close to portal #1	
+[03:20:43]: Spawning player at: [Load] (-92.99, 0.00, -255.85)	
+[03:22:18]: Available disk space for save files: 384267 MB
+[03:22:18]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000082
+[03:22:18]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000082
+[03:22:18]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000082
+[03:22:18]: Serializing world: session/24D16F5B6F8040A6/0000000082
+[03:30:04]: [200] Account Communication Success (6)
+[03:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:18]: Available disk space for save files: 384267 MB
+[03:30:18]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000083
+[03:30:18]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000083
+[03:30:18]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000083
+[03:30:18]: Serializing world: session/24D16F5B6F8040A6/0000000083
+[03:32:00]: KU__CRUc3BC	running text command:	rollback	true	
+[03:32:05]: Received world rollback request: count=1	
+[03:32:05]: Truncating to snapshot #83...
+[03:32:05]:  - session/24D16F5B6F8040A6/0000000073
+[03:32:05]:  - session/24D16F5B6F8040A6/0000000074
+[03:32:05]:  - session/24D16F5B6F8040A6/0000000075
+[03:32:05]:  - session/24D16F5B6F8040A6/0000000076
+[03:32:05]:  - session/24D16F5B6F8040A6/0000000077
+[03:32:05]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000076
+[03:32:05]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000075
+[03:32:05]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000074
+[03:32:05]:  - session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000073
+[03:32:05]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000077
+[03:32:05]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000076
+[03:32:05]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000075
+[03:32:05]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000074
+[03:32:05]:  - session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000073
+[03:32:05]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000077
+[03:32:05]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000076
+[03:32:05]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000075
+[03:32:05]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000074
+[03:32:05]:  - session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000072
+[03:32:05]:    19 file(s) removed
+[03:32:05]:  > session/24D16F5B6F8040A6/A7JVU2JG6UCA/savelocation
+[03:32:05]:    1 file(s) updated
+[03:32:05]: Collecting garbage...
+[03:32:06]: lua_gc took 0.14 seconds
+[03:32:06]: ~ShardLuaProxy()
+[03:32:06]: ~cEventLeaderboardProxy()
+[03:32:06]: ~ItemServerLuaProxy()
+[03:32:06]: ~InventoryLuaProxy()
+[03:32:06]: ~NetworkLuaProxy()
+[03:32:06]: ~SimLuaProxy()
+[03:32:06]: lua_close took 0.26 seconds
+[03:32:06]: ReleaseAll
+[03:32:06]: ReleaseAll Finished
+[03:32:06]: cGame::StartPlaying
+[03:32:06]: AppVersion::GetArchitecture() x32
+[03:32:06]: LOADING LUA
+[03:32:06]: DoLuaFile scripts/main.lua
+[03:32:06]: DoLuaFile loading buffer scripts/main.lua
+[03:32:06]:   taskgrouplist:	default	Together	
+[03:32:06]:   taskgrouplist:	classic	Classic	
+[03:32:06]:   taskgrouplist:	cave_default	Underground	
+[03:32:06]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[03:32:06]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[03:32:06]: Running main.lua
+	
+[03:32:06]: loaded modindex	
+[03:32:06]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[03:32:06]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[03:32:06]: LOADING LUA SUCCESS
+[03:32:06]: PlayerDeaths could not load morgue	
+[03:32:06]: PlayerHistory could not load player_history	
+[03:32:06]: ServerPreferences could not load server_preferences	
+[03:32:06]: ConsoleScreenSettings could not load consolescreen	
+[03:32:06]: bloom_enabled	true	
+[03:32:06]: OnFilesLoaded()	
+[03:32:06]: OnUpdatePurchaseStateComplete	
+[03:32:06]: Loading world: session/24D16F5B6F8040A6/0000000083	
+[03:32:06]: Save file is at version 5.151	
+[03:32:06]: Klump load on boot started.	
+[03:32:06]: Klump files loaded: 	0	
+[03:32:06]: 	Unload characters	
+[03:32:06]: 	BE assets already loaded	
+[03:32:07]: Begin Session: 24D16F5B6F8040A6
+[03:32:07]: Stomping previously assigned session identifier, two loads issued.
+[03:32:07]: saving to server_temp/server_save	
+[03:32:07]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[03:32:07]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[03:32:07]: Loading 19 new character(s)	
+[03:32:07]: Total 19 character(s) loaded	
+[03:32:07]: Loading Nav Grid	
+[03:32:07]: World generated on build 639083 with save version: 5.151, using seed: 1452409363	
+[03:32:07]: setting 	summerlength	15	
+[03:32:07]: setting 	cavemoonphase	half	
+[03:32:07]: setting 	iscavefullmoon	false	
+[03:32:07]: setting 	isnightmaredawn	false	
+[03:32:07]: setting 	elapseddaysinseason	6	
+[03:32:07]: setting 	isfullmoon	false	
+[03:32:07]: setting 	moisture	4291.4975585938	
+[03:32:07]: setting 	springlength	20	
+[03:32:07]: setting 	islunarhailing	false	
+[03:32:07]: setting 	isnightmarewild	false	
+[03:32:07]: setting 	nightmaretimeinphase	0	
+[03:32:07]: setting 	precipitationrate	0	
+[03:32:07]: setting 	iswet	false	
+[03:32:07]: setting 	isnewmoon	false	
+[03:32:07]: setting 	israining	false	
+[03:32:07]: setting 	iswinter	false	
+[03:32:07]: setting 	isnightmarewarn	false	
+[03:32:07]: setting 	precipitation	none	
+[03:32:07]: setting 	iscavewaxingmoon	false	
+[03:32:07]: setting 	isacidraining	false	
+[03:32:07]: setting 	moonphase	half	
+[03:32:07]: setting 	remainingdaysinseason	14	
+[03:32:07]: setting 	temperature	40.066737168072	
+[03:32:07]: setting 	wetness	0	
+[03:32:07]: setting 	cycles	76	
+[03:32:07]: setting 	moistureceil	11262.422851562	
+[03:32:07]: setting 	isday	true	
+[03:32:07]: setting 	winterlength	15	
+[03:32:07]: setting 	season	autumn	
+[03:32:07]: setting 	iswaxingmoon	false	
+[03:32:07]: setting 	isalterawake	false	
+[03:32:07]: setting 	isnightmarecalm	false	
+[03:32:07]: setting 	isnight	false	
+[03:32:07]: setting 	isdusk	false	
+[03:32:07]: setting 	isspring	false	
+[03:32:07]: setting 	isautumn	true	
+[03:32:07]: setting 	iscaveday	true	
+[03:32:07]: setting 	lunarhaillevel	0	
+[03:32:07]: setting 	pop	0.34926534816345	
+[03:32:07]: setting 	snowlevel	0	
+[03:32:07]: setting 	issnowcovered	false	
+[03:32:07]: setting 	autumnlength	20	
+[03:32:07]: setting 	phase	day	
+[03:32:07]: setting 	nightmaretime	0	
+[03:32:07]: setting 	issnowing	false	
+[03:32:07]: setting 	iscavedusk	false	
+[03:32:07]: setting 	nightmarephase	none	
+[03:32:07]: setting 	timeinphase	0.0042487462361653	
+[03:32:07]: setting 	seasonprogress	0.3	
+[03:32:07]: setting 	iscavenight	false	
+[03:32:07]: setting 	iscavenewmoon	false	
+[03:32:07]: setting 	issummer	false	
+[03:32:07]: setting 	cavephase	day	
+[03:32:07]: setting 	time	0.0021243731180827	
+[03:32:07]: OVERRIDE: setting	resettime	to	none	
+[03:32:07]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[03:32:07]: OVERRIDE: setting	portalresurection	to	always	
+[03:32:07]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[03:32:10]: Reconstructing topology	
+[03:32:10]: 	...Sorting points	
+[03:32:10]: 	...Sorting edges	
+[03:32:10]: 	...Connecting nodes	
+[03:32:10]: 	...Validating connections	
+[03:32:10]: 	...Housekeeping	
+[03:32:10]: 	...Done!	
+[03:32:10]: Restoring user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000083	
+[03:32:10]: Restoring user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000083	
+[03:32:10]: Restoring user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000083	
+[03:32:10]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000084
+[03:32:10]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000084
+[03:32:10]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000084
+[03:32:10]: 1 uploads added to server. From server_temp
+[03:32:10]: World 1867152374 is now connected	
+[03:32:10]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[03:32:10]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[03:32:10]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[03:32:10]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[03:32:10]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[03:32:10]: Telling Client our new session identifier: 24D16F5B6F8040A6
+[03:32:10]: Check for write access: TRUE
+[03:32:10]: Check for read access: TRUE
+[03:32:10]: Available disk space for save files: 384266 MB
+[03:32:10]: ModIndex: Load sequence finished successfully.	
+[03:32:10]: Reset() returning
+[03:32:10]: Received resync request from client with no player
+[03:32:10]: [Shard] Secondary shard 'Caves(1867152374)' restarting...
+[03:32:10]: World 1867152374 is now disconnected	
+[03:32:10]: Validating portal[7] <-> 1867152374[7] (inactive)	
+[03:32:10]: Validating portal[10] <-> 1867152374[10] (inactive)	
+[03:32:10]: Validating portal[8] <-> 1867152374[8] (inactive)	
+[03:32:10]: Validating portal[2] <-> 1867152374[2] (inactive)	
+[03:32:10]: Validating portal[1] <-> 1867152374[1] (inactive)	
+[03:32:10]: Validating portal[3] <-> 1867152374[3] (inactive)	
+[03:32:10]: Validating portal[9] <-> 1867152374[9] (inactive)	
+[03:32:10]: Validating portal[4] <-> 1867152374[4] (inactive)	
+[03:32:10]: Validating portal[5] <-> 1867152374[5] (inactive)	
+[03:32:10]: Validating portal[6] <-> 1867152374[6] (inactive)	
+[03:32:10]: Sim paused
+[03:32:15]: [Shard] Secondary Caves(1867152374) ready!
+[03:32:15]: World 1867152374 is now connected	
+[03:32:15]: [SyncWorldSettings] Sending master world option ghostsanitydrain = none to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Sending master world option resettime = none to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Sending master world option basicresource_regrowth = always to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[03:32:15]: Validating portal[7] <-> 1867152374[7] (disabled)	
+[03:32:15]: Validating portal[10] <-> 1867152374[10] (active)	
+[03:32:15]: Validating portal[8] <-> 1867152374[8] (active)	
+[03:32:15]: Validating portal[2] <-> 1867152374[2] (active)	
+[03:32:15]: Validating portal[1] <-> 1867152374[1] (active)	
+[03:32:15]: Validating portal[3] <-> 1867152374[3] (disabled)	
+[03:32:15]: Validating portal[9] <-> 1867152374[9] (disabled)	
+[03:32:15]: Validating portal[4] <-> 1867152374[4] (disabled)	
+[03:32:15]: Validating portal[5] <-> 1867152374[5] (disabled)	
+[03:32:15]: Validating portal[6] <-> 1867152374[6] (disabled)	
+[03:32:15]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = none to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Resyncing master world option resettime = none to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = always to secondary shards.	
+[03:32:15]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
+[03:32:19]: Restarting player migration on master server
+[03:32:19]: [Shard] Read save location file for (KU_V_2d0tcA)
+[03:32:19]: Resuming user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000084
+[03:32:19]: Spawning player at: [Load] (-34.43, -0.00, -145.54)	
+[03:32:19]: Sim unpaused
+[03:32:23]: Restarting player migration on master server
+[03:32:23]: [Shard] Read save location file for (KU__CRUc3BC)
+[03:32:23]: Resuming user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000084
+[03:32:23]: Spawning player at: [Load] (118.45, 0.00, -394.69)	
+[03:32:26]: Restarting player migration on master server
+[03:32:26]: [Shard] Read save location file for (KU_rM9kGGoQ)
+[03:32:26]: Resuming user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000084
+[03:32:26]: Spawning player at: [Load] (-73.66, 0.00, -695.48)	
+[03:37:34]: Validating portal[9] <-> 1867152374[9] (active)	
+[03:40:19]: Available disk space for save files: 384269 MB
+[03:40:19]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000084
+[03:40:19]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000084
+[03:40:19]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000084
+[03:40:19]: Serializing world: session/24D16F5B6F8040A6/0000000084
+[03:48:19]: Available disk space for save files: 384268 MB
+[03:48:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000085
+[03:48:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000085
+[03:48:20]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000085
+[03:48:20]: Serializing world: session/24D16F5B6F8040A6/0000000085
+[03:56:20]: Available disk space for save files: 384268 MB
+[03:56:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000086
+[03:56:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000086
+[03:56:20]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000086
+[03:56:20]: Missing reference:	127262 - spiderqueen	->	127568	127568 - spider(LIMBO)	
+[03:56:20]: Missing reference:	127262 - spiderqueen	->	127641	127641 - spider(LIMBO)	
+[03:56:20]: Serializing world: session/24D16F5B6F8040A6/0000000086
+[04:00:04]: [200] Account Communication Success (6)
+[04:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[04:04:08]: [Steam] SendUserDisconnect for '76561198159408541'
+[04:04:08]: [Shard] (KU_rM9kGGoQ) disconnected from [SHDMASTER](1)
+[04:04:08]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000087
+[04:04:20]: Available disk space for save files: 384267 MB
+[04:04:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000087
+[04:04:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000087
+[04:04:20]: Serializing world: session/24D16F5B6F8040A6/0000000087
+[04:05:56]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[04:05:59]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[04:06:41]: Could not find anim [transform_out] in bank [FROMNUM]
+[04:06:42]: Could not find anim [transform_out] in bank [FROMNUM]
+[04:08:56]: New incoming connection 192.168.4.1|57105 <7834945440159846735>
+[04:08:56]: Client connected from 192.168.4.1|57105 <7834945440159846735>
+[04:08:56]: ValidateGameSessionToken GUID<7834945440159846735>
+[04:08:56]: Client authenticated: (KU_rM9kGGoQ) akuma
+[04:08:56]: [Steam] SendUserConnectAndAuthenticate for '76561198159408541'
+[04:08:57]: [Steam] Authenticated client '76561198159408541'
+[04:08:58]: There is no active event to validate against.
+[04:08:58]: [Shard] Read save location file for (KU_rM9kGGoQ)
+[04:09:29]: [Steam] SendUserDisconnect for '76561198159408541'
+[04:09:29]: Connection lost to 192.168.4.1|57105 <7834945440159846735>
+[04:09:29]: [Shard] (KU_rM9kGGoQ) disconnected from [SHDMASTER](1)
+[04:12:05]: New incoming connection 192.168.4.1|59101 <250592734977323275>
+[04:12:05]: Client connected from 192.168.4.1|59101 <250592734977323275>
+[04:12:05]: ValidateGameSessionToken GUID<250592734977323275>
+[04:12:06]: Client authenticated: (KU_rM9kGGoQ) akuma
+[04:12:06]: [Steam] SendUserConnectAndAuthenticate for '76561198159408541'
+[04:12:06]: [Steam] Authenticated client '76561198159408541'
+[04:12:07]: There is no active event to validate against.
+[04:12:07]: [Shard] Read save location file for (KU_rM9kGGoQ)
+[04:12:20]: Available disk space for save files: 384266 MB
+[04:12:20]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000088
+[04:12:20]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000088
+[04:12:21]: Serializing world: session/24D16F5B6F8040A6/0000000088
+[04:12:34]: Resuming user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000087
+[04:12:34]: Spawning player at: [Load] (116.62, -0.00, -398.05)	
+[04:13:19]: Could not find anim [death] in bank [ghost]
+[04:13:19]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000089
+[04:13:51]: Could not find anim [idle_loop] in bank [ghost]
+[04:13:54]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000089
+[04:20:20]: Available disk space for save files: 384266 MB
+[04:20:21]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000089
+[04:20:21]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000089
+[04:20:21]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000089
+[04:20:21]: Serializing world: session/24D16F5B6F8040A6/0000000089
+[04:28:21]: Available disk space for save files: 384265 MB
+[04:28:21]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000090
+[04:28:21]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000090
+[04:28:21]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000090
+[04:28:21]: Serializing world: session/24D16F5B6F8040A6/0000000090
+[04:30:04]: [200] Account Communication Success (6)
+[04:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[04:36:21]: Available disk space for save files: 384265 MB
+[04:36:21]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000091
+[04:36:21]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000091
+[04:36:21]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000091
+[04:36:21]: Serializing world: session/24D16F5B6F8040A6/0000000091
+[04:44:21]: Available disk space for save files: 384264 MB
+[04:44:21]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000092
+[04:44:21]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000092
+[04:44:21]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000092
+[04:44:22]: Serializing world: session/24D16F5B6F8040A6/0000000092
+[04:46:16]: [Steam] SendUserDisconnect for '76561198159408541'
+[04:46:16]: [Shard] (KU_rM9kGGoQ) disconnected from [SHDMASTER](1)
+[04:46:17]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000093
+[04:46:49]: [Steam] SendUserDisconnect for '76561198280591878'
+[04:46:49]: [Shard] (KU_V_2d0tcA) disconnected from [SHDMASTER](1)
+[04:46:50]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000093
+[04:46:52]: Server Autopaused	
+[04:46:54]: Server Unpaused	
+[04:47:03]: [Steam] SendUserDisconnect for '76561198437240797'
+[04:47:03]: Connection lost to 129.32.174.25|1 <7376916258235263011>
+[04:47:03]: [Shard] (KU__CRUc3BC) disconnected from [SHDMASTER](1)
+[04:47:03]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000093
+[04:47:03]: Sim paused
+[04:47:28]: [P2P] Connection failed for '76561198437240797' because of error code 4(The connection timed out because the target user didn't respond.).
+[04:57:03]: [P2P] Session timed out for '76561198437240797'
+[04:57:03]: [P2P] Remove session: 129.32.174.25|1 '76561198437240797'
+[05:00:04]: [200] Account Communication Success (6)
+[05:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[05:30:05]: [200] Account Communication Success (6)
+[05:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[06:00:04]: [200] Account Communication Success (6)
+[06:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[06:30:04]: [200] Account Communication Success (6)
+[06:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[07:00:04]: [200] Account Communication Success (6)
+[07:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[07:30:04]: [200] Account Communication Success (6)
+[07:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[08:00:04]: [200] Account Communication Success (6)
+[08:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[08:30:04]: [200] Account Communication Success (6)
+[08:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[09:00:04]: [200] Account Communication Success (6)
+[09:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[09:30:04]: [200] Account Communication Success (6)
+[09:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[10:00:04]: [200] Account Communication Success (6)
+[10:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[10:30:04]: [200] Account Communication Success (6)
+[10:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[11:00:04]: [200] Account Communication Success (6)
+[11:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[11:30:04]: [200] Account Communication Success (6)
+[11:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[12:00:04]: [200] Account Communication Success (6)
+[12:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[12:30:04]: [200] Account Communication Success (6)
+[12:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[13:00:04]: [200] Account Communication Success (6)
+[13:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[13:30:04]: [200] Account Communication Success (6)
+[13:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:00:04]: [200] Account Communication Success (6)
+[14:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:30:04]: [200] Account Communication Success (6)
+[14:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[14:38:04]: CURL ERROR: (lobby-v2.klei.com) [28]Operation timed out after 60002 milliseconds with 0 out of 0 bytes received
+[14:38:04]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
+[15:00:04]: [200] Account Communication Success (6)
+[15:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[15:30:04]: [200] Account Communication Success (6)
+[15:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[16:00:04]: [200] Account Communication Success (6)
+[16:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[16:30:04]: [200] Account Communication Success (6)
+[16:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[17:00:04]: [200] Account Communication Success (6)
+[17:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[17:30:04]: [200] Account Communication Success (6)
+[17:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[18:00:04]: [200] Account Communication Success (6)
+[18:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[18:30:04]: [200] Account Communication Success (6)
+[18:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[19:00:04]: [200] Account Communication Success (6)
+[19:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[19:30:04]: [200] Account Communication Success (6)
+[19:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[20:00:04]: [200] Account Communication Success (6)
+[20:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[20:30:04]: [200] Account Communication Success (6)
+[20:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[21:00:04]: [200] Account Communication Success (6)
+[21:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[21:30:04]: [200] Account Communication Success (6)
+[21:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[22:00:04]: [200] Account Communication Success (6)
+[22:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[22:30:05]: [200] Account Communication Success (6)
+[22:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[23:00:04]: [200] Account Communication Success (6)
+[23:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[23:30:04]: [200] Account Communication Success (6)
+[23:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[00:00:05]: [200] Account Communication Success (6)
+[00:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[00:30:04]: [200] Account Communication Success (6)
+[00:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU__CRUc3BC) from TokenPurpose
+[01:30:04]: [200] Account Communication Success (6)
+[01:30:04]: Received (KU__CRUc3BC) from TokenPurpose
+[02:00:05]: [200] Account Communication Success (6)
+[02:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[02:30:05]: [200] Account Communication Success (6)
+[02:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[03:00:04]: [200] Account Communication Success (6)
+[03:00:04]: Received (KU__CRUc3BC) from TokenPurpose
+[03:30:05]: [200] Account Communication Success (6)
+[03:30:05]: Received (KU__CRUc3BC) from TokenPurpose
+[04:00:05]: [200] Account Communication Success (6)
+[04:00:05]: Received (KU__CRUc3BC) from TokenPurpose
+[04:15:55]: [P2P] Create session: 129.32.174.26|1 '76561198437240797'
+[04:15:55]: [P2P] Received from 129.32.174.26|1 '76561198437240797'
+[04:15:55]: [P2P] Sent to 129.32.174.26|1 '76561198437240797'
+[04:15:55]: New incoming connection 129.32.174.26|1 <6909423780671042611>
+[04:15:55]: Client connected from 129.32.174.26|1 <6909423780671042611>
+[04:15:55]: ValidateGameSessionToken GUID<6909423780671042611>
+[04:15:56]: Client authenticated: (KU__CRUc3BC) d8e_labmem
+[04:15:56]: [Steam] Authenticated host '76561198437240797'
+[04:15:58]: There is no active event to validate against.
+[04:15:58]: [Shard] Read save location file for (KU__CRUc3BC)
+[04:16:21]: Resuming user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000093
+[04:16:21]: Spawning player at: [Load] (125.58, 0.00, -405.30)	
+[04:16:21]: Sim unpaused
+[04:16:21]: New time stamps for everyone at	1732978721	
+[04:16:32]: [P2P] Session request for '76561198159408541'
+[04:16:36]: [P2P] Create session: 129.32.174.27|1 '76561198159408541'
+[04:16:36]: [P2P] Received from 129.32.174.27|1 '76561198159408541'
+[04:16:36]: [P2P] Sent to 129.32.174.27|1 '76561198159408541'
+[04:16:36]: New incoming connection 129.32.174.27|1 <3165313522080390731>
+[04:16:36]: Client connected from 129.32.174.27|1 <3165313522080390731>
+[04:16:36]: ValidateGameSessionToken GUID<3165313522080390731>
+[04:16:36]: Client authenticated: (KU_rM9kGGoQ) akuma
+[04:16:36]: [Steam] SendUserConnectAndAuthenticate for '76561198159408541'
+[04:16:37]: [Steam] Authenticated client '76561198159408541'
+[04:16:37]: There is no active event to validate against.
+[04:16:37]: [Shard] Read save location file for (KU_rM9kGGoQ)
+[04:17:07]: Resuming user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000093
+[04:17:07]: Spawning player at: [Load] (115.21, -0.00, -417.32)	
+[04:18:02]: [P2P] Session request for '76561198280591878'
+[04:18:06]: [P2P] Create session: 129.32.174.28|1 '76561198280591878'
+[04:18:06]: [P2P] Received from 129.32.174.28|1 '76561198280591878'
+[04:18:06]: [P2P] Sent to 129.32.174.28|1 '76561198280591878'
+[04:18:06]: New incoming connection 129.32.174.28|1 <18720038287160412>
+[04:18:06]: Client connected from 129.32.174.28|1 <18720038287160412>
+[04:18:06]: ValidateGameSessionToken GUID<18720038287160412>
+[04:18:07]: Client authenticated: (KU_V_2d0tcA) dercaft
+[04:18:07]: [Steam] SendUserConnectAndAuthenticate for '76561198280591878'
+[04:18:07]: [Steam] Authenticated client '76561198280591878'
+[04:18:09]: There is no active event to validate against.
+[04:18:09]: [Shard] Read save location file for (KU_V_2d0tcA)
+[04:18:31]: Resuming user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000093
+[04:18:31]: Spawning player at: [Load] (121.66, -0.00, -396.48)	
+[04:20:35]: Rate limiting RPCs from	139750 - wilson	KU_rM9kGGoQ	last one being ID	41	
+[04:21:41]: Available disk space for save files: 384263 MB
+[04:21:41]: Serializing user: session/24D16F5B6F8040A6/A7NSORF9GCMC/0000000093
+[04:21:41]: Serializing user: session/24D16F5B6F8040A6/A7MLC9N4234Q/0000000093
+[04:21:41]: Serializing user: session/24D16F5B6F8040A6/A7JVU2JG6UCA/0000000093
+[04:21:41]: Serializing world: session/24D16F5B6F8040A6/0000000093

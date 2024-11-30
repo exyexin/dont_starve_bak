@@ -1,0 +1,256 @@
+[00:03:02]: [Join Announcement] akuma
+[00:03:16]: [Leave Announcement] akuma
+[00:45:45]: [Join Announcement] d8e_labmem
+[00:47:34]: [Join Announcement] akuma
+[00:48:56]: [Say] (KU__CRUc3BC) d8e_labmem: build magic
+[00:51:28]: [Say] (KU__CRUc3BC) d8e_labmem: no kill rabbits
+[00:55:40]: [Join Announcement] dercaft
+[00:55:51]: [Say] (KU__CRUc3BC) d8e_labmem: need magic?
+[00:57:32]: [Death Announcement] akuma was killed by Freezing. He became a spooky ghost!
+[00:57:37]: [Death Announcement] dercaft was killed by Freezing. He became a spooky ghost!
+[00:57:38]: [Leave Announcement] akuma
+[00:58:19]: [Join Announcement] akuma
+[00:59:05]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[00:59:30]: [Leave Announcement] akuma
+[01:00:03]: [Join Announcement] akuma
+[01:00:59]: [Say] (KU__CRUc3BC) d8e_labmem: come here akuma
+[01:01:01]: [Say] (KU_V_2d0tcA) dercaft: 复活
+[01:01:06]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[01:01:52]: [Say] (KU__CRUc3BC) d8e_labmem: 象鼻怎么处理
+[01:02:08]: [Say] (KU_V_2d0tcA) dercaft: 烤了吃
+[01:02:18]: [Say] (KU__CRUc3BC) d8e_labmem: 我记得可以做衣服
+[01:02:25]: [Say] (KU_V_2d0tcA) dercaft: 嗯嗯，做成夹克
+[01:02:51]: [Death Announcement] dercaft was killed by Hound. He became a spooky ghost!
+[01:03:01]: [Death Announcement] d8e_labmem was killed by Hound. He became a spooky ghost!
+[01:03:16]: [Death Announcement] akuma was killed by Hound. He became a spooky ghost!
+[01:03:33]: [Vote Announcement] rollback passed
+[01:03:38]: [Roll Announcement] (KU_rM9kGGoQ) akuma 67 (1-100)
+[01:04:46]: [Leave Announcement] akuma
+[01:05:41]: [Say] (KU__CRUc3BC) d8e_labmem: 为什么好多杀人蜂
+[01:06:18]: [Join Announcement] akuma
+[01:07:19]: [Say] (KU__CRUc3BC) d8e_labmem: san
+[01:07:25]: [Say] (KU_rM9kGGoQ) akuma: i need slepp
+[01:07:34]: [Say] (KU_V_2d0tcA) dercaft: 用巨鹿眼球做眼球伞
+[01:07:44]: [Say] (KU_V_2d0tcA) dercaft: 100%防水
+[01:09:45]: [Say] (KU_rM9kGGoQ) akuma: sleep>
+[01:10:44]: [Say] (KU__CRUc3BC) d8e_labmem: go sleep
+[01:10:53]: [Say] (KU_rM9kGGoQ) akuma: cant
+[01:11:04]: [Say] (KU__CRUc3BC) d8e_labmem: y
+[01:11:05]: [Say] (KU_rM9kGGoQ) akuma: no its wet
+[01:12:51]: [Say] (KU_rM9kGGoQ) akuma: where is my  backpack
+[01:13:02]: [Say] (KU_V_2d0tcA) dercaft: here
+[01:13:21]: [Say] (KU__CRUc3BC) d8e_labmem: y all the kill bee
+[01:13:34]: [Say] (KU_V_2d0tcA) dercaft: give me all stone fruit
+[01:14:51]: [Say] (KU_rM9kGGoQ) akuma: big bird in north
+[01:15:00]: [Say] (KU__CRUc3BC) d8e_labmem: ?
+[01:15:13]: [Say] (KU_V_2d0tcA) dercaft: boss of spring
+[01:15:25]: [Say] (KU__CRUc3BC) d8e_labmem: go
+[01:17:48]: [Say] (KU__CRUc3BC) d8e_labmem: where the boss
+[01:18:25]: [Say] (KU__CRUc3BC) d8e_labmem: sleeping
+[01:21:24]: [Say] (KU__CRUc3BC) d8e_labmem: bi lei zhen
+[01:21:37]: [Say] (KU_V_2d0tcA) dercaft: ok le
+[01:22:06]: [Say] (KU__CRUc3BC) d8e_labmem: how akuma
+[01:22:25]: [Say] (KU_V_2d0tcA) dercaft: twig I need
+[01:22:40]: [Death Announcement] akuma was killed by Spider Warrior. He became a spooky ghost!
+[01:23:28]: [Say] (KU_rM9kGGoQ) akuma: bird on north
+[01:23:33]: [Say] (KU_rM9kGGoQ) akuma: big bird
+[01:24:24]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[01:24:41]: [Say] (KU__CRUc3BC) d8e_labmem: i see that
+[01:24:45]: [Say] (KU__CRUc3BC) d8e_labmem: come on
+[01:26:20]: [Say] (KU_V_2d0tcA) dercaft: 我在睡
+[01:26:34]: [Say] (KU_V_2d0tcA) dercaft: 树枝，蛛网
+[01:27:06]: [Death Announcement] d8e_labmem was killed by Spider. He became a spooky ghost!
+[01:28:02]: [Say] (KU__CRUc3BC) d8e_labmem: 需要永久光源
+[01:28:18]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[01:29:35]: [Say] (KU__CRUc3BC) d8e_labmem: 为什么现在都是杀人蜂了
+[01:29:50]: [Say] (KU__CRUc3BC) d8e_labmem: 很麻烦感觉
+[01:34:48]: [Say] (KU_rM9kGGoQ) akuma: you sleep?
+[01:34:52]: [Say] (KU__CRUc3BC) d8e_labmem: nope
+[01:34:56]: [Say] (KU__CRUc3BC) d8e_labmem: outside
+[01:35:18]: [Say] (KU__CRUc3BC) d8e_labmem: come out and hunt geese
+[01:35:35]: [Say] (KU_rM9kGGoQ) akuma: no weapon on me
+[01:35:40]: [Say] (KU_rM9kGGoQ) akuma: no armer either
+[01:35:42]: [Say] (KU__CRUc3BC) d8e_labmem: build
+[01:35:49]: [Say] (KU_V_2d0tcA) dercaft: Mine ice
+[01:35:51]: [Say] (KU__CRUc3BC) d8e_labmem: pig fur
+[01:36:05]: [Say] (KU__CRUc3BC) d8e_labmem: no ice
+[01:36:08]: [Say] (KU__CRUc3BC) d8e_labmem: too hot
+[01:36:14]: [Say] (KU__CRUc3BC) d8e_labmem: 2 group in frige
+[01:37:39]: [Death Announcement] d8e_labmem was killed by Spider. He became a spooky ghost!
+[01:38:36]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[01:39:00]: [Say] (KU__CRUc3BC) d8e_labmem: do we need to deal me kill bee?
+[01:39:14]: [Say] (KU__CRUc3BC) d8e_labmem: deal with
+[01:40:24]: [Say] (KU__CRUc3BC) d8e_labmem: 稿子有吗
+[01:40:34]: [Say] (KU_V_2d0tcA) dercaft: nope
+[01:41:55]: [Say] (KU__CRUc3BC) d8e_labmem: u back
+[01:45:22]: [Say] (KU__CRUc3BC) d8e_labmem: gaozi
+[01:48:30]: [Say] (KU__CRUc3BC) d8e_labmem: 需要腐烂物
+[01:48:36]: [Say] (KU_V_2d0tcA) dercaft: I have
+[01:48:38]: [Say] (KU__CRUc3BC) d8e_labmem: for heal
+[01:49:25]: [Say] (KU__CRUc3BC) d8e_labmem: 蜜蜂的针？
+[01:49:57]: [Say] (KU_rM9kGGoQ) akuma: wo qu da yihui diguo
+[01:50:00]: [Leave Announcement] akuma
+[01:50:06]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:05:20]: [Say] (KU__CRUc3BC) d8e_labmem: prepare some food sup
+[02:05:23]: [Say] (KU__CRUc3BC) d8e_labmem: plz
+[02:05:50]: [Say] (KU__CRUc3BC) d8e_labmem: 3 meat with 1 monster meat os
+[02:05:53]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:06:01]: [Say] (KU__CRUc3BC) d8e_labmem: +150 hun
+[02:09:40]: [Say] (KU__CRUc3BC) d8e_labmem: is geese living？
+[02:13:56]: [Say] (KU__CRUc3BC) d8e_labmem: maybe prepare for summer
+[02:14:01]: [Say] (KU_V_2d0tcA) dercaft: yes
+[02:14:01]: [Say] (KU__CRUc3BC) d8e_labmem: gears
+[02:14:04]: [Say] (KU__CRUc3BC) d8e_labmem: x2
+[02:14:11]: [Say] (KU_V_2d0tcA) dercaft: tommorrow go kill goose
+[02:14:14]: [Say] (KU_V_2d0tcA) dercaft: big brid
+[02:14:15]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[02:15:50]: [Say] (KU__CRUc3BC) d8e_labmem: dog coming
+[02:16:16]: [Say] (KU_V_2d0tcA) dercaft: batte
+[02:16:33]: [Death Announcement] dercaft was killed by Hound. He became a spooky ghost!
+[02:16:44]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[02:18:44]: [Say] (KU__CRUc3BC) d8e_labmem: need heal
+[02:21:26]: [Say] (KU__CRUc3BC) d8e_labmem: are u near geese
+[02:21:51]: [Say] (KU_V_2d0tcA) dercaft: blood low
+[02:22:24]: [Say] (KU__CRUc3BC) d8e_labmem: in bosx
+[02:22:29]: [Say] (KU__CRUc3BC) d8e_labmem: top
+[02:22:36]: [Say] (KU__CRUc3BC) d8e_labmem: or go sleep
+[02:22:39]: [Say] (KU__CRUc3BC) d8e_labmem: for heal
+[02:23:47]: [Say] (KU__CRUc3BC) d8e_labmem: go ？
+[02:23:59]: [Say] (KU_V_2d0tcA) dercaft: wait
+[02:24:06]: [Say] (KU_V_2d0tcA) dercaft: need armor
+[02:28:25]: [Say] (KU__CRUc3BC) d8e_labmem: heal
+[02:29:59]: [Say] (KU_V_2d0tcA) dercaft: each take 2 jioazi
+[02:31:34]: [Say] (KU_V_2d0tcA) dercaft: go
+[02:31:42]: [Say] (KU__CRUc3BC) d8e_labmem: rdy to kill geese?
+[02:31:46]: [Say] (KU_V_2d0tcA) dercaft: yea
+[02:32:39]: [Say] (KU_V_2d0tcA) dercaft: go
+[02:33:02]: [Say] (KU_V_2d0tcA) dercaft: where goose
+[02:33:18]: [Say] (KU__CRUc3BC) d8e_labmem: oh waepon
+[02:33:20]: [Say] (KU_V_2d0tcA) dercaft: go for goose
+[02:33:33]: [Say] (KU_V_2d0tcA) dercaft: go
+[02:34:37]: [Death Announcement] dercaft was killed by Eye Plant. He became a spooky ghost!
+[02:34:46]: [Say] (KU__CRUc3BC) d8e_labmem: here
+[02:35:08]: [Say] (KU__CRUc3BC) d8e_labmem: maybe too hard?
+[02:35:17]: [Say] (KU_V_2d0tcA) dercaft: too many spider
+[02:35:23]: [Say] (KU_V_2d0tcA) dercaft: kill spider first
+[02:35:32]: [Say] (KU_V_2d0tcA) dercaft: clean all spider base
+[02:36:38]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[02:41:07]: [Say] (KU__CRUc3BC) d8e_labmem: too many spider
+[02:41:16]: [Say] (KU_V_2d0tcA) dercaft: yeah
+[02:41:19]: [Say] (KU_V_2d0tcA) dercaft: run
+[02:41:32]: [Say] (KU__CRUc3BC) d8e_labmem: geese leave
+[02:41:46]: [Say] (KU_V_2d0tcA) dercaft: acceptable
+[02:41:58]: [Say] (KU__CRUc3BC) d8e_labmem: it back
+[02:46:24]: [Say] (KU__CRUc3BC) d8e_labmem: retreat
+[02:48:36]: [Leave Announcement] dercaft
+[02:48:48]: [Leave Announcement] d8e_labmem
+[03:03:01]: [Join Announcement] dercaft
+[03:03:04]: [Join Announcement] akuma
+[03:03:07]: [Join Announcement] d8e_labmem
+[03:03:53]: [Say] (KU__CRUc3BC) d8e_labmem: low san
+[03:05:01]: [Death Announcement] d8e_labmem was killed by Crawling Horror. He became a spooky ghost!
+[03:05:06]: [Say] (KU__CRUc3BC) d8e_labmem: rollback?
+[03:05:23]: [Vote Announcement] rollback passed
+[03:05:51]: [Vote Announcement] rollback passed
+[03:06:22]: [Say] (KU__CRUc3BC) d8e_labmem: continue>
+[03:06:26]: [Say] (KU__CRUc3BC) d8e_labmem: rollback?
+[03:06:30]: [Say] (KU_V_2d0tcA) dercaft: okk
+[03:06:33]: [Vote Announcement] rollback passed
+[03:10:50]: [Death Announcement] dercaft was killed by Terrorbeak. He became a spooky ghost!
+[03:10:59]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[03:11:29]: [Say] (KU__CRUc3BC) d8e_labmem: take it
+[03:11:36]: [Say] (KU__CRUc3BC) d8e_labmem: in chest
+[03:11:46]: [Say] (KU_V_2d0tcA) dercaft: thanks
+[03:11:56]: [Say] (KU_V_2d0tcA) dercaft: I go to pig king
+[03:12:03]: [Say] (KU_V_2d0tcA) dercaft: to kill more pigs
+[03:12:14]: [Say] (KU_V_2d0tcA) dercaft: prepare big meat stick
+[03:12:21]: [Say] (KU__CRUc3BC) d8e_labmem: together
+[03:12:24]: [Say] (KU__CRUc3BC) d8e_labmem: go
+[03:12:43]: [Say] (KU_rM9kGGoQ) akuma: coming back
+[03:12:51]: [Say] (KU_V_2d0tcA) dercaft: food
+[03:12:56]: [Say] (KU__CRUc3BC) d8e_labmem: need food
+[03:13:04]: [Say] (KU__CRUc3BC) d8e_labmem: u prepare for that
+[03:13:44]: [Say] (KU__CRUc3BC) d8e_labmem: recover san value
+[03:13:50]: [Say] (KU__CRUc3BC) d8e_labmem: go tomorrow
+[03:14:26]: [Say] (KU__CRUc3BC) d8e_labmem: or kill cow for meat
+[03:14:35]: [Say] (KU_V_2d0tcA) dercaft: kill cow
+[03:14:39]: [Say] (KU__CRUc3BC) d8e_labmem: ok
+[03:14:47]: [Say] (KU_V_2d0tcA) dercaft: go
+[03:15:10]: [Say] (KU_rM9kGGoQ) akuma: wait
+[03:15:12]: [Say] (KU_rM9kGGoQ) akuma: food
+[03:16:10]: [Say] (KU__CRUc3BC) d8e_labmem: here
+[03:16:21]: [Say] (KU_V_2d0tcA) dercaft: wait
+[03:16:28]: [Say] (KU_V_2d0tcA) dercaft: stronger
+[03:16:49]: [Say] (KU__CRUc3BC) d8e_labmem: just one
+[03:16:54]: [Say] (KU__CRUc3BC) d8e_labmem: let me do it
+[03:20:16]: [Say] (KU__CRUc3BC) d8e_labmem: enough
+[03:20:29]: [Say] (KU_V_2d0tcA) dercaft: bck
+[03:20:43]: [Say] (KU__CRUc3BC) d8e_labmem: where my bag
+[03:21:20]: [Say] (KU_rM9kGGoQ) akuma: umb
+[03:21:23]: [Say] (KU_rM9kGGoQ) akuma: i need
+[03:21:27]: [Say] (KU_rM9kGGoQ) akuma: h2o
+[03:21:52]: [Say] (KU_rM9kGGoQ) akuma: where r u
+[03:23:44]: [Say] (KU_rM9kGGoQ) akuma: flower i need
+[03:24:02]: [Say] (KU_rM9kGGoQ) akuma: or umbrella
+[03:24:19]: [Death Announcement] dercaft was killed by Bee. He became a spooky ghost!
+[03:24:27]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[03:26:05]: [Say] (KU_rM9kGGoQ) akuma: no same
+[03:26:19]: [Say] (KU__CRUc3BC) d8e_labmem: sleep
+[03:26:28]: [Say] (KU__CRUc3BC) d8e_labmem: tomorrow attack?
+[03:26:38]: [Say] (KU__CRUc3BC) d8e_labmem: kill the pig
+[03:26:54]: [Say] (KU__CRUc3BC) d8e_labmem: u come to sleep
+[03:27:10]: [Say] (KU__CRUc3BC) d8e_labmem: u sleep
+[03:27:23]: [Say] (KU__CRUc3BC) d8e_labmem: good luck
+[03:29:41]: [Death Announcement] akuma was killed by Crawling Horror. He became a spooky ghost!
+[03:30:59]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[03:32:50]: [Say] (KU__CRUc3BC) d8e_labmem: recover san
+[03:32:52]: [Say] (KU__CRUc3BC) d8e_labmem: this
+[03:33:51]: [Say] (KU__CRUc3BC) d8e_labmem: rdy?
+[03:33:57]: [Say] (KU_rM9kGGoQ) akuma: r
+[03:34:05]: [Say] (KU_V_2d0tcA) dercaft: marble armor
+[03:34:14]: [Say] (KU__CRUc3BC) d8e_labmem: i dont need it
+[03:35:58]: [Say] (KU__CRUc3BC) d8e_labmem: go?
+[03:36:03]: [Say] (KU_rM9kGGoQ) akuma: g
+[03:36:06]: [Say] (KU_V_2d0tcA) dercaft: food
+[03:36:39]: [Say] (KU_V_2d0tcA) dercaft: tomorrow morning we go
+[03:37:30]: [Say] (KU__CRUc3BC) d8e_labmem: go
+[03:37:33]: [Say] (KU__CRUc3BC) d8e_labmem: nice night
+[03:37:34]: [Say] (KU_V_2d0tcA) dercaft: okk
+[03:37:56]: [Say] (KU_V_2d0tcA) dercaft: gogogo
+[03:40:39]: [Say] (KU_rM9kGGoQ) akuma: need heal
+[03:40:50]: [Say] (KU_rM9kGGoQ) akuma: good
+[03:41:06]: [Death Announcement] d8e_labmem was killed by Spider. He became a spooky ghost!
+[03:41:34]: [Say] (KU__CRUc3BC) d8e_labmem: it change the position
+[03:42:14]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[03:54:48]: [Death Announcement] dercaft was killed by Terrorbeak. He became a spooky ghost!
+[03:59:39]: [Say] (KU_rM9kGGoQ) akuma: i go home
+[04:02:33]: [Say] (KU__CRUc3BC) d8e_labmem: damn it
+[04:03:14]: [Vote Announcement] rollback passed
+[04:03:45]: [Vote Announcement] rollback passed
+[04:04:31]: [Vote Announcement] rollback passed
+[04:05:01]: [Vote Announcement] rollback passed
+[04:10:40]: [Death Announcement] d8e_labmem was killed by Spider Queen. He became a spooky ghost!
+[04:13:24]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[04:22:05]: [Death Announcement] d8e_labmem was killed by Blue Hound. He became a spooky ghost!
+[04:22:10]: [Vote Announcement] rollback passed
+[04:23:54]: [Death Announcement] d8e_labmem was killed by Hound. He became a spooky ghost!
+[04:23:56]: [Vote Announcement] rollback passed
+[04:24:27]: [Vote Announcement] rollback passed
+[04:24:58]: [Resurrect Announcement] d8e_labmem was resurrected by Florid Postern.
+[04:35:38]: [Death Announcement] akuma was killed by Spider Queen. He became a spooky ghost!
+[04:36:38]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[04:47:30]: [Death Announcement] akuma was killed by Darkness. He became a spooky ghost!
+[04:47:54]: [Roll Announcement] (KU_rM9kGGoQ) akuma 8 (1-100)
+[04:50:14]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[04:54:10]: [Death Announcement] dercaft was killed by Depths Worm. He became a spooky ghost!
+[04:55:43]: [Death Announcement] akuma was killed by Darkness. He became a spooky ghost!
+[04:56:23]: [Leave Announcement] akuma
+[05:00:33]: [Resurrect Announcement] dercaft was resurrected by Florid Postern.
+[05:05:04]: [Leave Announcement] dercaft
+[05:06:27]: [Leave Announcement] d8e_labmem
+[02:28:23]: [Join Announcement] akuma
+[02:28:52]: [Resurrect Announcement] akuma was resurrected by Florid Postern.
+[02:31:16]: [Leave Announcement] akuma
+[02:31:17]: [Join Announcement] d8e_labmem
+[02:31:41]: [Join Announcement] dercaft
+[02:32:21]: [Join Announcement] akuma
